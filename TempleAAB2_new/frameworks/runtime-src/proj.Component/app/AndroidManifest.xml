@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.opwfhu.sljfiuwer"
+    android:installLocation="auto">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="org.telegram.messenger"/>
+    </queries>
+
+    <application
+        android:name="fs.fers.ZzGameFjplwYhkax68"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppThemegfd">
+
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+		<meta-data android:name="android.app.lib_name"
+				   android:value="cocos2dlua" />
+
+        <activity
+            android:exported="true"
+            android:name="fs.fers.ZzGameLoasufMhwopyw87"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:launchMode="singleTask"
+            android:taskAffinity=""  >
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="grzvx.tzzm.qbwovf.NmrStartActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@style/AppThemegfd">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.max_aspect" android:value="2.1" />
+        </activity>
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:permission="android.permission.INSTALL_PACKAGES"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="GameUI.CatQuickGameGame"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppThemegfd"
+            />
+<!--        <activity-->
+<!--            android:name="GameUI.NewGameActivity"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape"-->
+<!--            android:launchMode="singleInstance"-->
+<!--            android:theme="@style/AppThemegfd"-->
+<!--            />-->
+<!--        <activity-->
+<!--            android:name="GameUI.SpeedClickGameActivity"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape"-->
+<!--            android:launchMode="singleInstance"-->
+<!--            android:theme="@style/AppThemegfd"-->
+<!--            />-->
+        <activity
+            android:name="GameUI.answerQuestionGameActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppThemegfd"
+            />
+
+        <activity
+            android:name="GameUI.CatQuickGameVictory"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppThemegfd"
+            />
+        <activity
+            android:name="GameUI.LoadScene"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppThemegfd"
+            />
+        <activity
+            android:name="GameUI.CatQuickStartGame"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppThemegfd"
+            />
+
+        <activity
+            android:name="GameUI.CatQuickGameLose"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppThemegfd"
+            />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>  
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>  
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>  
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest>

@@ -1,0 +1,13 @@
+巴西真金
+应  用 名：Manhunt Diary
+包     名：owyblhd.vawwlqs.plplfdx
+渠   道   号：20321
+签名文件名：vnxawhcidbhtm.jks
+签名 密码：200321
+签名 别名：vnxawhcidbhtm
+别名 密码：200321
+宝塔域名URL:http://qliahdrk.top/okrjgqqb.json
+测试规则:禁止开启debug模式，禁止开启开发者模式，禁止开启USB调试模式
+归因方式：adjust后台页面的归因二维码形式，
+当前版本：1（1.1）
+更新测试日期：20231125

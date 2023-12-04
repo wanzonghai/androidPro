@@ -1,0 +1,111 @@
+
+pangmadeng.png
+size: 787,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caideng_00000
+  rotate: false
+  xy: 2, 549
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00002
+  rotate: false
+  xy: 2, 311
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00004
+  rotate: false
+  xy: 159, 549
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00006
+  rotate: false
+  xy: 2, 73
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00008
+  rotate: false
+  xy: 159, 311
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00010
+  rotate: false
+  xy: 316, 549
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00012
+  rotate: false
+  xy: 159, 73
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00014
+  rotate: false
+  xy: 316, 311
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00016
+  rotate: false
+  xy: 473, 549
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00018
+  rotate: false
+  xy: 316, 73
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00020
+  rotate: false
+  xy: 473, 311
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00022
+  rotate: false
+  xy: 630, 549
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00024
+  rotate: false
+  xy: 473, 73
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00026
+  rotate: false
+  xy: 630, 311
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1
+caideng_00028
+  rotate: false
+  xy: 630, 73
+  size: 155, 236
+  orig: 155, 236
+  offset: 0, 0
+  index: -1

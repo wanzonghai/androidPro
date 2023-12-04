@@ -1,0 +1,83 @@
+
+vipwlq.png
+size: 553,553
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_1
+  rotate: true
+  xy: 469, 248
+  size: 76, 62
+  orig: 76, 62
+  offset: 0, 0
+  index: -1
+05_1
+  rotate: true
+  xy: 229, 12
+  size: 118, 138
+  orig: 118, 138
+  offset: 0, 0
+  index: -1
+06_1
+  rotate: true
+  xy: 229, 217
+  size: 49, 32
+  orig: 49, 32
+  offset: 0, 0
+  index: -1
+caiguagn_00000
+  rotate: false
+  xy: 274, 132
+  size: 193, 192
+  orig: 193, 192
+  offset: 0, 0
+  index: -1
+guangyuan
+  rotate: false
+  xy: 2, 268
+  size: 270, 283
+  orig: 270, 283
+  offset: 0, 0
+  index: -1
+libao11
+  rotate: true
+  xy: 501, 419
+  size: 132, 50
+  orig: 132, 50
+  offset: 0, 0
+  index: -1
+libao16
+  rotate: false
+  xy: 2, 28
+  size: 225, 238
+  orig: 225, 238
+  offset: 0, 0
+  index: -1
+libaofg
+  rotate: false
+  xy: 369, 14
+  size: 104, 116
+  orig: 104, 116
+  offset: 0, 0
+  index: -1
+liiziguang
+  rotate: false
+  xy: 2, 6
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+sdgdfj_00000
+  rotate: false
+  xy: 274, 326
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 469, 172
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

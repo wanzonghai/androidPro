@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "0rSyRD8QnN6s2rFUygK/9WLqvxo", "spine": "3.6.34", "width": 2560, "height": 1080, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "bj", "bone": "root" },
+	{ "name": "caideng_00000", "bone": "bone" }
+],
+"skins": {
+	"default": {
+		"caideng_00000": {
+			"caideng_00000": { "width": 167, "height": 254 },
+			"caideng_00002": { "width": 167, "height": 254 },
+			"caideng_00004": { "width": 167, "height": 254 },
+			"caideng_00006": { "width": 167, "height": 254 },
+			"caideng_00008": { "width": 167, "height": 254 },
+			"caideng_00010": { "width": 167, "height": 254 },
+			"caideng_00012": { "width": 167, "height": 254 },
+			"caideng_00014": { "width": 167, "height": 254 },
+			"caideng_00016": { "width": 167, "height": 254 },
+			"caideng_00018": { "width": 167, "height": 254 },
+			"caideng_00020": { "width": 167, "height": 254 },
+			"caideng_00022": { "width": 167, "height": 254 },
+			"caideng_00024": { "width": 167, "height": 254 },
+			"caideng_00026": { "width": 167, "height": 254 },
+			"caideng_00028": { "width": 167, "height": 254 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"caideng_00000": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "caideng_00000" },
+					{ "time": 0.0667, "name": "caideng_00002" },
+					{ "time": 0.1333, "name": "caideng_00004" },
+					{ "time": 0.2, "name": "caideng_00006" },
+					{ "time": 0.2667, "name": "caideng_00008" },
+					{ "time": 0.3333, "name": "caideng_00010" },
+					{ "time": 0.4, "name": "caideng_00012" },
+					{ "time": 0.4667, "name": "caideng_00014" },
+					{ "time": 0.5333, "name": "caideng_00016" },
+					{ "time": 0.6, "name": "caideng_00018" },
+					{ "time": 0.6667, "name": "caideng_00020" },
+					{ "time": 0.7333, "name": "caideng_00022" },
+					{ "time": 0.8, "name": "caideng_00024" },
+					{ "time": 0.8667, "name": "caideng_00026" },
+					{ "time": 0.9333, "name": "caideng_00028" },
+					{ "time": 0.9667, "name": "caideng_00028" }
+				]
+			}
+		}
+	}
+}
+}

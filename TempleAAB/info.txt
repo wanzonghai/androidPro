@@ -1,0 +1,11 @@
+巴西真金
+
+游戏名：BraveBrave
+渠道号：20309
+adjustid:a7vkdu48v3eo
+
+key         sonystdkc.jks
+key  password  200309
+
+Alias        sonystdkc
+Alias  password  200309

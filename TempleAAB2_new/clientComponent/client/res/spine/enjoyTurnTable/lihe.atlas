@@ -1,0 +1,83 @@
+
+lihe.png
+size: 682,682
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clrclelight
+  rotate: false
+  xy: 2, 487
+  size: 188, 193
+  orig: 188, 193
+  offset: 0, 0
+  index: -1
+clrclelight01
+  rotate: false
+  xy: 2, 298
+  size: 187, 187
+  orig: 187, 187
+  offset: 0, 0
+  index: -1
+gif_box01
+  rotate: false
+  xy: 192, 512
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box02
+  rotate: false
+  xy: 2, 128
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box03
+  rotate: false
+  xy: 362, 512
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box04
+  rotate: false
+  xy: 192, 342
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box05
+  rotate: false
+  xy: 362, 342
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box06
+  rotate: false
+  xy: 191, 172
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box07
+  rotate: false
+  xy: 361, 172
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+gif_box08
+  rotate: false
+  xy: 172, 2
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 532, 611
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1

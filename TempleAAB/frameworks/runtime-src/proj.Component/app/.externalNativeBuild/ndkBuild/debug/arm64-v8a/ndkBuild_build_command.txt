@@ -1,0 +1,22 @@
+Executable : D:\AppData\Local\Android\Sdk\ndk\android-ndk-r15c\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=E:\AAndB\Pro\TempleAAB\frameworks\runtime-src\proj.Component\app\jni\Android.mk
+NDK_APPLICATION_MK=E:\AAndB\Pro\TempleAAB\frameworks\runtime-src\proj.Component\app\jni\Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=0
+APP_PLATFORM=android-21
+NDK_OUT=E:/AAndB/Pro/TempleAAB/frameworks/runtime-src/proj.Component/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=E:\AAndB\Pro\TempleAAB\frameworks\runtime-src\proj.Component\app\build\intermediates\ndkBuild\debug\lib
+NDK_TOOLCHAIN_VERSION=clang
+ANDROID_STL=c++_static
+-j24
+NDK_MODULE_PATH=E:/AAndB/Pro/TempleAAB/frameworks/cocos2d-x;E:/AAndB/Pro/TempleAAB/frameworks/cocos2d-x/cocos;E:/AAndB/Pro/TempleAAB/frameworks/cocos2d-x/external;E:/AAndB/Pro/TempleAAB/frameworks/cocos2d-x/cocos/scripting;E:/AAndB/Pro/TempleAAB/frameworks/runtime-src
+NDK_DEBUG=1
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

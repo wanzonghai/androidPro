@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/valley1"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/catqucik_btn"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/valley8" />
+
+    <RelativeLayout
+        android:id="@+id/catqucik_top"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="0dp">
+
+
+        <!-- Added for displaying scores TextView -->
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:textColor="#00FF00"/>
+        <!-- Added for displaying a countdown TextView -->
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="113dp"
+            android:layout_toEndOf="@id/scoreTextView"
+            android:text="Time left: 30 s"
+            android:textSize="18sp"
+            android:textColor="#00FF66"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/catqucik_rela"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/catqucik_img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/r3" />
+
+        <ImageView
+            android:id="@+id/catqucik_img2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_toLeftOf="@id/catqucik_img1"
+            android:src="@drawable/r3" />
+
+        <ImageView
+            android:id="@+id/catqucik_img3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/catqucik_img1"
+            android:src="@drawable/r3" />
+
+
+        <ImageView
+            android:id="@+id/catqucik_btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/catqucik_img1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/valley3" />
+
+        <ImageView
+            android:id="@+id/catqucik_btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/catqucik_btn1"
+            android:layout_marginEnd="15dp"
+            android:layout_toLeftOf="@id/catqucik_btn1"
+            android:src="@drawable/valley3" />
+
+        <ImageView
+            android:id="@+id/catqucik_btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/catqucik_btn1"
+            android:layout_marginStart="15dp"
+            android:layout_toRightOf="@id/catqucik_btn1"
+            android:src="@drawable/valley3" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="61dp"
+            android:background="@drawable/fenxang" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_below="@+id/catqucik_rela"
+        >
+    </RelativeLayout>
+</RelativeLayout>

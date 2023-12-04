@@ -1,0 +1,76 @@
+
+youwin.png
+size: 1299,1013
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box_2
+  rotate: false
+  xy: 2, 22
+  size: 1101, 235
+  orig: 1101, 235
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 1045, 313
+  size: 145, 124
+  orig: 145, 124
+  offset: 0, 0
+  index: -1
+d_2
+  rotate: false
+  xy: 1105, 250
+  size: 71, 61
+  orig: 71, 61
+  offset: 0, 0
+  index: -1
+huangtiao_00000
+  rotate: true
+  xy: 1192, 318
+  size: 119, 105
+  orig: 119, 105
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 259
+  size: 760, 752
+  orig: 760, 752
+  offset: 0, 0
+  index: -1
+xian
+  rotate: true
+  xy: 2, 2
+  size: 18, 152
+  orig: 18, 152
+  offset: 0, 0
+  index: -1
+youwin
+  rotate: true
+  xy: 764, 399
+  size: 612, 279
+  orig: 612, 279
+  offset: 0, 0
+  index: -1
+yz
+  rotate: false
+  xy: 1045, 726
+  size: 250, 285
+  orig: 250, 285
+  offset: 0, 0
+  index: -1
+yz_2
+  rotate: false
+  xy: 1045, 439
+  size: 250, 285
+  orig: 250, 285
+  offset: 0, 0
+  index: -1
+yz_3
+  rotate: false
+  xy: 764, 284
+  size: 278, 113
+  orig: 278, 113
+  offset: 0, 0
+  index: -1
