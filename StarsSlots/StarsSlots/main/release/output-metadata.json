@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "pasdak.fhdfg.cdsgs.erdfda",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 2,
+      "versionName": "2.1",
+      "outputFile": "main-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

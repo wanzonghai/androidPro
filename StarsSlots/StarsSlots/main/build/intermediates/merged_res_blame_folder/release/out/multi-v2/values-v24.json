@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pat.noteti.wqaskv.main-mergeReleaseResources-21:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\da8a0bd9af0622c5166655f66c8fc9bc\\transformed\\appcompat-1.3.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

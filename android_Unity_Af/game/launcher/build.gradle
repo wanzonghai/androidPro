@@ -1,0 +1,116 @@
+apply plugin: 'com.android.application'
+apply plugin: 'stringfog'
+
+apply plugin: 'android-junk-code'
+apply plugin: "com.bytedance.android.aabResGuard"
+aabResGuard {
+//    mappingFile = file("mapping.txt").toPath() // 用于增量混淆的 mapping 文件
+    whiteList = [ // 白名单规则
+                  "*.R.raw.*",
+                  "*.R.drawable.icon"
+    ]
+    obfuscatedBundleFileName = "release.aab" // 混淆后的文件名称，必须以 .aab 结尾
+    mergeDuplicatedRes = true // 是否允许去除重复资源
+    enableFilterFiles = true // 是否允许过滤文件
+    filterList = [ // 文件过滤规则
+                   "META-INF/*"
+    ]
+    enableFilterStrings = false // 过滤文案
+    unusedStringPath = file("unused.txt").toPath() // 过滤文案列表路径 默认在mapping同目录查找
+    languageWhiteList = ["en", "zh"] // 保留en,en-xx,zh,zh-xx等语言，其余均删除
+}
+androidJunkCode {
+    variantConfig {
+        release {
+            //注意：这里的release是变体名称，如果没有设置productFlavors就是buildType名称，如果有设置productFlavors就是flavor+buildType，例如（freeRelease、proRelease）
+            packageBase = "com.sdfasooew.aseorower.oeworwe" //生成java类根包名
+            packageCount = 30 //生成包数量
+            activityCountPerPackage = 3 //每个包下生成Activity类数量
+            excludeActivityJavaFile = false
+            //是否排除生成Activity的Java文件,默认false(layout和写入AndroidManifest.xml还会执行)，主要用于处理类似神策全埋点编译过慢问题
+            otherCountPerPackage = 50  //每个包下生成其它类的数量
+            methodCountPerClass = 20  //每个类下生成方法数量
+            resPrefix = "wosdf_"  //生成的layout、drawable、string等资源名前缀
+            drawableCount = 300  //生成drawable资源数量
+            stringCount = 300  //生成string数量
+        }
+    }
+}
+
+
+stringfog {
+    // 这是加解密key，可以自由定义。
+    key 'ooo00ooooo'
+    // 开关
+    enable true
+    // 加解密库的实现类路径，需和上面配置的加解密算法库一致。
+    implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
+    // 指定需加密的代码包路径，可配置多个，未指定将默认全部加密。
+    fogPackages = []
+}
+dependencies {
+    implementation project(':unityLibrary')
+    implementation 'com.github.megatronking.stringfog:xor:1.1.0'
+//    implementation 'com.facebook.android:facebook-android-sdk:[11,12)'
+    }
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion '33.0.2'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 34
+        applicationId 'pbjzowz.edbz.wfzj'
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+        versionCode 2
+        versionName '2.15.32'
+    }
+
+    aaptOptions {
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.debug
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    packagingOptions {
+        doNotStrip '*/armeabi-v7a/*.so'
+        doNotStrip '*/arm64-v8a/*.so'
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            enableSplit = false
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pasdak.fhdfg.cdsgs.erdfda"
+    android:versionCode="2"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.cocos.game.LifeaaawApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Splash"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.cocos.game.LifeaaaStartAct"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cocos.game.rewrwdfcvx.fdsgrwetf.LifebbbbActivityBase"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash" />
+        <activity
+            android:name="com.cocos.game.LifebbbbTempActivtyBase"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="game.AppActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <!-- <activity -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:name="bvcgfdtre.hfdtretdfg.nvghfderew.LifeWebActivity" -->
+        <!-- android:exported = "false" -->
+        <!-- android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
+            />
+        <activity
+            android:name="uiasdoqwm.asdaqwe.popm.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="idasodqw.sadamoq.ccasda.Yasdnaiq"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="idasodqw.sadamoq.ccasda.Pnasdanqw"
+            android:launchMode="singleTask" />
+    </application>
+
+</manifest>

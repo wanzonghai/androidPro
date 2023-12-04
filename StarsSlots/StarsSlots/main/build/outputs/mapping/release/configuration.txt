@@ -1,0 +1,1429 @@
+# The proguard configuration file for the following section is E:\AF\StarsSlots\StarsSlots\main\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.2.2
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+#
+# Starting with version 2.2 of the Android plugin for Gradle, this file is distributed together with
+# the plugin and unpacked at build-time. The files in $ANDROID_HOME are no longer maintained and
+# will be ignored by new version of the Android plugin for Gradle.
+
+# Optimizations: If you don't want to optimize, use the proguard-android.txt configuration file
+# instead of this one, which turns off the optimization flags.
+# Adding optimization introduces certain risks, since for example not all optimizations performed by
+# ProGuard works on all versions of Dalvik.  The following flags turn off various optimizations
+# known to have issues, but the list may not be complete or up to date. (The "arithmetic"
+# optimization can be used if you are only targeting Android 2.0 or later.)  Make sure you test
+# thoroughly if you go this route.
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Preserve some attributes that may be required for reflection.
+-keepattributes AnnotationDefault,
+                EnclosingMethod,
+                InnerClasses,
+                RuntimeVisibleAnnotations,
+                RuntimeVisibleParameterAnnotations,
+                RuntimeVisibleTypeAnnotations,
+                Signature
+
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-keep public class com.google.android.vending.licensing.ILicensingService
+-dontnote com.android.vending.licensing.ILicensingService
+-dontnote com.google.vending.licensing.ILicensingService
+-dontnote com.google.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+    void set*(***);
+    *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick.
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+# Preserve annotated Javascript interface methods.
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# The support libraries contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version. We know about them, and they are safe.
+-dontnote android.support.**
+-dontnote androidx.**
+-dontwarn android.support.**
+-dontwarn androidx.**
+
+# This class is deprecated, but remains for backward compatibility.
+-dontwarn android.util.FloatMath
+
+# Understand the @Keep support annotation.
+-keep class android.support.annotation.Keep
+-keep class androidx.annotation.Keep
+
+-keep @android.support.annotation.Keep class * {*;}
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <init>(...);
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+# These classes are duplicated between android.jar and org.apache.http.legacy.jar.
+-dontnote org.apache.http.**
+-dontnote android.net.http.**
+
+# These classes are duplicated between android.jar and core-lambda-stubs.jar.
+-dontnote java.lang.invoke.**
+
+# End of content from E:\AF\StarsSlots\StarsSlots\main\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.2.2
+# The proguard configuration file for the following section is E:\AF\StarsSlots\StarsSlots\main\proguard-rules.pro
+# Add project specific ProGuard rules here.
+# You can control the set of applied configuration files using the
+# proguardFiles setting in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Uncomment this to preserve the line number information for
+# debugging stack traces.
+#-keepattributes SourceFile,LineNumberTable
+
+# If you keep the line number information, uncomment this to
+# hide the original source file name.
+#-renamesourcefileattribute SourceFile
+
+##记录生成的日志数据,gradle build时在本项目根目录输出##
+#apk 包内所有 class 的内部结构
+-dump proguard/class_files.txt
+#未混淆的类和成员
+-printseeds proguard/seeds.txt
+#列出从 apk 中删除的代码
+-printusage proguard/unused.txt
+#混淆前后的映射
+-printmapping proguard/mapping.txt
+
+
+#保留带注释的 Javascript 接口(interface)方法
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+#指定外部模糊字典
+-obfuscationdictionary output_dict.txt
+#指定class模糊字典
+-classobfuscationdictionary output_dict.txt
+#指定package模糊字典
+-packageobfuscationdictionary output_dict.txt
+
+# 保留appsflyer下的所有类及其内部类
+-keep class com.appsflyer.** {*;}
+-dontwarn com.appsflyer.**
+#fastjson
+-dontwarn com.alibaba.fastjson.**
+-keep class com.alibaba.fastjson.** { *; }
+-keepattributes Signature
+-keepattributes Annotation
+-keepattributes InnerClasses
+#facebook
+-dontwarn com.facebook
+-keep class com.facebook** { *; }
+
+#---------------默认------------
+-optimizationpasses 5
+-allowaccessmodification
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Preserve some attributes that may be required for reflection.
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+
+#-keep public class com.google.vending.licensing.ILicensingService
+#-keep public class com.android.vending.licensing.ILicensingService
+#-keep public class com.google.android.vending.licensing.ILicensingService
+#-dontnote com.android.vending.licensing.ILicensingService
+#-dontnote com.google.vending.licensing.ILicensingService
+#-dontnote com.google.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+    void set*(***);
+    *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick.
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+
+# The support libraries contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version. We know about them, and they are safe.
+-dontnote android.support.**
+-dontnote androidx.**
+-dontwarn android.support.**
+-dontwarn androidx.**
+
+# This class is deprecated, but remains for backward compatibility.
+-dontwarn android.util.FloatMath
+
+# Understand the @Keep support annotation.
+-keep class android.support.annotation.Keep
+-keep class androidx.annotation.Keep
+
+-keep @android.support.annotation.Keep class * {*;}
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <init>(...);
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+# These classes are duplicated between android.jar and org.apache.http.legacy.jar.
+-dontnote org.apache.http.**
+-dontnote android.net.http.**
+
+# These classes are duplicated between android.jar and core-lambda-stubs.jar.
+-dontnote java.lang.invoke.**
+
+# Google Play Services
+-keep class com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
+
+# Google Play Licensing
+-keep public class com.android.vending.licensing.ILicensingService
+
+# Google Maps Android API v2
+-keep class com.google.android.gms.maps.** { *; }
+
+# Google Analytics
+-keep class com.google.android.gms.analytics.** { *; }
+-dontwarn com.google.android.gms.analytics.**
+
+# Google Mobile Ads
+-keep class com.google.android.gms.ads.** { *; }
+-dontwarn com.google.android.gms.ads.**
+
+# Google Cloud Messaging (GCM)
+-keep class com.google.android.gms.gcm.** { *; }
+
+# Google Sign-In
+-keep class com.google.android.gms.auth.api.signin.** { *; }
+-keep class com.google.android.gms.common.api.** { *; }
+
+#-----------默认结束----------
+# End of content from E:\AF\StarsSlots\StarsSlots\main\proguard-rules.pro
+# The proguard configuration file for the following section is E:\AF\StarsSlots\StarsSlots\main\build\generated\source\junk\release\proguard-rules.pro
+-keep class uiasdoqwm.asdaqwe.popm.afaqfa0.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.btaocb1.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.bklrgc2.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.kqjiqd3.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.ulejde4.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.jlnfrf5.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.zlcvgg6.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.dqjovh7.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.ztipyi8.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.ckmiwj9.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.mvcigk10.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.pkmtsl11.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.qpcmhm12.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.ilkffn13.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.jybaio14.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.xylnup15.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.fbcerq16.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.olndar17.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.hatoks18.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.skuxct19.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.wmmxmu20.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.chzifv21.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.fwxupw22.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.zbweix23.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.wasety24.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.jyxwgz25.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.jyfqfab26.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.vrhsgbb27.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.cgioocb28.**{*;}
+-keep class uiasdoqwm.asdaqwe.popm.fapejdb29.**{*;}
+
+# End of content from E:\AF\StarsSlots\StarsSlots\main\build\generated\source\junk\release\proguard-rules.pro
+# The proguard configuration file for the following section is E:\AF\StarsSlots\StarsSlots\main\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.cocos.game.hggiuuipStartAct { <init>(); }
+-keep class com.cocos.game.mqbjjgmyiTempActivtyBase { <init>(); }
+-keep class com.cocos.game.rewrwdfcvx.fdsgrwetf.yzhjehlwlBase { <init>(); }
+-keep class com.cocos.game.yzhjehlwlApp { <init>(); }
+-keep class game.AppActivity { <init>(); }
+-keep class idasodqw.sadamoq.ccasda.Pnasdanqw { <init>(); }
+-keep class idasodqw.sadamoq.ccasda.Yasdnaiq { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.MainActivity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.afaqfa0.Jilvka0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.afaqfa0.Jwaxdc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.afaqfa0.Uvlzgb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.bklrgc2.Dpjycb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.bklrgc2.Hdygda0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.bklrgc2.Jljjwc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.btaocb1.Sefqta0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.btaocb1.Xitszc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.btaocb1.Znluqb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.cgioocb28.Hvgbxa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.cgioocb28.Laxoxb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.cgioocb28.Mxssvc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.chzifv21.Ercimb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.chzifv21.Hiwkha0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.chzifv21.Uilioc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ckmiwj9.Ksehcb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ckmiwj9.Mepuxa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ckmiwj9.Qitvtc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.dqjovh7.Bsdvaa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.dqjovh7.Irxmdc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.dqjovh7.Woludb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fapejdb29.Abutib1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fapejdb29.Sgvbac2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fapejdb29.Wvpjxa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fbcerq16.Aigbna0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fbcerq16.Jxmtdc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fbcerq16.Vncpub1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fwxupw22.Bxktlb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fwxupw22.Poxgbc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.fwxupw22.Wozofa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.hatoks18.Duemic2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.hatoks18.Hvulea0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.hatoks18.Jopcnb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ilkffn13.Gwvtoa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ilkffn13.Jpybab1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ilkffn13.Xiisec2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jlnfrf5.Cdxgoa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jlnfrf5.Gshrhc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jlnfrf5.Xommab1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jybaio14.Cbdrbc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jybaio14.Hmxvua0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jybaio14.Qeagub1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jyfqfab26.Ljchtb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jyfqfab26.Nnnhjc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jyfqfab26.Wtjpfa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jyxwgz25.Isasia0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jyxwgz25.Vwqisb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.jyxwgz25.Wmytsc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.kqjiqd3.Jlxiba0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.kqjiqd3.Pttjdb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.kqjiqd3.Vehgfc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.mvcigk10.Fovsxb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.mvcigk10.Hfusoa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.mvcigk10.Yjvehc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.olndar17.Isscgb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.olndar17.Mohmda0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.olndar17.Mytclc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.pkmtsl11.Faqeha0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.pkmtsl11.Foyoib1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.pkmtsl11.Xzytzc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.qpcmhm12.Dtxylb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.qpcmhm12.Jwbknc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.qpcmhm12.Kghlza0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.skuxct19.Hpczyc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.skuxct19.Ldusva0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.skuxct19.Pwbzbb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ulejde4.Bglyua0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ulejde4.Owzfcb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ulejde4.Ttycxc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.vrhsgbb27.Shmicc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.vrhsgbb27.Tdrlqa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.vrhsgbb27.Zvypvb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.wasety24.Ntatzb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.wasety24.Pofttc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.wasety24.Raygpa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.wmmxmu20.Bbhrec2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.wmmxmu20.Fjbgab1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.wmmxmu20.Kgwvsa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.xylnup15.Mkabma0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.xylnup15.Pfdnqb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.xylnup15.Zsgqvc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.zbweix23.Dcjyxa0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.zbweix23.Lrerrb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.zbweix23.Mbdqlc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.zlcvgg6.Sywmga0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.zlcvgg6.Trsgqb1Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.zlcvgg6.Xdnwzc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ztipyi8.Hcckka0Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ztipyi8.Lmynqc2Activity { <init>(); }
+-keep class uiasdoqwm.asdaqwe.popm.ztipyi8.Yydslb1Activity { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Barrier { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.airbnb.lottie.LottieAnimationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.ChipGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textview.MaterialTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+
+# End of content from E:\AF\StarsSlots\StarsSlots\main\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\cdacd39899c9e689a8e898af77cefc05\transformed\material-1.4.0\proguard.txt
+# Copyright (C) 2015 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# CoordinatorLayout resolves the behaviors of its child components with reflection.
+-keep public class * extends androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior {
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>();
+}
+
+# Make sure we keep annotations for CoordinatorLayout's DefaultBehavior
+-keepattributes RuntimeVisible*Annotation*
+
+# Copyright (C) 2018 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# AppCompatViewInflater reads the viewInflaterClass theme attribute which then
+# reflectively instantiates MaterialComponentsViewInflater using the no-argument
+# constructor. We only need to keep this constructor and the class name if
+# AppCompatViewInflater is also being kept.
+-if class androidx.appcompat.app.AppCompatViewInflater
+-keep class com.google.android.material.theme.MaterialComponentsViewInflater {
+    <init>();
+}
+
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\cdacd39899c9e689a8e898af77cefc05\transformed\material-1.4.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\842c6dbdcafa365b12b04d877cb5c60e\transformed\coordinatorlayout-1.1.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# CoordinatorLayout resolves the behaviors of its child components with reflection.
+-keep public class * extends androidx.coordinatorlayout.widget.CoordinatorLayout$Behavior {
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>();
+}
+
+# Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
+-keepattributes *Annotation*
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\842c6dbdcafa365b12b04d877cb5c60e\transformed\coordinatorlayout-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\439ab821db551d3c9ee833cfc17096f5\transformed\transition-1.2.0\proguard.txt
+# Copyright (C) 2017 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Keep a field in transition that is used to keep a reference to weakly-referenced object
+-keepclassmembers class androidx.transition.ChangeBounds$* extends android.animation.AnimatorListenerAdapter {
+  androidx.transition.ChangeBounds$ViewBounds mViewBounds;
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\439ab821db551d3c9ee833cfc17096f5\transformed\transition-1.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\da8a0bd9af0622c5166655f66c8fc9bc\transformed\appcompat-1.3.1\proguard.txt
+# Copyright (C) 2018 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# aapt is not able to read app::actionViewClass and app:actionProviderClass to produce proguard
+# keep rules. Add a commonly used SearchView to the keep list until b/109831488 is resolved.
+-keep class androidx.appcompat.widget.SearchView { <init>(...); }
+
+# Never inline methods, but allow shrinking and obfuscation.
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper$Impl* {
+  <methods>;
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\da8a0bd9af0622c5166655f66c8fc9bc\transformed\appcompat-1.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\ed5ef6a636a0f301ed6c9639aa5ffdb2\transformed\vectordrawable-animated-1.1.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# keep setters in VectorDrawables so that animations can still work.
+-keepclassmembers class androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$* {
+   void set*(***);
+   *** get*();
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\ed5ef6a636a0f301ed6c9639aa5ffdb2\transformed\vectordrawable-animated-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\587f247a3bb65055d8a5dab0b3741498\transformed\recyclerview-1.1.0\proguard.txt
+# Copyright (C) 2015 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# When layoutManager xml attribute is used, RecyclerView inflates
+#LayoutManagers' constructors using reflection.
+-keep public class * extends androidx.recyclerview.widget.RecyclerView$LayoutManager {
+    public <init>(android.content.Context, android.util.AttributeSet, int, int);
+    public <init>();
+}
+
+-keepclassmembers class androidx.recyclerview.widget.RecyclerView {
+    public void suppressLayout(boolean);
+    public boolean isLayoutSuppressed();
+}
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\587f247a3bb65055d8a5dab0b3741498\transformed\recyclerview-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\deecc2938ea36e8feb4de8085d33025d\transformed\fragment-1.3.6\proguard.txt
+# Copyright (C) 2020 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# The default FragmentFactory creates Fragment instances using reflection
+-if public class ** extends androidx.fragment.app.Fragment
+-keepclasseswithmembers,allowobfuscation public class <1> {
+    public <init>();
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\deecc2938ea36e8feb4de8085d33025d\transformed\fragment-1.3.6\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\43942b816ca10d4862bd85dae9fbdbf1\transformed\core-1.5.0\proguard.txt
+# Never inline methods, but allow shrinking and obfuscation.
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
+  <methods>;
+}
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.WindowInsetsCompat$*Impl* {
+  <methods>;
+}
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.app.NotificationCompat$*$Api*Impl {
+  <methods>;
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\43942b816ca10d4862bd85dae9fbdbf1\transformed\core-1.5.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\64d01078d0af1d7aeb1cdd35257691e6\transformed\versionedparcelable-1.1.1\proguard.txt
+-keep class * implements androidx.versionedparcelable.VersionedParcelable
+-keep public class android.support.**Parcelizer { *; }
+-keep public class androidx.**Parcelizer { *; }
+-keep public class androidx.versionedparcelable.ParcelImpl
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\64d01078d0af1d7aeb1cdd35257691e6\transformed\versionedparcelable-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\2e0070b58bea3e9c47492420928718ed\transformed\lifecycle-runtime-2.3.1\proguard.txt
+-keepattributes *Annotation*
+
+-keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
+    <fields>;
+}
+
+-keep !interface * implements androidx.lifecycle.LifecycleObserver {
+}
+
+-keep class * implements androidx.lifecycle.GeneratedAdapter {
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @androidx.lifecycle.OnLifecycleEvent *;
+}
+
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+# Also this rule prevents registerIn from being inlined.
+-keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\2e0070b58bea3e9c47492420928718ed\transformed\lifecycle-runtime-2.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\ac27cc960b236ceda289ae34b8785f12\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\proguard.txt
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
+    <init>(androidx.lifecycle.SavedStateHandle);
+}
+
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.AndroidViewModel {
+    <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\ac27cc960b236ceda289ae34b8785f12\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\ba685bf77c9005dd46dc9e32dad56ec6\transformed\jetified-savedstate-1.1.0\proguard.txt
+# Copyright (C) 2019 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+-keepclassmembers,allowobfuscation class * implements androidx.savedstate.SavedStateRegistry$AutoRecreated {
+    <init>();
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\ba685bf77c9005dd46dc9e32dad56ec6\transformed\jetified-savedstate-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\7b504ae90e3648d33d22a5d3b8cd23b8\transformed\lifecycle-viewmodel-2.3.1\proguard.txt
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class * extends androidx.lifecycle.AndroidViewModel {
+    <init>(android.app.Application);
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\7b504ae90e3648d33d22a5d3b8cd23b8\transformed\lifecycle-viewmodel-2.3.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\9a21856876924817208e186c5e6f17f6\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keep,allowobfuscation @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+-keepclassmembers,allowobfuscation class * {
+  @androidx.annotation.DoNotInline <methods>;
+}
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\9a21856876924817208e186c5e6f17f6\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\admin\.gradle\caches\transforms-3\bd3d6480edaa30c9f4b884a68b6f9d2e\transformed\jetified-af-android-sdk-6.12.2\proguard.txt
+
+
+
+-keeppackagenames com.appsflyer.internal,com.appsflyer
+-dontwarn com.android.installreferrer,com.appsflyer.**
+
+
+
+
+# https://support.appsflyer.com/hc/en-us/articles/207032126-AppsFlyer-SDK-Integration-Android#11-known-issues
+# Also will make it easier to investigate stack traces coming from clients
+-keep class com.appsflyer.** {
+    <fields>;    <methods>;
+}
+
+-keep public class com.android.installreferrer.** {
+    <fields>;    <methods>;
+}
+
+-keep class com.appsflyer.internal.AFa1xSDK$23740$1 {
+    <init>(java.lang.Object);
+}
+
+-keep class com.appsflyer.internal.AFa1xSDK$23740$AFa1wSDK {
+    com.appsflyer.internal.AFa1xSDK$23740$AFa1wSDK valueOf;    com.appsflyer.internal.AFa1xSDK$23740$AFa1wSDK values;    java.lang.String AFKeystoreWrapper;}
+
+-keep class com.appsflyer.internal.AFa1xSDK$23740$AFa1xSDK {
+    com.appsflyer.internal.AFa1xSDK$23740$AFa1xSDK values;    com.appsflyer.internal.AFa1xSDK$23740$AFa1xSDK AFInAppEventParameterName;    java.lang.String AFKeystoreWrapper;}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1wSDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFa1qSDK {
+    int AFLogger;    java.util.Map valueOf();
+    boolean values();
+    boolean afInfoLog();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1qSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1uSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1rSDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFa1nSDK$24079$1 {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK {
+    com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK AFInAppEventParameterName;    com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK AFInAppEventType;    com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK AFKeystoreWrapper;    com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK values;    com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK valueOf;    com.appsflyer.internal.AFa1pSDK$5743$AFa1ySDK afErrorLog;}
+
+-keep class com.appsflyer.AFLogger {
+    void afRDLog(java.lang.String);
+    void afDebugLog(java.lang.String);
+    void afErrorLogForExcManagerOnly(java.lang.String,java.lang.Throwable);
+    void afWarnLog(java.lang.String);
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1kSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1jSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.AFVersionDeclaration {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1hSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1cSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1fSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1eSDK {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.appsflyer.internal.AFa1eSDK {
+    void values();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.AppsFlyerProperties {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.CreateOneLinkHttpTask {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1zSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFa1aSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1wSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1xSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1ySDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1rSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1vSDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFb1uSDK {
+    boolean values(java.lang.String);
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1uSDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFb1sSDK {
+    java.lang.String[] afDebugLog;}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1nSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1lSDK {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class com.appsflyer.internal.AFb1dSDK
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.appsflyer.internal.AFb1fSDK {
+    void valueOf();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1fSDK$AFa1ySDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFb1bSDK {
+    android.content.Context AFInAppEventType;}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFb1bSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1ySDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1ySDK$4 {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1ySDK$AFa1wSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1uSDK$AFa1wSDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFc1nSDK {
+    java.lang.String valueOf(java.lang.String,java.lang.String);
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1nSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1nSDK$AFa1wSDK {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.appsflyer.internal.AFc1oSDK {
+    void AFKeystoreWrapper();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1rSDK {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class com.appsflyer.internal.AFc1kSDK
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1iSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1jSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFc1mSDK {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class com.appsflyer.internal.AFc1gSDK
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFd1tSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFd1xSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFd1cSDK {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.appsflyer.internal.AFd1cSDK {
+    void valueOf();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFd1aSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1xSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1sSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1qSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1kSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1oSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1lSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1jSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1gSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1fSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1iSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1hSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1dSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1eSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1bSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFe1cSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFf1ySDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFf1sSDK {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class com.appsflyer.internal.AFf1qSDK
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFf1oSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFf1gSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFf1dSDK {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.internal.AFf1bSDK {
+    <init>();
+}
+
+-keep class com.appsflyer.internal.AFg1wSDK {
+    void AFInAppEventParameterName(byte[],byte,long);
+}
+
+-keep class com.appsflyer.internal.AFg1ySDK {
+    byte[][] AFInAppEventParameterName(int);
+}
+
+-keep class com.appsflyer.internal.AFf1aSDK {
+    <init>(java.io.InputStream,int,int,short,int,int);
+}
+
+-keep class com.appsflyer.internal.AFg1xSDK {
+    <init>(java.io.InputStream,int,byte[],byte[][]);
+}
+
+-keep class com.appsflyer.internal.AFg1vSDK {
+    int values;    char AFInAppEventParameterName;    java.lang.Object valueOf;}
+
+-keep class com.appsflyer.internal.AFg1uSDK {
+    int AFKeystoreWrapper;    java.lang.Object values;}
+
+-keep class androidx.annotation.NonNull
+
+-keep,allowshrinking,allowobfuscation class androidx.annotation.RequiresApi {
+    int value();
+    int api();
+}
+
+-keep,allowshrinking,allowobfuscation class com.android.installreferrer.api.InstallReferrerClient
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.android.installreferrer.api.InstallReferrerClient {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.appsflyer.lvl.AppsFlyerLVL {
+    <init>();
+}
+
+-keep,allowobfuscation class com.google.android.gms.ads.identifier.AdvertisingIdClient
+
+-keep,allowobfuscation class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info
+
+-keep,allowshrinking,allowobfuscation class com.google.android.gms.common.api.internal.zabq {
+    <init>(com.google.android.gms.common.api.internal.zabr);
+    void zac(android.content.Context);
+    void unregister();
+    void onReceive(android.content.Context,android.content.Intent);
+}
+
+-keep,allowshrinking,allowobfuscation class com.google.android.gms.common.api.internal.zabr {
+    void zas();
+}
+
+-keepclassmembers,allowobfuscation class com.google.android.gms.common.api.internal.zabr {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.google.android.gms.tasks.Task {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class com.google.firebase.messaging.RemoteMessage
+
+-keepclassmembers,allowoptimization,allowobfuscation class com.miui.referrer.api.GetAppsReferrerClient {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.ExceptionsKt__ExceptionsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.LazyKt__LazyJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.LazyKt__LazyKt {
+    <init>();
+}
+
+-keep class kotlin.Metadata
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.NoWhenBranchMatchedException {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.ArraysKt__ArraysJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.ArraysKt__ArraysKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.ArraysKt___ArraysJvmKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.ArraysKt___ArraysKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CharIterator {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__CollectionsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__CollectionsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__IterablesKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__IteratorsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__IteratorsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__MutableCollectionsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__MutableCollectionsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt__ReversedViewsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt___CollectionsJvmKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.CollectionsKt___CollectionsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.MapsKt__MapWithDefaultKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.MapsKt__MapsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.MapsKt__MapsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.MapsKt___MapsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.SetsKt__SetsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.SetsKt__SetsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.collections.SetsKt___SetsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.io.FilesKt__FilePathComponentsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.io.FilesKt__FileReadWriteKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.io.FilesKt__FileTreeWalkKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.io.FilesKt__UtilsKt {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class kotlin.jvm.internal.DefaultConstructorMarker
+
+-keep class kotlin.jvm.internal.Intrinsics {
+    void checkNotNullExpressionValue(java.lang.Object,java.lang.String);
+    void checkNotNullParameter(java.lang.Object,java.lang.String);
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class kotlin.jvm.internal.Intrinsics {
+    void throwNpe();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.random.Random {
+    <init>();
+}
+
+-keep class kotlin.text.CharsKt
+
+-keep class kotlin.text.CharsKt__CharJVMKt {
+    int checkRadix(int);
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.CharsKt__CharJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.CharsKt__CharKt {
+    <init>();
+}
+
+-keep class kotlin.text.Regex {
+    <init>(java.lang.String);
+    java.lang.String replace(java.lang.CharSequence,java.lang.String);
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__AppendableKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__IndentKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__RegexExtensionsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__RegexExtensionsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__StringBuilderJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__StringBuilderKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__StringNumberConversionsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__StringNumberConversionsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__StringsJVMKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt__StringsKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt___StringsJvmKt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class kotlin.text.StringsKt___StringsKt {
+    <init>();
+}
+
+-keep class org.jetbrains.annotations.NotNull
+
+# End of content from C:\Users\admin\.gradle\caches\transforms-3\bd3d6480edaa30c9f4b884a68b6f9d2e\transformed\jetified-af-android-sdk-6.12.2\proguard.txt
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

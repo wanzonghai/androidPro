@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pasdak.fhdfg.cdsgs.erdfda"
+4    android:versionCode="2"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:3:5-66
+11-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:4:5-78
+12-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:5:5-75
+13-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.android.installreferrer:installreferrer:2.2] C:\Users\admin\.gradle\caches\transforms-3\c98991ad9c94ea0970e2aadc4ac88e2a\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:9:5-110
+14-->[com.android.installreferrer:installreferrer:2.2] C:\Users\admin\.gradle\caches\transforms-3\c98991ad9c94ea0970e2aadc4ac88e2a\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:9:22-107
+15
+16    <application
+16-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:6:5-65:19
+17        android:name="com.cocos.game.LifeaaawApp"
+17-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:7:9-50
+18        android:allowBackup="true"
+18-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\admin\.gradle\caches\transforms-3\43942b816ca10d4862bd85dae9fbdbf1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+21-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:8:9-41
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:11:9-43
+23        android:label="@string/app_name"
+23-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:12:9-41
+24        android:supportsRtl="true"
+24-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Splash"
+26-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:14:9-38
+27        android:usesCleartextTraffic="true" >
+27-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:9:9-44
+28        <activity
+28-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:15:9-29:20
+29            android:name="com.cocos.game.LifeaaaStartAct"
+29-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:16:13-58
+30            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+30-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:18:13-87
+31            android:exported="true"
+31-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:22:13-36
+32            android:label="@string/app_name"
+32-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:19:13-45
+33            android:launchMode="singleTask"
+33-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:21:13-44
+34            android:screenOrientation="sensorLandscape"
+34-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:17:13-56
+35            android:theme="@style/Splash" >
+35-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:20:13-42
+36            <intent-filter>
+36-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:24:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:25:17-69
+37-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:25:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:27:17-77
+39-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:27:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:30:9-36:38
+43            android:name="com.cocos.game.rewrwdfcvx.fdsgrwetf.LifebbbbActivityBase"
+43-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:31:13-84
+44            android:exported="true"
+44-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:36:13-36
+45            android:label="@string/app_name"
+45-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:34:13-45
+46            android:launchMode="singleInstance"
+46-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:33:13-48
+47            android:screenOrientation="portrait"
+47-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:32:13-49
+48            android:theme="@style/Splash" />
+48-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:35:13-42
+49        <activity
+49-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:37:9-42:41
+50            android:name="com.cocos.game.LifebbbbTempActivtyBase"
+50-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:37:19-72
+51            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+51-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:38:13-87
+52            android:exported="false"
+52-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:42:13-39
+53            android:launchMode="singleInstance"
+53-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:40:13-48
+54            android:screenOrientation="portrait"
+54-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:39:13-49
+55            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+55-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:41:13-71
+56        <activity
+56-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:43:9-50:15
+57            android:name="game.AppActivity"
+57-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:44:13-44
+58            android:exported="false"
+58-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:45:13-37
+59            android:label="@string/app_name"
+59-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:49:13-45
+60            android:launchMode="singleInstance"
+60-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:47:13-48
+61            android:screenOrientation="portrait"
+61-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:46:13-49
+62            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+62-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:48:13-71
+63
+64        <!-- <activity -->
+65        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+66        <!-- android:screenOrientation="portrait" -->
+67        <!-- android:label="@string/app_name" -->
+68        <!-- android:name="bvcgfdtre.hfdtretdfg.nvghfderew.LifeWebActivity" -->
+69        <!-- android:exported = "false" -->
+70        <!-- android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
+71            />
+72        <activity
+72-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:60:9-64:20
+73            android:name="uiasdoqwm.asdaqwe.popm.MainActivity"
+73-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:61:13-63
+74            android:exported="true"
+74-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:62:13-36
+75            android:screenOrientation="portrait" >
+75-->E:\bx_game_new\StarsSlots\main\src\main\AndroidManifest.xml:63:13-49
+76        </activity>
+77        <activity
+77-->[:app] E:\bx_game_new\StarsSlots\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:47
+78            android:name="idasodqw.sadamoq.ccasda.Yasdnaiq"
+78-->[:app] E:\bx_game_new\StarsSlots\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-60
+79            android:launchMode="singleTask" />
+79-->[:app] E:\bx_game_new\StarsSlots\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-44
+80        <activity
+80-->[:app] E:\bx_game_new\StarsSlots\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:47
+81            android:name="idasodqw.sadamoq.ccasda.Pnasdanqw"
+81-->[:app] E:\bx_game_new\StarsSlots\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-61
+82            android:launchMode="singleTask" />
+82-->[:app] E:\bx_game_new\StarsSlots\app\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+83    </application>
+84
+85</manifest>

@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+color adfergr
+color bghng
+color geragaeg
+color htjtetj
+color htjytjy
+color hyjtyjyt
+color sdrgr
+drawable loading
+layout activity_main
+mipmap ic_launcher
+string app_name
+style Splash
+style Theme.ADemo

@@ -1,0 +1,2 @@
+E:\AF\android_pro\game\frameworks\runtime-src\proj.android-studio\app\jni\Android.mk
+E:\AF\android_pro\game\frameworks\runtime-src\proj.android-studio\app\jni\Application.mk

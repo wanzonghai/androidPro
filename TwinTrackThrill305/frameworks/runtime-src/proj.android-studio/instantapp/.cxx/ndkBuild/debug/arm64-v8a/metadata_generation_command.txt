@@ -1,0 +1,21 @@
+Executable : D:\AppData\Local\Android\Sdk\ndk\21.1.6352462\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=E:\AF\TwinTrackThrill305\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
+NDK_APPLICATION_MK=E:\AF\TwinTrackThrill305\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=1
+APP_PLATFORM=android-21
+NDK_OUT=E:/AF/TwinTrackThrill305/frameworks/runtime-src/proj.android-studio/instantapp/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=E:\AF\TwinTrackThrill305\frameworks\runtime-src\proj.android-studio\instantapp\build\intermediates\ndkBuild\debug\lib
+NDK_TOOLCHAIN_VERSION=clang
+NDK_MODULE_PATH=E:\AF\TwinTrackThrill305\frameworks\cocos2d-x;E:\AF\TwinTrackThrill305\frameworks\cocos2d-x\cocos;E:\AF\TwinTrackThrill305\frameworks\cocos2d-x\external
+-j24
+NDK_DEBUG=1
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

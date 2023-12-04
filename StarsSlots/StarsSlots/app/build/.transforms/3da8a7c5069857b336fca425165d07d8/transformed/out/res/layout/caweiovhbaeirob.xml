@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#679AF2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+ <LinearLayout
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:gravity="center_horizontal"
+     android:background="#3F8DB6"
+     android:orientation="vertical">
+     <TextView
+         android:layout_marginTop="20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="illustrate"
+         android:textStyle="bold|italic"
+         android:textColor="#D6EC5F"
+         android:textSize="22sp" />
+
+     <TextView
+         android:padding="10dp"
+         android:layout_marginTop="20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="start"
+         android:text="1.This is a slot machine game
+\n2.When we enter the game page, the system will randomly set a goal for us, and then click the start button to start the game. The elements on the slot machine will randomly change, and click to stop the slot machine from changing. When the three elements in the middle of the slot machine are the same as the set goal, we will earn points"
+         android:textStyle="bold|italic"
+         android:textColor="#D6EC5F"
+         android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/vnwioesrhboierhbr"
+         android:layout_width="160dp"
+         android:layout_height="40dp"
+         android:background="#D6EC5F"
+         android:gravity="center"
+         android:text="I know"
+         android:layout_marginTop="20dp"
+         android:textColor="#000000"
+         android:textSize="20sp"
+         android:layout_marginBottom="20dp"/>
+ </LinearLayout>
+</LinearLayout>

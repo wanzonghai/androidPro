@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="awejibeshro">#909090</color>
+    <color name="awejiorbherob">#444444</color>
+    <color name="awevoiawhrebo">#333333</color>
+    <color name="baweribjsoeirb">#313131</color>
+    <color name="bnaeriobhoierbn">#1a1817</color>
+    <color name="oawejhioareb">#fff2f2f2</color>
+    <color name="poawejghrboiher">#ffcacaca</color>
+    <color name="tgjeroihber">#FF666666</color>
+    <color name="wgjoiaerjbi">#ffdcdcdc</color>
+    <dimen name="awejiboawreb">15sp</dimen>
+    <dimen name="awekhgaoreib">10dp</dimen>
+    <dimen name="awoejfighvaoweirb">0.5dp</dimen>
+    <dimen name="ejgaoiwherboiser">40dp</dimen>
+    <dimen name="oawejboierbh">12dp</dimen>
+    <dimen name="text_siloaewjobesribze_30px">16sp</dimen>
+    <dimen name="vajhweiobrheoirb">13sp</dimen>
+    <dimen name="vawerboiherb">12dp</dimen>
+    <dimen name="vbweirbhorei">10dp</dimen>
+    <dimen name="vnaweiorhboier">15sp</dimen>
+    <string name="aewkbiaherobi">vnaweiorbhoeisrb</string>
+    <string name="awegjaoeirb">akwehgaoierb</string>
+    <string name="aweiohgahwerb">vhawioerhbe</string>
+    <string name="vawhebroier">iawehorbiehrb</string>
+    <string name="vberjoiajseroi">awegjoiesrb</string>
+</resources>

@@ -1,0 +1,83 @@
+com.qwkaji.smndjb.wqaskv.R$string
+com.qwkaji.smndjb.wqaskv.R$drawable
+com.qwkaji.smndjb.wqaskv.R$mipmap
+com.qwkaji.smndjb.wqaskv.R$dimen
+com.qwkaji.smndjb.wqaskv.R$layout
+idasodqw.sadamoq.ccasda.Pnasdanqw
+idasodqw.sadamoq.ccasda.Yasdnaiq
+com.qwkaji.smndjb.wqaskv.R$id
+com.qwkaji.smndjb.wqaskv.R$color
+com.qwkaji.smndjb.wqaskv.R
+com.qwkaji.smndjb.wqaskv.R$id: int yawehierhub
+com.qwkaji.smndjb.wqaskv.R$id: int akwejhvbaoierwb
+com.qwkaji.smndjb.wqaskv.R$id: int vawheiorbhu
+com.qwkaji.smndjb.wqaskv.R$mipmap: int gnaoiwehbioer
+com.qwkaji.smndjb.wqaskv.R$mipmap: int joiwaehvaiouwrb
+com.qwkaji.smndjb.wqaskv.R$id: int tv_points
+com.qwkaji.smndjb.wqaskv.R$dimen: int vajhweiobrheoirb
+com.qwkaji.smndjb.wqaskv.R$id: int vnaweiohvbioeb
+com.qwkaji.smndjb.wqaskv.R$id: int aweijhvireb
+com.qwkaji.smndjb.wqaskv.R$mipmap: int dvaniowehrbre
+com.qwkaji.smndjb.wqaskv.R$string: int vawhebroier
+com.qwkaji.smndjb.wqaskv.R$dimen: int vawerboiherb
+com.qwkaji.smndjb.wqaskv.R$drawable: int fawoiebheosirb
+com.qwkaji.smndjb.wqaskv.R$dimen: int awejiboawreb
+com.qwkaji.smndjb.wqaskv.R$id: int vnaweiorhboer
+com.qwkaji.smndjb.wqaskv.R$dimen: int awekhgaoreib
+com.qwkaji.smndjb.wqaskv.R$drawable: int dvnaoiwehrboierb
+com.qwkaji.smndjb.wqaskv.R$dimen: int text_siloaewjobesribze_30px
+com.qwkaji.smndjb.wqaskv.R$id: int awklejhvboaerb
+com.qwkaji.smndjb.wqaskv.R$string: int aweiohgahwerb
+com.qwkaji.smndjb.wqaskv.R$id: int vawheiobr
+com.qwkaji.smndjb.wqaskv.R$color: int wgjoiaerjbi
+com.qwkaji.smndjb.wqaskv.R$color: int oawejhioareb
+com.qwkaji.smndjb.wqaskv.R$mipmap: int voerdfbnrhorenb
+com.qwkaji.smndjb.wqaskv.R$color: int awevoiawhrebo
+com.qwkaji.smndjb.wqaskv.R$id: int vnwioesrhboierhbr
+com.qwkaji.smndjb.wqaskv.R$mipmap: int caweiojvbeoibr
+com.qwkaji.smndjb.wqaskv.R$mipmap: int fnawoeihbeorib
+com.qwkaji.smndjb.wqaskv.R$mipmap: int kawneoibharwebi
+com.qwkaji.smndjb.wqaskv.R$color: int awejiorbherob
+com.qwkaji.smndjb.wqaskv.R$dimen: int vnaweiorhboier
+com.qwkaji.smndjb.wqaskv.R$dimen: int ejgaoiwherboiser
+com.qwkaji.smndjb.wqaskv.R$id: int vjaowiehrbr
+com.qwkaji.smndjb.wqaskv.R$color: int baweribjsoeirb
+com.qwkaji.smndjb.wqaskv.R$mipmap: int evanweiorbhoeri
+com.qwkaji.smndjb.wqaskv.R$id: int awevbjwoierb
+com.qwkaji.smndjb.wqaskv.R$color: int poawejghrboiher
+com.qwkaji.smndjb.wqaskv.R$layout: int bcaoiwehoaierb
+com.qwkaji.smndjb.wqaskv.R$layout: int caweiovhbaeirob
+com.qwkaji.smndjb.wqaskv.R$dimen: int oawejboierbh
+com.qwkaji.smndjb.wqaskv.R$mipmap: int haowienbaiowrueb
+com.qwkaji.smndjb.wqaskv.R$color: int bnaeriobhoierbn
+com.qwkaji.smndjb.wqaskv.R$mipmap: int iajiowebaowreib
+com.qwkaji.smndjb.wqaskv.R$color: int tgjeroihber
+com.qwkaji.smndjb.wqaskv.R$drawable: int evoaierhboierbn
+com.qwkaji.smndjb.wqaskv.R$layout: int aeovibsheriobn
+com.qwkaji.smndjb.wqaskv.R$string: int vberjoiajseroi
+com.qwkaji.smndjb.wqaskv.R$drawable: int bvaoweihrboierb
+com.qwkaji.smndjb.wqaskv.R$dimen: int vbweirbhorei
+com.qwkaji.smndjb.wqaskv.R$id: int aewiuhbr
+com.qwkaji.smndjb.wqaskv.R$id: int vnwuishbiur
+com.qwkaji.smndjb.wqaskv.R$id: int uawehoiber
+com.qwkaji.smndjb.wqaskv.R$mipmap: int aefjvioahewriberb
+com.qwkaji.smndjb.wqaskv.R$id: int nvaiwehbor
+com.qwkaji.smndjb.wqaskv.R$id: int vanweiobr
+com.qwkaji.smndjb.wqaskv.R$mipmap: int bvoaweijvoiserb
+com.qwkaji.smndjb.wqaskv.R$string: int aewkbiaherobi
+com.qwkaji.smndjb.wqaskv.R$drawable: int aenvoiaehrbio
+com.qwkaji.smndjb.wqaskv.R$color: int awejibeshro
+com.qwkaji.smndjb.wqaskv.R$drawable: int caweivbherobi
+com.qwkaji.smndjb.wqaskv.R$dimen: int awoejfighvaoweirb
+com.qwkaji.smndjb.wqaskv.R$string: int awegjaoeirb
+com.qwkaji.smndjb.wqaskv.R$id: int awehiuawerb
+com.qwkaji.smndjb.wqaskv.R$layout: R$layout()
+com.qwkaji.smndjb.wqaskv.R: R()
+com.qwkaji.smndjb.wqaskv.R$drawable: R$drawable()
+idasodqw.sadamoq.ccasda.Yasdnaiq: Yasdnaiq()
+com.qwkaji.smndjb.wqaskv.R$mipmap: R$mipmap()
+idasodqw.sadamoq.ccasda.Pnasdanqw: Pnasdanqw()
+com.qwkaji.smndjb.wqaskv.R$color: R$color()
+com.qwkaji.smndjb.wqaskv.R$dimen: R$dimen()
+com.qwkaji.smndjb.wqaskv.R$string: R$string()
+com.qwkaji.smndjb.wqaskv.R$id: R$id()

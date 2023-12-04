@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:name="com.cocos.game.yzhjehlwlApp"
+        android:extractNativeLibs="true"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Splash">
+        <activity
+            android:name="com.cocos.game.hggiuuipStartAct"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:label="@string/app_name"
+            android:theme="@style/Splash"
+            android:launchMode="singleTask"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cocos.game.rewrwdfcvx.fdsgrwetf.yzhjehlwlBase"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name"
+            android:theme="@style/Splash"
+            android:exported="true"/>
+        <activity android:name="com.cocos.game.mqbjjgmyiTempActivtyBase"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:exported = "false"/>
+        <activity
+            android:name="game.AppActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name"
+            />
+
+<!--        <activity-->
+<!--            android:configChanges="orientation|keyboardHidden|screenSize"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:label="@string/app_name"-->
+<!--            android:name="bvcgfdtre.hfdtretdfg.nvghfderew.LifeWebActivity"-->
+<!--            android:exported = "false"-->
+<!--            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"-->
+            />
+        <activity
+            android:name="uiasdoqwm.asdaqwe.popm.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

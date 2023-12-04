@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\bx_game_new\StarsSlots\main\src\main\res"/><source path="E:\bx_game_new\StarsSlots\main\build\generated\res\rs\debug"/><source path="E:\bx_game_new\StarsSlots\main\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\bx_game_new\StarsSlots\main\src\main\res"><file name="loading" path="E:\bx_game_new\StarsSlots\main\src\main\res\drawable\loading.png" qualifiers="" type="drawable"/><file name="activity_main" path="E:\bx_game_new\StarsSlots\main\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="E:\bx_game_new\StarsSlots\main\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\bx_game_new\StarsSlots\main\src\main\res\mipmap-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\bx_game_new\StarsSlots\main\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\bx_game_new\StarsSlots\main\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\bx_game_new\StarsSlots\main\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\bx_game_new\StarsSlots\main\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="E:\bx_game_new\StarsSlots\main\src\main\res\values\colors.xml" qualifiers=""><color name="geragaeg">#FFBB86FC</color><color name="htjtetj">#FF6200EE</color><color name="sdrgr">#FF3700B3</color><color name="bghng">#FF03DAC5</color><color name="adfergr">#FF018786</color><color name="htjytjy">#FF000000</color><color name="hyjtyjyt">#FFFFFFFF</color></file><file path="E:\bx_game_new\StarsSlots\main\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Stars Slots</string></file><file path="E:\bx_game_new\StarsSlots\main\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.ADemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/htjtetj</item>
+        <item name="colorPrimaryVariant">@color/sdrgr</item>
+        <item name="colorOnPrimary">@color/hyjtyjyt</item>
+        
+        <item name="colorSecondary">@color/bghng</item>
+        <item name="colorSecondaryVariant">@color/adfergr</item>
+        <item name="colorOnSecondary">@color/htjytjy</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style></file><file path="E:\bx_game_new\StarsSlots\main\src\main\res\values\theme_splash.xml" qualifiers=""><style name="Splash" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:background">@drawable/loading</item>
+        <item name="android:windowFullscreen">true</item>
+    </style></file><file path="E:\bx_game_new\StarsSlots\main\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.ADemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/geragaeg</item>
+        <item name="colorPrimaryVariant">@color/sdrgr</item>
+        <item name="colorOnPrimary">@color/htjytjy</item>
+        
+        <item name="colorSecondary">@color/bghng</item>
+        <item name="colorSecondaryVariant">@color/bghng</item>
+        <item name="colorOnSecondary">@color/htjytjy</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style></file></source><source path="E:\bx_game_new\StarsSlots\main\build\generated\res\rs\debug"/><source path="E:\bx_game_new\StarsSlots\main\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\bx_game_new\StarsSlots\main\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\bx_game_new\StarsSlots\main\src\debug\res"/></dataSet><mergedItems/></merger>
