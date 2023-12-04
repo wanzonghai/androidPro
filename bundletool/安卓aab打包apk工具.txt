@@ -1,0 +1,1 @@
+双击InstallAAB.bat  在拖进bundletool-all-1.5.0.jar  然后根据提示
