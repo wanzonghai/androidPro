@@ -1,0 +1,11 @@
+{
+  "name": "Happy Leisure Game",
+  "outputPath": "E:\\bjst_mjb\\Happy Leisure Game\\release\\temp",
+  "startupScene": "res://9b931ecf-fde9-44dd-acf3-15f8dc807965",
+  "includedScenes": [],
+  "android": {
+    "standalone": true,
+    "appName": "Happy Leisure Game",
+    "bundleIdentifier": "com.leisure.haaperpy"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "570138729432",
+    "project_id": "happy-leisure-game",
+    "storage_bucket": "happy-leisure-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570138729432:android:e28e877ad03a39ae2bb0ad",
+        "android_client_info": {
+          "package_name": "com.leisure.haaperpy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570138729432-5qi2kffvadg79tgblnjpas6h2e2ttsfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leisure.haaperpy",
+            "certificate_hash": "83aabe915374ec07d8a31c4ac796087153c7e93b"
+          }
+        },
+        {
+          "client_id": "570138729432-bno4ghdc617s1nr2037mb5tpvoj47pcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgJBwjBdDIh5MowN--fAJ8lTGQ7-zIqkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570138729432-bno4ghdc617s1nr2037mb5tpvoj47pcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

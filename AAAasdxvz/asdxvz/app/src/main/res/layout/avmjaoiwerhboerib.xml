@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gvawoeijboerb"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.njuyuh.werdrs.asdxvz.Svnaeorihbioesrnb
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        android:layout_centerVertical="true"
+        app:lottie_fileName="aweiuhvawieubhr.json"
+        app:lottie_loop="false"
+        app:lottie_repeatCount="-1"
+        app:lottie_speed="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/awejoiaherib"
+            android:layout_width="wrap_content"
+            android:text="points:0"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/awegjoeirb"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="START"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="@drawable/avnaioerboerb"
+            android:gravity="center"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/awjeoighb"
+        android:layout_width="wrap_content"
+        android:text="Guess what unknown poker is"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <RelativeLayout
+        android:id="@+id/awoiejgaoiwber"
+       android:layout_below="@+id/awjeoighb"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/awesgjobierb"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/fawemsobijerobn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aoiweaoieb"
+        android:layout_width="260dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/awegjaeorib"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bnoawiejboiebr" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+           android:layout_alignParentBottom="true"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/uawehgobiherb"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bnoawiejboiebr" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+           android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/awegajeorib"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bnoawiejboiebr" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+           android:layout_alignParentRight="true"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iawjesoibjerobi"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bnoawiejboiebr" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/awegjpoaierb"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bnoawiejboiebr" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/awegbjeroib"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bnoawiejboiebr" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
