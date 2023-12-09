@@ -18,9 +18,9 @@ import java.io.File;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private static final String PREFS_NAME = "MyPrefsFile";
-    private static final String KEY_USERNAME = "username";
-    private static final String KEY_PASSWORD = "password";
+    public static final String PREFS_NAME = "MyPrefsFile";
+    public static final String KEY_USERNAME = "username";
+    public static final String KEY_PASSWORD = "password";
 
     private EditText etUsername;
     private EditText etPassword;
@@ -76,7 +76,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void startMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, SplashActivity.class);
         startActivity(intent);
     }
+
 }

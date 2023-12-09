@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/tvExamName"
@@ -10,8 +11,9 @@
         android:layout_height="wrap_content"
         android:text="Exam Name"
         android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_marginBottom="4dp" />
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,14 +26,16 @@
             android:layout_height="wrap_content"
             android:text="Date: "
             android:textStyle="italic"
-            android:textSize="14sp" />
+            android:textSize="16sp"
+            android:textColor="#666666" />
 
         <TextView
             android:id="@+id/tvExamDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Exam Date"
-            android:textSize="14sp" />
+            android:textSize="16sp"
+            android:textColor="#000000" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,14 +49,16 @@
             android:layout_height="wrap_content"
             android:text="Time: "
             android:textStyle="italic"
-            android:textSize="14sp" />
+            android:textSize="16sp"
+            android:textColor="#666666" />
 
         <TextView
             android:id="@+id/tvExamTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Exam Time"
-            android:textSize="14sp" />
+            android:textSize="16sp"
+            android:textColor="#000000" />
     </LinearLayout>
 
 </LinearLayout>

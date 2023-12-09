@@ -83,6 +83,14 @@ public class EditExamActivity extends AppCompatActivity {
 
         if (rowsUpdated > 0) {
             // 更新成功
+            // 在这里调用主界面的更新方法
+            // 更新成功，设置结果码和包含考试信息的 Intent
+            Intent resultIntent = new Intent();
+            resultIntent.putExtra("UPDATED_EXAM_NAME", updatedName);
+            resultIntent.putExtra("UPDATED_EXAM_DATE", updatedDate);
+            resultIntent.putExtra("UPDATED_EXAM_TIME", updatedTime);
+            setResult(RESULT_OK, resultIntent);
+            updateMainActivity();
             // 可以关闭当前 Activity 或者执行其他操作
             finish();
         } else {
@@ -96,7 +104,13 @@ public class EditExamActivity extends AppCompatActivity {
         super.onDestroy();
         dataSource.close();
     }
+    // 添加一个方法用于更新主界面
+    private void updateMainActivity() {
 
+        // 在这里执行更新主界面的操作
+        // 这可能涉及到重新加载数据等操作，根据你的代码结构来实现
+        // 你可能需要在 MainActivity 中提供一个方法用于更新数据，然后在这里调用该方法
+    }
 
 
 }

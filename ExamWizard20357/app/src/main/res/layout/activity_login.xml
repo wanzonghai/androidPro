@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/img_bg">
 
     <!-- Icon at the top -->
     <ImageView
@@ -11,8 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/ic_launcher_background"
         android:layout_marginTop="16dp"
+        android:background="@drawable/btn2"
         android:contentDescription="Logo"/>
 
     <!-- Username TextInputLayout -->
@@ -27,40 +28,44 @@
 
         <EditText
             android:id="@+id/etUsername"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:hint="Username"
             android:inputType="text"
-            android:maxLines="1"/>
+            android:src="@drawable/btn1"
+            android:maxLines="1"
+            android:layout_gravity="center"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Password TextInputLayout -->
     <com.google.android.material.textfield.TextInputLayout
-    android:id="@+id/tilPassword"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/tilUsername"
-    android:layout_centerVertical="true"
-    android:layout_marginTop="8dp">
-
-    <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/tilPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:maxLines="1"/>
+        android:layout_below="@id/tilUsername"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:layout_gravity="center"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Login Button -->
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
         android:layout_below="@id/tilPassword"
         android:layout_centerVertical="true"
         android:layout_marginTop="16dp"
         android:text="Login"
-        android:background="#FF0000"
-        android:textColor="@android:color/white"/>
-    </RelativeLayout>
+        android:background="@drawable/btn2"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
