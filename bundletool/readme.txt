@@ -1,3 +1,0 @@
-bundletool是一个将aab文件转换成apks文件的工具
-通过bundletool可以安装apks文件
-执行bundle.py文件（python）按照提示输入相应的内容即可

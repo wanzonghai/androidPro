@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exam Wizard</string>
+
+    <!-- 在 strings.xml 中 -->
+    <string name="add_exam_dialog_title">Add Exam</string>
+    <string name="exam_name_hint">Exam Name</string>
+    <string name="exam_date_hint">Exam Date</string>
+    <string name="exam_time_hint">Exam Time</string>
+    <string name="add_button_text">Add</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="all_fields_required">All fields must be filled</string>
+</resources>
