@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/icon_logo"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icon_logo"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/buttonReserve"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/icon_logo"
+        android:background="@drawable/btn2"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Reserve Seat" />
+    <!-- 查看座位按钮 -->
+    <Button
+        android:id="@+id/buttonViewSeat"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonReserve"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn2"
+        android:layout_centerHorizontal="true"
+        android:text="View Seat" />
+    <!-- 个人信息按钮 -->
+    <Button
+        android:id="@+id/buttonUserInfo"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonViewSeat"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn2"
+        android:layout_centerHorizontal="true"
+        android:text="Personal Information" />
+    <!-- 退出登录按钮 -->
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonUserInfo"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn2"
+        android:layout_centerHorizontal="true"
+        android:text="LOG OUT" />
+</RelativeLayout>

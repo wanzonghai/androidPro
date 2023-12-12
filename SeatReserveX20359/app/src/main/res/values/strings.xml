@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Seat Reserve X</string>
+
+    <string name="database_name">LibraryDatabase</string>
+
+    <string name="table_name">Seats</string>
+</resources>

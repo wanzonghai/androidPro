@@ -1,0 +1,24 @@
+<!-- res/layout/custom_list_item.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/y1">
+
+
+    <!-- ID -->
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="156"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/y1" />
+
+</LinearLayout>
