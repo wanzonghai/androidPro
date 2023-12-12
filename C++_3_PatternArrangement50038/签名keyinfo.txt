@@ -1,0 +1,11 @@
+巴西真金
+
+游戏名：Pattern Arrangement
+渠道号：20299
+adjustid:mt5652wt5la8
+
+key         zkauzmo.jks
+key  password  500380
+
+Alias        zkauzmo
+Alias  password  500380

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="unitySurfaceView" />
+    <!-- test   ca-app-pub-3940256099942544~3347511713  ca-app-pub-3256342235640979~4898474043-->
+    <string name="app_ad_id">ca-app-pub-3256342235640979~4898474043</string>
+</resources>

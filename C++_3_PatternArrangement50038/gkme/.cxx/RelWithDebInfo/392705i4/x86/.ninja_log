@@ -1,0 +1,9 @@
+# ninja log v5
+21	84	0	CMakeFiles/intelligdsrew.dir/aes/tiger_aes_cbc.c.o	83cdc35cfe98bd28
+27	98	0	CMakeFiles/intelligdsrew.dir/aes/tiger_aes_ecb.c.o	9437f75ae1c904df
+13	103	0	CMakeFiles/intelligdsrew.dir/aes/tiger_cbc128.c.o	4142de2cbd74a104
+0	130	0	CMakeFiles/intelligdsrew.dir/aes/tiger_aes_core.c.o	f2ef622b24b5e696
+43	143	0	CMakeFiles/intelligdsrew.dir/tiger_JNIUtils.c.o	6bac5eb868a245f0
+36	149	0	CMakeFiles/intelligdsrew.dir/tiger_buffer.cpp.o	c9d8563993ae8388
+7	273	0	CMakeFiles/intelligdsrew.dir/native-lib.cpp.o	8cee01d04f964353
+274	345	0	E:/Unity/Android/PatternArrangement50038/gkme/build/intermediates/cxx/RelWithDebInfo/392705i4/obj/x86/libintelligdsrew.so	4c9faf9a5bfb1c0c

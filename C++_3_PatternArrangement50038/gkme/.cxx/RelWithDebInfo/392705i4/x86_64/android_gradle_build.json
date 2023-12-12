@@ -1,0 +1,79 @@
+{
+  "buildFiles": [
+    "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
+      "--build",
+      "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64",
+      "--target",
+      "clean"
+    ]
+  ],
+  "libraries": {
+    "intelligdsrew-RelWithDebInfo-x86_64": {
+      "buildCommandComponents": [
+        "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
+        "--build",
+        "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64",
+        "--target",
+        "intelligdsrew"
+      ],
+      "buildType": "relwithdebinfo",
+      "toolchain": "999730865",
+      "abi": "x86_64",
+      "artifactName": "intelligdsrew",
+      "files": [
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_core.c",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC      -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        },
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_cbc.c",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC      -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        },
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_ecb.c",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC      -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        },
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_cbc128.c",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC      -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        },
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\tiger_buffer.cpp",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC    -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        },
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\tiger_JNIUtils.c",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC      -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        },
+        {
+          "src": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\native-lib.cpp",
+          "flags": "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dintelligdsrew_EXPORTS -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\. -IE:\\Unity\\Android\\PatternArrangement50038\\gkme\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC    -c ",
+          "workingDirectory": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\.cxx\\RelWithDebInfo\\392705i4\\x86_64"
+        }
+      ],
+      "output": "E:\\Unity\\Android\\PatternArrangement50038\\gkme\\build\\intermediates\\cxx\\RelWithDebInfo\\392705i4\\obj\\x86_64\\libintelligdsrew.so"
+    }
+  },
+  "toolchains": {
+    "999730865": {
+      "cCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
