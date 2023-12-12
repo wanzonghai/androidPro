@@ -1,0 +1,9 @@
+# ninja log v5
+1	52	0	CMakeFiles/intelligdsrew.dir/aes/tiger_aes_cbc.c.o	57e6d67928ed91ed
+8	66	0	CMakeFiles/intelligdsrew.dir/aes/tiger_aes_ecb.c.o	c43a2a049b6034e7
+20	77	0	CMakeFiles/intelligdsrew.dir/aes/tiger_cbc128.c.o	ef4b0de3e761d52b
+14	85	0	CMakeFiles/intelligdsrew.dir/aes/tiger_aes_core.c.o	ecc694fba5574de3
+43	121	0	CMakeFiles/intelligdsrew.dir/tiger_JNIUtils.c.o	894657c42d388414
+28	126	0	CMakeFiles/intelligdsrew.dir/tiger_buffer.cpp.o	999153c7cf00608c
+36	257	0	CMakeFiles/intelligdsrew.dir/native-lib.cpp.o	d9f73a14471fd8d9
+257	337	0	E:/bx_game/AAAC++3FishBubble20292/build/jsb-default/frameworks/runtime-src/proj.android-studio/mylibrary/build/intermediates/cmake/debug/obj/arm64-v8a/libintelligdsrew.so	82bd897ef76bf012

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "141439425946",
+    "project_id": "fish-bubble-371f4",
+    "storage_bucket": "fish-bubble-371f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141439425946:android:a99177d775d0398c1aae23",
+        "android_client_info": {
+          "package_name": "voxavv.lqtzfckmz.fbcbjfeip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141439425946-hvonp35b9ebdgqndbn3l78lh340e3gjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "voxavv.lqtzfckmz.fbcbjfeip",
+            "certificate_hash": "f82f95dfc980b0269fcd6eb9003375f85566defa"
+          }
+        },
+        {
+          "client_id": "141439425946-m9pj4f9ucuqpkj196mv888q1lu28hfr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWj0aqjJPCGiYpaHadSNX1OSGMxB4qMmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141439425946-m9pj4f9ucuqpkj196mv888q1lu28hfr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
