@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "E:\\Cocos\\OtherProject\\EyeSearchWar20302\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
+      "--build",
+      "E:\\Cocos\\OtherProject\\EyeSearchWar20302\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\x86",
+      "--target",
+      "clean"
+    ]
+  ],
+  "libraries": {
+    "gmengine-Debug-x86": {
+      "artifactName": "gmengine",
+      "buildCommandComponents": [
+        "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
+        "--build",
+        "E:\\Cocos\\OtherProject\\EyeSearchWar20302\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\x86",
+        "--target",
+        "gmengine"
+      ],
+      "abi": "x86",
+      "output": "E:\\Cocos\\OtherProject\\EyeSearchWar20302\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\x86\\libgmengine.so",
+      "runtimeFiles": []
+    }
+  }
+}

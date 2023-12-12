@@ -1,0 +1,11 @@
+巴西真金
+
+游戏名：Eye Search War
+渠道号：20302
+adjustid:mt5652wt5la8
+
+key         bptndaqf.jks
+key  password  200302
+
+Alias        bptndaqf
+Alias  password  200302

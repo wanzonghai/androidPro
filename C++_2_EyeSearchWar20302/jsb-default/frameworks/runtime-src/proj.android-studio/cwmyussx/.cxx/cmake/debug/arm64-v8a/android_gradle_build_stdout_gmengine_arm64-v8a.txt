@@ -1,0 +1,16 @@
+[1/3] Building CXX object CMakeFiles/gmengine.dir/GameEngine.cpp.o
+[2/3] Building CXX object CMakeFiles/gmengine.dir/AdjustSdk.cpp.o
+E:\bx_game\AAAC++2EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\cwmyussx\src\main\cpp\AdjustSdk.cpp:72:46: warning: format specifies type 'char *' but the argument has type 'jobject' (aka '_jobject *') [-Wformat]
+        LOGD("===========attribution 1= %s", attribution);
+                                        ~~   ^~~~~~~~~~~
+E:/bx_game/AAAC++2EyeSearchWar20302/jsb-default/frameworks/runtime-src/proj.android-studio/cwmyussx/src/main/cpp/./include\JNIUtils.h:12:63: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, TAG, __VA_ARGS__)
+                                                              ^~~~~~~~~~~
+E:\bx_game\AAAC++2EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\cwmyussx\src\main\cpp\AdjustSdk.cpp:79:46: warning: format specifies type 'char *' but the argument has type 'jobject' (aka '_jobject *') [-Wformat]
+        LOGD("===========attribution 2= %s", attribution);
+                                        ~~   ^~~~~~~~~~~
+E:/bx_game/AAAC++2EyeSearchWar20302/jsb-default/frameworks/runtime-src/proj.android-studio/cwmyussx/src/main/cpp/./include\JNIUtils.h:12:63: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, TAG, __VA_ARGS__)
+                                                              ^~~~~~~~~~~
+2 warnings generated.
+[3/3] Linking CXX shared library E:\bx_game\AAAC++2EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\cwmyussx\build\intermediates\cmake\debug\obj\arm64-v8a\libgmengine.so

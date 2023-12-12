@@ -1,0 +1,1 @@
+window._CCSettings={platform:"android",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/scene/startGame.fire",orientation:"",server:"",jsList:[],bundleVers:{internal:"627df",resources:"9d093",main:"9ab19"}};

@@ -1,0 +1,2 @@
+E:\Cocos\OtherProject\EyeSearchWar20302\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
+E:\Cocos\OtherProject\EyeSearchWar20302\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk
