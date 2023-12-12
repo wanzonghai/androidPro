@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1011091619436",
+    "project_id": "crazy-racing-97ca2",
+    "storage_bucket": "crazy-racing-97ca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011091619436:android:1a870142ea323a8a9ae249",
+        "android_client_info": {
+          "package_name": "qfbe.ioctxcs.cewxptegsj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011091619436-o595mn6lj4k3r0j8l4q15g7eaobolknf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "qfbe.ioctxcs.cewxptegsj",
+            "certificate_hash": "5650ef0586f7ef526bd144922d3bc144204412f2"
+          }
+        },
+        {
+          "client_id": "1011091619436-8miilaf7ila3v586jh68d5p3g6nuqvgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADBoRO5G710tPG0rej-xp2_zmWobBDAGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011091619436-8miilaf7ila3v586jh68d5p3g6nuqvgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
