@@ -1,7 +1,0 @@
-<!-- res/values/dimens.xml -->
-<resources>
-    <!-- Add other dimensions if needed -->
-
-    <!-- Define margin for the dialog -->
-    <dimen name="dialog_margin">16dp</dimen>
-</resources>
