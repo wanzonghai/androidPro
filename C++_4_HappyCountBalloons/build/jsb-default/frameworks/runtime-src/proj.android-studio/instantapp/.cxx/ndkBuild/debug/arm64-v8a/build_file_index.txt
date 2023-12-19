@@ -1,0 +1,2 @@
+E:\bxmb\HappyCountBalloons\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
+E:\bxmb\HappyCountBalloons\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk
