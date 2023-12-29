@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "E:\\AF\\AFC++\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\AF\\AFC++\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\AF\\AFC++\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "intermyapplication-Debug-arm64-v8a": {
+      "artifactName": "intermyapplication",
+      "buildCommandComponents": [
+        "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AF\\AFC++\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\arm64-v8a",
+        "intermyapplication"
+      ],
+      "abi": "arm64-v8a",
+      "output": "E:\\AF\\AFC++\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libintermyapplication.so",
+      "runtimeFiles": []
+    }
+  }
+}

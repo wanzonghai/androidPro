@@ -1,0 +1,2 @@
+E:\AF\AFC++\jsb-default\frameworks\runtime-src\proj.android-studio\app\jni\Android.mk
+E:\AF\AFC++\jsb-default\frameworks\runtime-src\proj.android-studio\app\jni\Application.mk

@@ -1,0 +1,72 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 30 min SDK version: x86",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json due to:",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\\build_command.txt, will remove stale json folder",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\u0027",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\u0027",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\prefab\\x86\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\x86\n-DCMAKE_MAKE_PROGRAM\u003dD:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-BE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\n-GNinja\njvmArgs : \n\n",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\prefab\\x86\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\x86\n-DCMAKE_MAKE_PROGRAM\u003dD:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-BE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86\n-GNinja\njvmArgs : \n\n",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe with arguments {-HE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp -DCMAKE_FIND_ROOT_PATH\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\prefab\\x86\\prefab -DCMAKE_BUILD_TYPE\u003dDebug -DCMAKE_TOOLCHAIN_FILE\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake -DANDROID_ABI\u003dx86 -DANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529 -DANDROID_PLATFORM\u003dandroid-30 -DCMAKE_ANDROID_ARCH_ABI\u003dx86 -DCMAKE_ANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529 -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\x86 -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\build\\intermediates\\cmake\\debug\\obj\\x86 -DCMAKE_MAKE_PROGRAM\u003dD:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\ninja.exe -DCMAKE_SYSTEM_NAME\u003dAndroid -DCMAKE_SYSTEM_VERSION\u003d30 -BE:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\.cxx\\cmake\\debug\\x86 -GNinja}\n\nCMake Error: The source directory \"E:/A_jh_mjb/jsb-default/frameworks/runtime-src/proj.android-studio/anwwtd/src/main/cpp\" does not exist.\nSpecify --help for usage, or press the help button on the CMake GUI.\n",
+    "file": "E:\\A_jh_mjb\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|x86",
+    "diagnosticCode": "UNKNOWN"
+  }
+]
