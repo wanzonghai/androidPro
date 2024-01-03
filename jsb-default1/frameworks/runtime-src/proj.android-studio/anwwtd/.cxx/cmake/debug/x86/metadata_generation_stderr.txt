@@ -1,0 +1,2 @@
+CMake Error: The source directory "E:/A_jh_mjb/jsb-default/frameworks/runtime-src/proj.android-studio/anwwtd/src/main/cpp" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
