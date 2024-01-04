@@ -1,0 +1,8 @@
+<resources>
+
+
+    <style name="gfhdhr" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/hdgfysg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

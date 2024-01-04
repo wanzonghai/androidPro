@@ -1,0 +1,1 @@
+E:\AndroidPro\AndroidPro\C++_5_al_HappyStoneElimination\Happystoneelimination\build\jsb-default\frameworks\runtime-src\proj.android-studio\app\build\intermediates\ndkBuild\debug\obj\local\arm64-v8a

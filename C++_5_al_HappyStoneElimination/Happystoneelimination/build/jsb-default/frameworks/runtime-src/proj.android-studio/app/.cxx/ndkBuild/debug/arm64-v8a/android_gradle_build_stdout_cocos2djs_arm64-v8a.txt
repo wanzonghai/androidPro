@@ -1,0 +1,15 @@
+Android NDK: WARNING: Unsupported source file extensions in E:\AndroidPro\AndroidPro\C++_5_al_HappyStoneElimination\Happystoneelimination\build\jsb-default\frameworks\cocos2d-x/cocos/Android.mk for module cocos2dx_static    
+Android NDK:   ../external/sources/edtaa3func/edtaa3func.h renderer/memop/RecyclePool.hpp    
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_gfx_auto.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_renderer_auto.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_video_auto.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_renderer_manual.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_gfx_manual.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_webview_auto.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_cocos2dx_audioengine_auto.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= WebSocketServer.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_websocket.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_websocket_server.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= jsb_socketio.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= WebSocket-libwebsockets.cpp
+[arm64-v8a] Compile++      : cocos2dx_static <= SocketIO.cpp

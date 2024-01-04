@@ -1,0 +1,264 @@
+{
+  "buildFiles": [
+    "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+      "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+      "APP_ABI\u003darmeabi-v7a",
+      "NDK_ALL_ABIS\u003darmeabi-v7a",
+      "NDK_DEBUG\u003d0",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+      "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+      "NDK_TOOLCHAIN_VERSION\u003dclang",
+      "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+      "NDK_DEBUG\u003d0",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+    "APP_ABI\u003darmeabi-v7a",
+    "NDK_ALL_ABIS\u003darmeabi-v7a",
+    "NDK_DEBUG\u003d0",
+    "APP_PLATFORM\u003dandroid-24",
+    "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+    "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+    "NDK_TOOLCHAIN_VERSION\u003dclang",
+    "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+    "-j24",
+    "NDK_DEBUG\u003d0",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cocos2djs-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcocos2djs.so"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "cocos2djs",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcocos2djs.so"
+    },
+    "pvmp3dec-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libpvmp3dec.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "pvmp3dec",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libpvmp3dec.a"
+    },
+    "cocos2dandroid-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcocos2dandroid.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "cocos2dandroid",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcocos2dandroid.a"
+    },
+    "extension-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libextension.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "extension",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libextension.a"
+    },
+    "editorsupport-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libeditorsupport.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "editorsupport",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libeditorsupport.a"
+    },
+    "vorbisidec-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libvorbisidec.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "vorbisidec",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libvorbisidec.a"
+    },
+    "audioengine-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libaudioengine.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "audioengine",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libaudioengine.a"
+    },
+    "cocos2d-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcocos2d.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "cocos2d",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcocos2d.a"
+    },
+    "cpufeatures-release-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003dE:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj",
+        "NDK_LIBS_OUT\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+        "NDK_TOOLCHAIN_VERSION\u003dclang",
+        "NDK_MODULE_PATH\u003dE:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\cocos;E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\cocos2d-x\\external",
+        "-j24",
+        "NDK_DEBUG\u003d0",
+        "E:/bx_game/Happystoneelimination/build/jsb-default/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcpufeatures.a"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "cpufeatures",
+      "output": "E:\\bx_game\\Happystoneelimination\\build\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcpufeatures.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\window\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c",
+    "s"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}
