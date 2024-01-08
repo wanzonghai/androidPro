@@ -1,0 +1,15 @@
+AppFluer
+应  用 名：Choose Difficult Assistant
+渠   道   号: 460
+包     名： com.rabniundg.hwvowaqff
+签名文件名：kcfjkavuj.jks
+签名 密码：460460
+签名 别名：kcfjkavuj
+别名 密码：460460
+宝塔域名URL:
+测试规则:
+归因方式：
+当前版本：1（1.2）
+更新测试日期：20231226
+本地地址：\\172.17.19.82\团队共享\美术资源\zongzi\ChooseDifficultAssistant460
+"C:\Program Files\Java\jdk-17\bin\keytool.exe" -genkey -alias kcfjkavuj -keyalg RSA -validity 36500 -keystore kcfjkavuj.jks -storepass 460460
