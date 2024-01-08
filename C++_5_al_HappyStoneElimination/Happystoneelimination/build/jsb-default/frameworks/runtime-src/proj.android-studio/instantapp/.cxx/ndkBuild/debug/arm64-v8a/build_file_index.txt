@@ -1,2 +1,0 @@
-E:\AndroidPro\AndroidPro\C++_5_al_HappyStoneElimination\Happystoneelimination\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
-E:\AndroidPro\AndroidPro\C++_5_al_HappyStoneElimination\Happystoneelimination\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk
