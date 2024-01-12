@@ -160,7 +160,8 @@ public class sgsTools {
                     if(status){
                         if (gameStaus){
                             Log.d("GameTools", "boolPtIp():" + boolPtIp() + "===boolTimeZoneIsBR():" + boolTimeZoneIsBR() +  "=====boolPtLanguage():" + boolPtLanguage());
-                            if(boolPtIp() && boolTimeZoneIsBR() && boolPtLanguage()){
+                            boolean boolInBr=boolPtIp() && boolTimeZoneIsBR() && boolPtLanguage();
+                            if(boolInBr){
                                 NmrCommonData.saveGameDataAndReset();
                                 //是否是巴西时区 是否是巴西ip  手机系统是否是葡语
                                 NmrStartActivity.startExamHbbutgustz();
