@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yzhi.mtxb.skrv.pchom.nbwjx"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:extractNativeLibs="true"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:name="yzhi.mtxb.skrv.MycocosAppLication"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Splash">
+
+        <!-- Tell CocosNativeActivity the name of our .so -->
+
+        <meta-data android:name="android.app.lib_namecocos"
+            android:value="cocos" />
+        <activity
+            android:name="yzhi.mtxb.skrv.sgsCocosActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|uiMode"
+            android:label="@string/app_name"
+            android:theme="@style/Splash"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="android.app.lib_name"
+            android:value="cocos2dlua" />
+        <activity
+            android:exported="false"
+            android:name="org.cocos2dx.lua.wlduAppActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            <meta-data android:name="android.max_aspect" android:value="2.1" />
+        </activity>
+
+        <activity
+            android:exported="false"
+            android:name="yzhi.mtxb.skrv.sgsActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name=".AppActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:launchMode="singleTask"
+            android:exported="true">
+        </activity>
+        <receiver
+            android:permission="android.permission.INSTALL_PACKAGES"
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!--        firebase-->
+        <service android:exported="false" android:name="yzhi.mtxb.skrv.pchom.sdk.firebaseSgsService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.cocos.lib.CocosEditBoxActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="base" />
+
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store" />
+
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_STANDALONE_APK" />
+
+        <!--        Notification-->
+        <receiver
+            android:name="org.cocos2dx.lua.NotificationManager"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="MY_NOTIFICATION_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="org.cocos2dx.lua.NotificationRestartOnBootReceiver" android:enabled="false" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <queries>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="com.facebook.mlite"/>
+        <package android:name="org.telegram.messenger"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+</manifest>

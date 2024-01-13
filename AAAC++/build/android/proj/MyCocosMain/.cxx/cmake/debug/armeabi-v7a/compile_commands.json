@@ -1,0 +1,49 @@
+[
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\aes_core.c.o   -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_core.c",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_core.c"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\aes_cbc.c.o   -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_cbc.c",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_cbc.c"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\aes_ecb.c.o   -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_ecb.c",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_ecb.c"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\cbc128.c.o   -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\cbc128.c",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\cbc128.c"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\JNIUtils.c.o   -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\JNIUtils.c",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\JNIUtils.c"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\native-lib.cpp.o -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\native-lib.cpp",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\native-lib.cpp"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\GameEngine.cpp.o -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\GameEngine.cpp",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\GameEngine.cpp"
+},
+
+{
+  "directory": "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\gmengine.dir\\AdjustSdk.cpp.o -c E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\AdjustSdk.cpp",
+  "file": "E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\AdjustSdk.cpp"
+}
+]

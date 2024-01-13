@@ -1,0 +1,72 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json due to:",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\\build_command.txt, will remove stale json folder",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\u0027",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\.cxx\\ndkBuild\\debug\\arm64-v8a\u0027",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dE:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\debug\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\nNDK_MODULE_PATH\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x;E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\cocos;E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\external\n-j24\nNDK_DEBUG\u003d1\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dE:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\debug\\lib\nNDK_TOOLCHAIN_VERSION\u003dclang\nNDK_MODULE_PATH\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x;E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\cocos;E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\external\n-j24\nNDK_DEBUG\u003d1\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\build\\intermediates\\ndkBuild\\debug\\lib NDK_TOOLCHAIN_VERSION\u003dclang NDK_MODULE_PATH\u003dE:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x;E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\cocos;E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\external -j24 NDK_DEBUG\u003d1 APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\nAndroid NDK: WARNING: Ignoring unknown import directory: E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x    \nAndroid NDK: WARNING: Ignoring unknown import directory: E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\cocos    \nAndroid NDK: WARNING: Ignoring unknown import directory: E:\\AF\\AFC++\\jsb-default2\\frameworks\\cocos2d-x\\external    \nAndroid NDK: E:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/app/jni/../../jni/CocosAndroid.mk: Cannot find module with tag \u0027cocos\u0027 in import path    \nAndroid NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    \nAndroid NDK: The following directories were searched:    \nAndroid NDK:         \n\nE:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/app/jni/../../jni/CocosAndroid.mk:23: *** Android NDK: Aborting.    .  Stop.\n",
+    "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\app\\jni\\Android.mk",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

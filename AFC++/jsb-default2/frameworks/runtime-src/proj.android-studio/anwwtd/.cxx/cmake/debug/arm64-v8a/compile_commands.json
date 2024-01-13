@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/anwwtd/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dintermyapplication_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intermyapplication.dir\\InterEntry.cpp.o -c E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\InterEntry.cpp",
+  "file": "E:\\AF\\AFC++\\jsb-default2\\frameworks\\runtime-src\\proj.android-studio\\anwwtd\\src\\main\\cpp\\InterEntry.cpp"
+}
+]

@@ -1,0 +1,43 @@
+[
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\aes_core.c.o   -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_core.c",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_core.c"
+},
+
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\aes_cbc.c.o   -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_cbc.c",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_cbc.c"
+},
+
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\aes_ecb.c.o   -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_ecb.c",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\aes_ecb.c"
+},
+
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\aes\\cbc128.c.o   -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\cbc128.c",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\aes\\cbc128.c"
+},
+
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\buffer.cpp.o -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\buffer.cpp",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\buffer.cpp"
+},
+
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\JNIUtils.c.o   -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\JNIUtils.c",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\JNIUtils.c"
+},
+
+{
+  "directory": "E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\22.1.7171670\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/. -IE:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gmengine.dir\\native-lib.cpp.o -c E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\native-lib.cpp",
+  "file": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\native-lib.cpp"
+}
+]

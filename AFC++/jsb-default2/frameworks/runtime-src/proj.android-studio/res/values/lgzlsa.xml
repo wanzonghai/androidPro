@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppThemegfd" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/loading</item>
+    </style>
+
+    <!-- Define your color -->
+    <color name="your_color">#FF0000</color>
+<!--    <style name="AppThemegfd" parent="@android:style/Theme.NoTitleBar.Fullscreen">-->
+<!--        <item name="android:background">@drawable/loading</item>-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--    </style>-->
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yzhi.mtxb.skrv.pchom.nbwjx1">
+    <application>
+        <receiver
+            android:permission="android.permission.INSTALL_PACKAGES"
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

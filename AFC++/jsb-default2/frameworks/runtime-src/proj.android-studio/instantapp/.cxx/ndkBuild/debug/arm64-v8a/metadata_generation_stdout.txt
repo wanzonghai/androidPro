@@ -1,0 +1,7 @@
+Android NDK: WARNING: Ignoring unknown import directory: E:\AF\AFC++\jsb-default2\frameworks\cocos2d-x    
+Android NDK: WARNING: Ignoring unknown import directory: E:\AF\AFC++\jsb-default2\frameworks\cocos2d-x\cocos    
+Android NDK: WARNING: Ignoring unknown import directory: E:\AF\AFC++\jsb-default2\frameworks\cocos2d-x\external    
+Android NDK: E:/AF/AFC++/jsb-default2/frameworks/runtime-src/proj.android-studio/instantapp/jni/../../jni/CocosAndroid.mk: Cannot find module with tag 'cocos' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         

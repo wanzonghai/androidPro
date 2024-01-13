@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\.cxx\\cmake\\debug\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "gmengine-Debug-x86_64": {
+      "artifactName": "gmengine",
+      "buildCommand": "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\.cxx\\cmake\\debug\\x86_64 --target gmengine",
+      "abi": "x86_64",
+      "output": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libgmengine.so",
+      "runtimeFiles": []
+    }
+  }
+}

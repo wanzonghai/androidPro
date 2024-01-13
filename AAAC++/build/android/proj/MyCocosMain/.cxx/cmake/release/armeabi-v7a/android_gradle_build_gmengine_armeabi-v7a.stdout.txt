@@ -1,0 +1,23 @@
+[1/8] Building C object CMakeFiles/gmengine.dir/aes/aes_cbc.c.o
+[2/8] Building C object CMakeFiles/gmengine.dir/aes/aes_ecb.c.o
+[3/8] Building C object CMakeFiles/gmengine.dir/aes/aes_core.c.o
+[4/8] Building C object CMakeFiles/gmengine.dir/JNIUtils.c.o
+[5/8] Building CXX object CMakeFiles/gmengine.dir/native-lib.cpp.o
+[6/8] Building C object CMakeFiles/gmengine.dir/aes/cbc128.c.o
+[7/8] Building CXX object CMakeFiles/gmengine.dir/buffer.cpp.o
+E:\Cocos\OtherProject\FamiliarMatchup20268\build\android\proj\MyCocosMain\src\main\cpp\native-lib.cpp:210:58: warning: format specifies type 'long long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+    LOGI("文件长度:%lld, 解密后原始长度:%lld",fileLength, rln);
+                   ~~~~                       ^~~~~~~~~~
+                   %zu
+E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include\JNIUtils.h:11:62: note: expanded from macro 'LOGI'
+#define LOGI(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+E:\Cocos\OtherProject\FamiliarMatchup20268\build\android\proj\MyCocosMain\src\main\cpp\native-lib.cpp:210:70: warning: format specifies type 'long long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+    LOGI("文件长度:%lld, 解密后原始长度:%lld",fileLength, rln);
+                                        ~~~~              ^~~
+                                        %zu
+E:/Cocos/OtherProject/FamiliarMatchup20268/build/android/proj/MyCocosMain/src/main/cpp/./include\JNIUtils.h:11:62: note: expanded from macro 'LOGI'
+#define LOGI(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+2 warnings generated.
+[8/8] Linking CXX shared library E:\Cocos\OtherProject\FamiliarMatchup20268\build\android\proj\MyCocosMain\build\intermediates\cmake\release\obj\armeabi-v7a\libgmengine.so

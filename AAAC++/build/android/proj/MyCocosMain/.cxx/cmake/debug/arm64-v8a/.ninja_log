@@ -1,0 +1,10 @@
+# ninja log v5
+1	2619	0	CMakeFiles/gmengine.dir/aes/aes_core.c.o	d3a81b85f83198a6
+314	2620	0	CMakeFiles/gmengine.dir/aes/aes_ecb.c.o	c861b77431a6a2d4
+636	2620	0	CMakeFiles/gmengine.dir/JNIUtils.c.o	2d65efcba2b384fd
+965	2621	0	CMakeFiles/gmengine.dir/GameEngine.cpp.o	a7b78e3d58334742
+1297	2622	0	CMakeFiles/gmengine.dir/aes/aes_cbc.c.o	5115df210c590102
+1627	2622	0	CMakeFiles/gmengine.dir/aes/cbc128.c.o	56e79d91433da494
+1969	2655	0	CMakeFiles/gmengine.dir/AdjustSdk.cpp.o	e9106205145c2222
+2289	2827	0	CMakeFiles/gmengine.dir/native-lib.cpp.o	47eea8ed58157492
+2827	3764	0	E:/bx_game/AAAC++/build/android/proj/MyCocosMain/build/intermediates/cmake/debug/obj/arm64-v8a/libgmengine.so	2e9c38c022222e1f

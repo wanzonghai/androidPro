@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://D:/ProgramData/cocos/editors/3.7.0/resources/resources/3d/engine/native">
+      <sourceFolder url="file://D:/ProgramData/cocos/editors/3.7.0/resources/resources/3d/engine/native" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../../native/engine/common/Classes">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../../native/engine/common/Classes" type="native-Source-root" />
+    </content>
+  </component>
+</module>

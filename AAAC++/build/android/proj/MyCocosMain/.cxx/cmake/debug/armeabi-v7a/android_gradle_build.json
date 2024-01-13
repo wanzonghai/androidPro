@@ -1,0 +1,84 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gmengine-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "gmengine",
+			"buildCommand" : "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\.cxx\\cmake\\debug\\armeabi-v7a --target gmengine",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/aes/aes_core.c",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/aes/aes_cbc.c",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/aes/aes_ecb.c",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/aes/cbc128.c",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/JNIUtils.c",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/GameEngine.cpp",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/src/main/cpp/AdjustSdk.cpp",
+					"workingDirectory" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/bx_game/AAAC++/build/android/proj/MyCocosMain/build/intermediates/cmake/debug/obj/armeabi-v7a/libgmengine.so",
+			"toolchain" : "571439977"
+		}
+	},
+	"toolchains" : 
+	{
+		"571439977" : 
+		{
+			"cCompilerExecutable" : "D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AppData/Local/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

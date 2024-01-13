@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "gmengine-Release-armeabi-v7a": {
+      "artifactName": "gmengine",
+      "buildCommand": "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\.cxx\\cmake\\release\\armeabi-v7a --target gmengine",
+      "abi": "armeabi-v7a",
+      "output": "E:\\Cocos\\OtherProject\\FamiliarMatchup20268\\build\\android\\proj\\MyCocosMain\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libgmengine.so",
+      "runtimeFiles": []
+    }
+  }
+}
