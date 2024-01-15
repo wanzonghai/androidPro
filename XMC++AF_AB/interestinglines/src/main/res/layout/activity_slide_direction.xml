@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bffdbgfdgd1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Please slide up, down, left, and right in four directions, and then observe the sliding results."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.vvvwwweee.SingleTouchView
+        android:id="@+id/stv_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white" />
+
+</LinearLayout>
