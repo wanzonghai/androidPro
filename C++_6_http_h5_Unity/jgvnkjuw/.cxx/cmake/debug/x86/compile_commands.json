@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_6_http_h5_Unity/jgvnkjuw/.cxx/cmake/debug/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android22 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhzuesmpngeknu_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\hzuesmpngeknu.dir\\InterEntry.cpp.o -c E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\src\\main\\cpp\\InterEntry.cpp",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\src\\main\\cpp\\InterEntry.cpp"
+}
+]

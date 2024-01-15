@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "E:/AndroidPro/AndroidPro/C++_6_http_h5_Unity/jgvnkjuw/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android22 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhzuesmpngeknu_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
+    "E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hzuesmpngeknu-Debug-x86": {
+      "buildCommand": "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\.cxx\\cmake\\debug\\x86\" hzuesmpngeknu",
+      "buildType": "debug",
+      "toolchain": "826980790",
+      "abi": "x86",
+      "artifactName": "hzuesmpngeknu",
+      "files": [
+        {
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\src\\main\\cpp\\InterEntry.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "E:\\AndroidPro\\AndroidPro\\C++_6_http_h5_Unity\\jgvnkjuw\\build\\intermediates\\cmake\\debug\\obj\\x86\\libhzuesmpngeknu.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "826980790": {
+      "cppCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
