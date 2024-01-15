@@ -1,0 +1,7 @@
+Executable : D:\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\Cocos\C++_Cocos_H5\frameworks\runtime-src\proj.android-studio\mylibrary\.cxx\cmake\debug\arm64-v8a
+ixdglnmhec
+jvmArgs : 
+

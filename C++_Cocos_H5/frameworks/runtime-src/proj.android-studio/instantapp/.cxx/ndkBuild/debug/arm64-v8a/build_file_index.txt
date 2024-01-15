@@ -1,0 +1,2 @@
+E:\Cocos\C++_Cocos_H5\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
+E:\Cocos\C++_Cocos_H5\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk

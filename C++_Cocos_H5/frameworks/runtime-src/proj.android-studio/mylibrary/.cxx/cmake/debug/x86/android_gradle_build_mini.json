@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "E:\\Cocos\\C++_Cocos_H5\\frameworks\\runtime-src\\proj.android-studio\\mylibrary\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\Cocos\\C++_Cocos_H5\\frameworks\\runtime-src\\proj.android-studio\\mylibrary\\.cxx\\cmake\\debug\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\Cocos\\C++_Cocos_H5\\frameworks\\runtime-src\\proj.android-studio\\mylibrary\\.cxx\\cmake\\debug\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ixdglnmhec-Debug-x86": {
+      "artifactName": "ixdglnmhec",
+      "buildCommandComponents": [
+        "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\Cocos\\C++_Cocos_H5\\frameworks\\runtime-src\\proj.android-studio\\mylibrary\\.cxx\\cmake\\debug\\x86",
+        "ixdglnmhec"
+      ],
+      "abi": "x86",
+      "output": "E:\\Cocos\\C++_Cocos_H5\\frameworks\\runtime-src\\proj.android-studio\\mylibrary\\build\\intermediates\\cmake\\debug\\obj\\x86\\libixdglnmhec.so",
+      "runtimeFiles": []
+    }
+  }
+}

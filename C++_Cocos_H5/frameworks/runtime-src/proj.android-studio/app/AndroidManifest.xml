@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="oyjwbeiusd.rmhnnoney.kkujtdmt"
+    android:installLocation="auto">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:name=".GameAppLication"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/ic_launcher">
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data android:name="android.app.lib_namecocos"
+                   android:value="cocos2djs" />
+        <!--        firebase-->
+        <service android:exported="false" android:name="common.firebaseSgsService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".AppActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|uiMode"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.InterWebActivity" android:screenOrientation="sensorLandscape" android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|uiMode" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask" android:exported="true">
+        </activity>
+        <receiver android:name="com.adjust.sdk.AdjustReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="common.NmrStartActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|uiMode"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:launchMode="singleTask"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
