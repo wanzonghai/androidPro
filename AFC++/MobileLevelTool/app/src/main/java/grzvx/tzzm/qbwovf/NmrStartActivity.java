@@ -21,6 +21,7 @@ public class NmrStartActivity extends Activity {
         setContentView(R.layout.interloading);
         Log.d("NmrStartActivity", "onCreate: ");
         NmrStartActivity.m_luzmbdirizr=this;
+        firebaseSgsService.activity = this;
         if (NmrCommonData.getSaveGameData()) {
             Intent intent = new Intent(this, InterWebActivity.class);
 
