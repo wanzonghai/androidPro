@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "67631289835",
+    "project_id": "spotthrowgame",
+    "storage_bucket": "spotthrowgame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67631289835:android:36602cf4d7748179a475ae",
+        "android_client_info": {
+          "package_name": "vicymv.qcwkhe.drntnti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67631289835-e82ifatem6mikqvp8m5ar8bmck8ur0ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vicymv.qcwkhe.drntnti",
+            "certificate_hash": "300197862c67b416870989e6e39158dfa2f700e6"
+          }
+        },
+        {
+          "client_id": "67631289835-n0a91k7dfqbafjvp36qaljk73f87g657.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFhqxxK0KqARUh7-RBYik0N3k7AYd2T60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67631289835-n0a91k7dfqbafjvp36qaljk73f87g657.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

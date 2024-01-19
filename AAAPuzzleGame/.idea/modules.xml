@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AAAPuzzleGame.iml" filepath="$PROJECT_DIR$/.idea/modules/AAAPuzzleGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AAAPuzzleGame.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/game/AAAPuzzleGame.game.iml" filepath="$PROJECT_DIR$/.idea/modules/game/AAAPuzzleGame.game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.iml" filepath="$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/puzzle/AAAPuzzleGame.puzzle.unitTest.iml" />
+    </modules>
+  </component>
+</project>

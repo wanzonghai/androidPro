@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="org.telegram.messenger"/>
+    </queries>
+
+    <queries>
+        <intent>
+            <data android:scheme="https" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+    </queries>
+</manifest>
