@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1061289206581",
+    "project_id": "royalclubslots-b165c",
+    "storage_bucket": "royalclubslots-b165c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061289206581:android:05e968e84c44793ed6a27c",
+        "android_client_info": {
+          "package_name": "gfav.dwwadq.xbhiigkec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061289206581-ejnejkfhcb10vu7avqlu5duuia5d5ohs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gfav.dwwadq.xbhiigkec",
+            "certificate_hash": "459ff83088f20253a407b6c069dfe8ea818fa342"
+          }
+        },
+        {
+          "client_id": "1061289206581-j1vq03m62lh86t072uqcu4bg0l792e5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7Z2syfLY9b2Zyw5ON8G7q4cNHxWlZ_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061289206581-j1vq03m62lh86t072uqcu4bg0l792e5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

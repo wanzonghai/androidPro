@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gweoibheoribhreon">
+
+    <com.lksfnc.snjuas.qloyhk.Gmvaowiejboierb
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/jaowiejvoaiweb"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Choose Tokens"
+        android:layout_centerHorizontal="true"
+        android:textColor="#D6EC5F"
+        android:textSize="24dp"
+        >
+    </TextView>
+
+  <LinearLayout
+      android:id="@+id/naeosivhawiboa"
+      android:layout_below="@+id/jaowiejvoaiweb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:orientation="horizontal">
+      <TextView
+          android:id="@+id/awejoivbawhrb"
+          android:layout_width="80dp"
+          android:layout_height="40dp"
+          android:layout_marginTop="30dp"
+          android:gravity="center"
+          android:text="5"
+          android:layout_centerHorizontal="true"
+          android:textColor="#B3FF55"
+          android:textSize="14dp"
+          android:background="@drawable/cweoivhbeiorbu"
+          />
+      <TextView
+          android:id="@+id/wejvoiawhebr"
+          android:layout_width="80dp"
+          android:layout_height="40dp"
+          android:layout_marginTop="30dp"
+          android:gravity="center"
+          android:text="6"
+          android:layout_marginLeft="30dp"
+          android:textColor="#B3FF55"
+          android:textSize="14dp"
+          android:background="@drawable/cweoivhbeiorbu"
+          />
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/naeosivhawiboa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/awevoiaherb"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="7"
+            android:layout_centerHorizontal="true"
+            android:textColor="#B3FF55"
+            android:textSize="14dp"
+            android:background="@drawable/cweoivhbeiorbu"
+            />
+        <TextView
+            android:id="@+id/awejoivbaherb"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="8"
+            android:layout_marginLeft="30dp"
+            android:textColor="#B3FF55"
+            android:textSize="14dp"
+            android:background="@drawable/cweoivhbeiorbu"
+            />
+        <TextView
+            android:id="@+id/wejogiheriobr"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="9"
+            android:layout_marginLeft="30dp"
+            android:textColor="#B3FF55"
+            android:textSize="14dp"
+            android:background="@drawable/cweoivhbeiorbu"
+            />
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:lottie_fileName="navwheviohawerobaie.json"
+        app:lottie_loop="false"
+        app:lottie_repeatCount="-1"
+        app:lottie_speed="1" />
+
+</RelativeLayout>

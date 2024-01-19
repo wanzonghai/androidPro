@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <activity
+            android:name=".Whfhjfdjhhigr"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Shaweuiohsdbjid"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".ui.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+    </application>
+
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- 定义主题 -->
+    <style name="CustomImageTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 隐藏标题栏 -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- 设置背景图片作为主题的背景 -->
+        <item name="android:windowBackground">@drawable/dsfds</item>
+
+        <!-- 可以根据需要添加其他属性 -->
+        <!-- 例如：颜色、字体等 -->
+    </style>
+
+</resources>
