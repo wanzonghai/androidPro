@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg">
+
+    <EditText
+        android:id="@+id/editTextExamName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exam Name"/>
+
+    <EditText
+        android:id="@+id/editTextExamDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextExamName"
+        android:layout_marginTop="16dp"
+        android:hint="Exam Date"/>
+
+    <EditText
+        android:id="@+id/editTextExamTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextExamDate"
+        android:layout_marginTop="16dp"
+        android:hint="Exam Time"/>
+
+    <Button
+        android:id="@+id/btnSaveExam"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextExamTime"
+        android:layout_marginTop="16dp"
+        android:text="Save"
+        android:textSize="20dp"
+        android:textColor="@color/teal_700"
+        android:background="@drawable/btn1"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"/>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<!-- activity_student_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/asdasgr">
+
+    <TextView
+        android:id="@+id/textViewStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRollNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Number"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Gender"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textViewAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:textSize="16sp" />
+    <!-- 添加其他需要显示的属性，例如性别... -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 编辑按钮 -->
+        <Button
+            android:id="@+id/buttonEditProfile"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:text="Edit Profile"
+            android:background="@color/teal_200" />
+        <!-- 间隔 -->
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="20dp" />
+        <!-- 删除按钮 -->
+        <Button
+            android:id="@+id/buttonCheckIn"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:text="Check In"
+            android:background="@color/teal_200" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

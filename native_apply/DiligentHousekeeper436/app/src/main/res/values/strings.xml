@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Diligent Housekeeper</string>
+
+    <!-- 字符串数组，包含 "Male" 和 "Female" 两个选项 -->
+    <string-array name="gender_types">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

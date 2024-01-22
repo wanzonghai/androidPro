@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img_bg">
+
+    <!-- 学生信息输入部分 -->
+    <EditText
+        android:id="@+id/etStudentid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:textColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etStudentname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etStudentid"
+        android:layout_marginTop="8dp"
+        android:hint="Student Name"
+        android:textColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etMajoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etStudentname"
+        android:layout_marginTop="8dp"
+        android:hint="Major"
+        android:textColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etStudentclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMajoy"
+        android:layout_marginTop="8dp"
+        android:hint="Student Class"
+        android:textColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/addStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a student"
+        android:layout_below="@id/etStudentclass"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/deleteStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete a student"
+        android:layout_below="@id/addStudentButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/updateStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Renewal student"
+        android:layout_below="@id/deleteStudentButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/viewAllStudentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View all students"
+        android:layout_below="@id/updateStudentButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/queryStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query a student"
+        android:layout_below="@id/viewAllStudentsButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/queryStudentButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"/>
+    <!-- 其他布局元素 -->
+
+</RelativeLayout>

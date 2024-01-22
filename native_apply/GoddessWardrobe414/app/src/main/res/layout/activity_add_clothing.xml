@@ -1,0 +1,40 @@
+<!-- activity_add_clothing.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asda"
+    tools:context=".AddClothingActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:hint="Type" />
+
+    <EditText
+        android:id="@+id/editTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextType"
+        android:layout_marginTop="16dp"
+        android:hint="Color" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="230dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/editTextColor"
+        android:layout_marginTop="16dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/asd"
+        android:text="Add" />
+</RelativeLayout>

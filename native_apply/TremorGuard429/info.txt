@@ -1,0 +1,15 @@
+巴西真金
+应  用 名：Tremor Guard
+渠   道   号: 429
+包     名： com.nrckji.jyoevtjuea.tremorguard
+签名文件名：jyoevtjuea.jks
+签名 密码：429429
+签名 别名：jyoevtjuea
+别名 密码：429429
+宝塔域名URL:
+测试规则:
+归因方式：
+当前版本：1（1.2）
+更新测试日期：20231223
+本地地址：\\172.17.19.82\团队共享\美术资源\zongzi\TremorGuard429
+"C:\Program Files\Java\jdk-17\bin\keytool.exe" -genkey -alias jyoevtjuea -keyalg RSA -validity 36500 -keystore jyoevtjuea.jks -storepass 429429

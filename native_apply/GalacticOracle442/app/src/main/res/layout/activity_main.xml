@@ -1,0 +1,44 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- 新添加的 ImageView 用于显示旋转的星球 -->
+    <ImageView
+        android:id="@+id/imageViewPlanet"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/planet1" />
+    <Spinner
+        android:id="@+id/spinnerConstellations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:entries="@array/constellations" />
+
+    <Button
+        android:id="@+id/buttonGetHoroscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerConstellations"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Get Horoscope" />
+
+    <TextView
+        android:id="@+id/textViewHoroscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonGetHoroscope"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

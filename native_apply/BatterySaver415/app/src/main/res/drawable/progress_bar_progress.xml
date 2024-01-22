@@ -1,0 +1,6 @@
+<!-- res/drawable/progress_bar_progress.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/asnia" /> <!-- 替换为进度条图片资源 -->
+    </item>
+</layer-list>

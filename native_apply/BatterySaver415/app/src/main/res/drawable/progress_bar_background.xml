@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background -->
+    <item android:id="@android:id/background">
+        <bitmap android:src="@drawable/qrfa" /> <!-- 替换为背景图片资源 -->
+    </item>
+
+    <!-- Progress -->
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/asnia" /> <!-- 替换为进度条图片资源 -->
+    </item>
+
+</layer-list>

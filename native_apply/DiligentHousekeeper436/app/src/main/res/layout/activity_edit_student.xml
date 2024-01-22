@@ -1,0 +1,56 @@
+<!-- activity_edit_student_profile.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/asdasgr">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextRollNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Roll Number"
+        android:inputType="text" />
+    <Spinner
+        android:id="@+id/spinnerTextGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Gender Type"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Contact Number"
+        android:inputType="phone" />
+
+    <!-- 添加其他需要编辑的属性，例如性别... -->
+
+    <Button
+        android:id="@+id/buttonSaveChanges"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/gasa"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Save Changes"
+        android:textSize="25dp"/>
+
+</LinearLayout>

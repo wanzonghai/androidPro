@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SpecialDateStyle">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:textSize">14sp</item>
+        <!-- 可以添加其他样式属性，根据需要进行调整 -->
+    </style>
+    <style name="CalendarTextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/calendar_text_color</item>
+    </style>
+
+    <style name="SpecialDateTextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/calendar_special_text_color</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.intelligentrecovery.hyerodpryg.MainActivity">
+    <ImageView
+        android:id="@+id/aiAvatarImageView"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ai"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nameEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        android:scaleType="centerCrop"
+        android:padding="16dp"/>
+    <ImageView
+        android:id="@+id/aiAvatarImageView2"
+        android:layout_width="235dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/nameEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        android:scaleType="centerCrop"
+        android:padding="16dp"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:hint="Enter your name"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintBottom_toTopOf="@+id/startChattingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/white"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/startChattingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Start Chatting"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="startChatting"
+        android:background="@color/teal_200"
+        android:textColor="@android:color/white"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

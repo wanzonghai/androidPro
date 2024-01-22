@@ -1,0 +1,13 @@
+<!-- res/drawable/custom_progress_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 旋转的部分 -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="360"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <bitmap android:src="@drawable/ui_loading_circle" />
+        </rotate>
+    </item>
+</layer-list>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gasa">
+
+
+    <TextView
+        android:id="@+id/textViewStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRollNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Roll Number"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Gender Type"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textViewContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Contact Number"
+        android:textSize="16sp" />
+    <!-- 水平排列的两个按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- 左侧按钮 -->
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="edit"
+            android:background="@color/teal_200" />
+
+        <!-- 间隔 -->
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="20dp" />
+
+        <!-- 右侧按钮 -->
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="delete"
+            android:background="@color/teal_200" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

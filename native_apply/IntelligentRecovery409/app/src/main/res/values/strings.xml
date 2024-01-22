@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Intelligent Recovery</string>
+
+    <string-array name="questions_array">
+        <!-- Existing questions -->
+        <item>What can you do?</item>
+        <item>Tell me a joke</item>
+        <item>How old are you?</item>
+        <!-- Additional questions -->
+        <item>What\'s the weather like today?</item>
+        <item>Recommend a good book</item>
+        <item>How do I make a cup of coffee?</item>
+        <item>Who is your favorite actor?</item>
+        <item>What\'s the capital of France?</item>
+        <!-- More additional questions -->
+        <item>Can you sing a song?</item>
+        <item>What\'s the meaning of life?</item>
+        <item>Do you believe in aliens?</item>
+        <item>How do I learn a new language?</item>
+        <item>What\'s the best way to relax?</item>
+        <item>Tell me about your family</item>
+        <item>What\'s the most interesting fact you know?</item>
+        <item>What\'s your favorite color?</item>
+        <item>How can I stay motivated?</item>
+        <item>What\'s the longest river in the world?</item>
+        <item>Can you recommend a good movie?</item>
+        <item>Do you have any pets?</item>
+        <item>What\'s your favorite book?</item>
+        <item>Can you recommend a travel destination?</item>
+        <item>How do I stay healthy?</item>
+        <!-- Add more questions here -->
+    </string-array>
+
+    <string-array name="answers_array">
+        <!-- Existing answers -->
+        <item>I can assist you with information.</item>
+        <item>Why don\'t scientists trust atoms? Because they make up everything!</item>
+        <item>I don\'t have an age, I\'m a program.</item>
+        <!-- Additional answers -->
+        <item>I\'m sorry, I don\'t have real-time weather information.</item>
+        <item>One great book is "To Kill a Mockingbird" by Harper Lee.</item>
+        <item>I don\'t have personal preferences, but I hear Brad Pitt is a popular actor.</item>
+        <item>To make coffee, grind fresh coffee beans, add hot water, and enjoy!</item>
+        <item>The capital of France is Paris.</item>
+        <!-- More additional answers -->
+        <item>I\'m afraid I can\'t sing, but I can provide song recommendations!</item>
+        <item>The meaning of life is subjective and varies for each person.</item>
+        <item>There\'s no scientific evidence of aliens, but it\'s a fascinating topic!</item>
+        <item>Learning a new language requires practice, immersion, and dedication.</item>
+        <item>The best way to relax depends on your preferences, such as reading, meditating, or listening to music.</item>
+        <item>I\'m a chatbot, so I don\'t have a family, but I\'m here to chat with you!</item>
+        <item>The honeybee is the only insect that produces food eaten by humans.</item>
+        <item>As a program, I don\'t have personal preferences like a favorite color.</item>
+        <item>To stay motivated, set goals, break them into smaller tasks, and celebrate achievements.</item>
+        <item>The longest river in the world is the Nile.</item>
+        <item>For a good movie, try "The Shawshank Redemption."</item>
+        <item>As a chatbot, I don\'t have pets, but I\'d love to hear about yours!</item>
+        <item>I don\'t have personal preferences, but "1984" by George Orwell is a classic.</item>
+        <item>I\'d suggest visiting Kyoto, Japan, for its rich history and beautiful scenery.</item>
+        <item>Staying healthy involves a balanced diet, regular exercise, and adequate sleep.</item>
+        <!-- Add more answers here -->
+    </string-array>
+
+    <string-array name="keywords_array">
+        <!-- Existing keywords -->
+        <item>hello</item>
+        <item>how are you</item>
+        <item>your name</item>
+        <item>goodbye</item>
+        <item>what can you do</item>
+        <item>tell me a joke</item>
+        <item>how old are you</item>
+        <!-- Additional keywords -->
+        <item>weather</item>
+        <item>book recommendation</item>
+        <item>favorite actor</item>
+        <item>make coffee</item>
+        <item>capital of France</item>
+        <!-- More additional keywords -->
+        <item>sing a song</item>
+        <item>meaning of life</item>
+        <item>aliens</item>
+        <item>learn a new language</item>
+        <item>best way to relax</item>
+        <item>family</item>
+        <item>interesting fact</item>
+        <item>favorite color</item>
+        <item>stay motivated</item>
+        <item>longest river</item>
+        <item>recommend a movie</item>
+        <item>pets</item>
+        <item>favorite book</item>
+        <item>recommend a travel destination</item>
+        <item>stay healthy</item>
+        <!-- Add more keywords here -->
+    </string-array>
+</resources>

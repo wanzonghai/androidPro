@@ -1,0 +1,16 @@
+AppFlyer
+应  用 名：Battery Saver
+渠   道   号: 415
+包     名： com.attery.rhsmwpwa.saver
+签名文件名：qixmkjakiphqo.jks
+签名 密码：415415
+签名 别名：qixmkjakiphqo
+别名 密码：415415
+宝塔域名URL:
+测试规则:
+归因方式：
+当前版本：1（1.1）
+更新测试日期：20231220
+本地地址：\\172.17.19.82\团队共享\美术资源\zongzi\BatterySaver415
+"C:\Program Files\Java\jdk-17\bin\keytool.exe" -genkey -alias qixmkjakiphqo -keyalg RSA -validity 36500 -keystore qixmkjakiphqo.jks -storepass 415415
+

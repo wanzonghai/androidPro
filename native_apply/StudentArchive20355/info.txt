@@ -1,0 +1,14 @@
+巴西真金
+应  用 名：Student Archive
+渠   道   号: 20355
+包     名： hsfkqqfmd.tdwvsxg.pwbsztlm
+签名文件名：swiftsyncqdhkwfjegh.jks
+签名 密码：200355
+签名 别名：swiftsyncqdhkwfjegh
+别名 密码：200355
+宝塔域名URL:
+测试规则:
+归因方式：
+当前版本：1（1.1）
+更新测试日期：20231209
+本地地址：\\172.17.19.82\团队共享\美术资源\zongzi\StudentArchive20355

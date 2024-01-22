@@ -1,0 +1,15 @@
+AppFlyer
+应  用 名：Convenient Record
+渠   道   号: 398
+包     名： com.convenient.record.rbxkslgwvj
+签名文件名：rfflipadbi.jks
+签名 密码：398398
+签名 别名：rfflipadbi
+别名 密码：398398
+宝塔域名URL:
+测试规则:
+归因方式：
+当前版本：1（1.1）
+更新测试日期：20231216
+本地地址：\\172.17.19.82\团队共享\美术资源\zongzi\ConvenientRecord398
+"C:\Program Files\Java\jdk-17\bin\keytool.exe" -genkey -alias rfflipadbi -keyalg RSA -validity 36500 -keystore rfflipadbi.jks -storepass 398398

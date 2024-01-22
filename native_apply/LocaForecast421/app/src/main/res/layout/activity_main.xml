@@ -1,0 +1,62 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/moderate_background"/>
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+    <ImageView
+        android:id="@+id/weatherIconImageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintTop_toTopOf="@+id/weatherInfoTextView"
+        app:layout_constraintEnd_toEndOf="@+id/weatherInfoTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"/>
+    <TextView
+        android:id="@+id/weatherInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/locationTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:id="@+id/detailedWeatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading weather information..."
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weatherInfoTextView"
+        android:layout_marginTop="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
