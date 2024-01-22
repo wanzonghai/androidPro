@@ -92,11 +92,11 @@ public class answerQuestionGameActivity extends Activity {
         initQuestion();
     }
     private void initQuestion(){
-        questions.add(new Question("2 + 2 = ?", "4"));
-        questions.add(new Question("5 - 3 = ?", "2"));
-        questions.add(new Question("4 * 6 = ?", "24"));
-        questions.add(new Question("8 / 2 = ?", "4"));
-        questions.add(new Question("9 + 7 = ?", "16"));
+//        questions.add(new Question("2 + 2 = ?", "4"));
+//        questions.add(new Question("5 - 3 = ?", "2"));
+//        questions.add(new Question("4 * 6 = ?", "24"));
+//        questions.add(new Question("8 / 2 = ?", "4"));
+//        questions.add(new Question("9 + 7 = ?", "16"));
 //        String jsonString = loadJSONFromAsset("questions.json");
 //
 //        try {
@@ -112,6 +112,53 @@ public class answerQuestionGameActivity extends Activity {
 //            e.printStackTrace();
 //        }
 
+        String[] questionsArray = new String[15];
+        String[] answersArray = new String[15];
+        Random random = new Random();
+
+        for (int i = 0; i < questionsArray.length; i++) {
+            int num1 = random.nextInt(10) + 1;  // 随机生成第一个数字（1 到 10）
+            int num2 = random.nextInt(10) + 1;  // 随机生成第二个数字（1 到 10）
+            String operator = getRandomOperator();  // 随机生成运算符
+
+            // 构建算式
+            questionsArray[i] = num1 + " " + operator + " " + num2 + " = ?";
+            // 计算结果并加入答案数组
+            answersArray[i] = calculateAnswer(num1, num2, operator);
+
+            // 将问题和答案添加到问题列表
+            addQuestion(questionsArray[i], answersArray[i]);
+        }
+
+
+    }
+    private String getRandomOperator() {
+        String[] operators = {"+", "-", "*", "/"};
+        Random random = new Random();
+        int randomNextInt=random.nextInt(operators.length);
+        return operators[randomNextInt];
+    }
+
+    private String calculateAnswer(int num1, int num2, String operator) {
+        int result = 0;
+        switch (operator) {
+            case "+":
+                result = num1 + num2;
+                break;
+            case "-":
+                result = num1 - num2;
+                break;
+            case "*":
+                result = num1 * num2;
+                break;
+            case "/":
+                result = num1 / num2;
+                break;
+        }
+        return String.valueOf(result);
+    }
+    private void addQuestion(String questionText, String correctAnswer) {
+        questions.add(new Question(questionText, correctAnswer));
     }
 
     private String loadJSONFromAsset(String fileName) {
