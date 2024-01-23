@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../instantapp/jni">
+      <sourceFolder url="file://$MODULE_DIR$/../../../instantapp/jni" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../cocos2d-x">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../cocos2d-x" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../jni">
+      <sourceFolder url="file://$MODULE_DIR$/../../../jni" type="native-header-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../jni/hellojavascript">
+      <sourceFolder url="file://$MODULE_DIR$/../../../jni/hellojavascript" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../Classes">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Classes" type="native-Source-root" />
+    </content>
+  </component>
+</module>
