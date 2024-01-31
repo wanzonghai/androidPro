@@ -1,0 +1,266 @@
+syntax = "proto3";
+
+package logon;
+
+//游戏房间
+message tagGameServer
+{
+	int32							wServerID = 1;							//房间索引 key
+	int32                           wAreaID = 2;                            //区域ID
+	int32							wFieldID = 3;							//区域索引 关联 _GameKind
+	int32							wKindID = 4;							//名称索引
+	int32							wNodeID = 5;							//节点索引
+	int32							wSortID = 6;							//排序索引	
+	int32							wServerPort = 7;						//房间端口
+	int32							wServerType = 8;						//房间类型
+	int32							dwOnLineCount = 9;						//在线人数
+	int32							dwFullCount = 10;						//满员人数
+	string							szServerAddr = 11;						//房间名称
+	string							szServerName = 12;						//房间名称
+	int64							lCellScore = 13;						//单位积分(底分)
+	int64							lMinEnterScore = 14;					//最低积分(下限)
+	int64							lMaxEnterScore = 15;					//最高积分(上限)
+	int64							lMaxSingleExp = 16;						//单局最大经验
+}
+
+//修改密码
+message CMD_C_ForgetLogonPass
+{
+	string                          szAccounts = 1;           //账号
+	string							szMobilePhone = 2;		  //电话号码
+	string							szPassword = 3;			  //用户密码
+	string							szMachineID = 4;		  //机器序列
+	int32							dwVerificationCode = 5;	  //验证码
+	int32							cbPassType = 6;			  //重置类型1：登录密码，2：银行密码
+	int32							dwChannelID = 7;		  //渠道ID
+}
+
+//修改头像
+message CMD_C_SystemFaceInfo
+{
+	int32							cbFaceID = 1;				//头像标识
+	int32							cbFrameID = 2;				//头像框ID
+	int32							dwUserID = 3;				//用户 I D
+	string							szPassword = 4;				//用户密码
+	string                          szLogonGUID = 5;            //登陆GUID
+	string							szMachineID = 6;			//机器序列
+}
+
+//获取验证码
+message CMD_C_GetVerificationCode
+{
+	string                          szAccouns = 1;            	//账号
+	string							szMobilePhone = 2;			//电话号码
+	string							szMachineID = 3;			//机器序列
+	int32							cbOptType = 4;				//操作类型 1：注册，2重置密码
+	int32							dwChannelID = 5;			//渠道ID
+}
+
+//查询信息
+message CMD_C_QueryIndividual
+{
+	int32							dwUserID = 1;				//用户 I D	
+}
+
+//修改资料
+message CMD_C_ModifyIndividual
+{
+	int32							dwUserID = 1;				  //用户 I D
+	int32							dwSpreaderID = 2;			  //推荐用户 I D
+	string							szPassword = 3;				  //用户密码
+	string                          szLogonGUID = 4;              //登陆GUID
+}
+
+//帐号登录
+message CMD_C_LogonAccounts
+{
+	int32							wModuleID = 1;							//模块标识
+	uint32	                        dwPlazaVersion = 2;						//广场版本
+	int32                           cbDeviceType = 3;                       //设备类型
+	string							szPassword = 4;							//登录密码
+	string							szMachineID = 5;						//机器标识
+	string							szMobilePhone = 6;						//电话号码
+	int32							dwChannelID = 7;						//渠道 I D	
+}
+
+//短信登录
+message CMD_C_LogonOtpCode
+{
+	int32							wModuleID = 1;							//模块标识
+	uint32	                        dwPlazaVersion = 2;						//广场版本
+	int32                           cbDeviceType = 3;                       //设备类型
+	int32							dwOtpCode = 4;							//短信验证码
+	string                          szOpenID = 5;	    					//玩家标识（游客或第三方）
+	string							szMachineID = 6;						//机器标识
+	string							szMobilePhone = 7;						//电话号码
+	int32							dwChannelID = 8;						//渠道 I D	
+	int32							dwAgentID = 9;							//代理ID
+}
+
+//token登录
+message CMD_C_LogonToken
+{
+	int32							wModuleID = 1;							//模块标识
+	uint32	                        dwPlazaVersion = 2;						//广场版本
+	int32                           cbDeviceType = 3;                       //设备类型
+	string							szToken = 4;							//Token
+	string                          szOpenID = 5;	    					//玩家标识（游客或第三方）
+	string							szMachineID = 6;						//机器标识
+	string							szMobilePhone = 7;						//电话号码
+	int32							dwChannelID = 8;						//渠道 I D	
+}
+
+//注册帐号
+message CMD_C_RegisterAccounts
+{
+	int32							wModuleID = 1;							//模块标识
+	uint32							dwPlazaVersion = 2;						//广场版本
+	int32                           cbDeviceType = 3;                       //设备类型
+	string							szLogonPass = 4;						//登录密码
+	string							szMachineID = 5;						//机器标识
+	string                          szOpenID = 6;	    					//玩家标识（游客或第三方）
+	string							szMobilePhone = 7;						//电话号码
+	int32							dwChannelID = 8;						//渠道 I D	
+	int32                           dwMBVerifyCode = 9;                     //手机验证码
+	int32							dwAgentID = 10;							//代理ID
+}
+
+//查询房间
+message CMD_C_QueryRoomReq
+{
+	int32							dwChannelID = 1;
+	int32							dwUserID = 2;
+	int32							dwMemberExp = 3;
+	int32							wKindID = 4;
+	int32							wFieldID = 5;
+}
+
+//登录结果
+message CMD_S_LogonResult
+{
+	int32							nRetCode = 1;
+	int32							nLogonType = 2; //登录类型：0-账号登录，1-注册登录，2-短信登录，3-token登录
+    int32 							cbFaceID = 3;
+	int32 							cbFrameID = 4;
+	int32 							dwUserID = 5;
+	int32 							dwGameID = 6;
+	string 							szNickName = 7;
+	string 							szAccounts = 8;
+	int64 							lUserScore = 9;
+	int32 							cbMemberOrder = 10;
+	int32 							dwMemberExp = 11;
+	int32 							dwSpreadId = 12;
+	int32 							dwRegChannelID = 13;
+	int32 							cbCheckAccounts = 14;
+	string 							szUserGUID = 15;
+	string 							szMobilePhone = 16;
+	int32 							cbAgent = 17;
+	int32 							cbFirstTopup = 18;
+	string 							szUserToken = 19;
+	string							szDescribeString = 20;					//描述消息
+	int32							wLockKindID = 21;
+	int32							wLockServerID = 22;
+	int32							cbFirstLogon = 33;						//是否第一次登录
+}
+
+//登录成功
+message CMD_S_LogonSuccess
+{
+    int32 							cbFaceID = 1;
+	int32 							cbFrameID = 2;
+	int32 							dwUserID = 3;
+	int32 							dwGameID = 4;
+	int32 							dwExperience = 5;
+	string 							szNickName = 6;
+	string 							szAccounts = 7;
+	int64 							lUserScore = 8;
+	int64 							lUserInsure = 9;
+	uint32 							dwIp = 10;
+	int32 							cbMemberOrder = 11;
+	int32 							dwMemberExp = 12;
+	int32 							dwAgentId = 13;
+	int32 							dwSpreadId = 14;
+	int32 							dwRegChannelID = 15;
+	int32 							cbSuperPartner = 16;
+	int32 							cbCheckAccounts = 17;
+	string 							szUserGUID = 18;
+	string 							szMobilePhone = 19;
+	int32 							cbAgent = 20;
+	int32 							cbFirstTopup = 21;
+	tagGameServer					Server = 22;
+}
+
+//登录失败
+message CMD_S_LogonFailure
+{
+	int32							nResultCode = 1;						//错误代码
+	string							szDescribeString = 2;					//描述消息
+}
+
+//升级提示
+message CMD_S_UpdateNotify
+{
+	int32							cbUpdateType = 1;						//更新类型，热更或整包
+	uint32							dwCurrentVersion = 2;					//当前版本
+	string							szDownLoad = 3;							//下载url
+}
+
+message CMD_S_MoblieVersion
+{
+	uint32							 dwChannelID = 1;						//渠道I D
+	int32							 wKindID = 2;							//游戏类型
+	int32                            cbMemberOrder = 3;                     //会员等级
+	uint32                           dwVersion = 4;                         //版本号
+}
+
+//个人资料
+message CMD_S_UserIndividual
+{
+	int32							dwUserID = 1;							//用户 I D
+	string							szNickName = 2;
+	string							szUnderWrite = 3;
+	string							szMobilePhone = 4;
+	int32							byGender = 5;
+}
+
+//用户头像
+message CMD_S_UserFaceInfo
+{
+	int32							cbFaceID = 1;							//头像标识
+	int32							cbFrameID = 2;							//头像框ID	
+}
+
+//操作失败
+message CMD_S_OperateFailure
+{
+	int32							 nResultCode = 1;						//错误代码
+	int32                            wSourceMainId = 2;						// 源命令主ID
+	int32                            wSourceSubId = 3;						// 源命令子ID
+	string							 szDescribeString = 4;					//描述消息
+}
+
+//操作成功
+message CMD_S_OperateSuccess
+{
+	int32							 nResultCode = 1;						//操作代码
+	int32                            wSourceMainId = 2;						//源命令主ID
+	int32                            wSourceSubId = 3;						//源命令子ID
+	string							 szDescribeString = 4;					//成功消息
+}
+
+//查询房间返回
+message CMD_S_QueryRoomRet
+{
+	int32							dwChannelID = 1;
+	int32							dwUserID = 2;
+	int32							wKindID = 4;
+	tagGameServer                   Server = 5;
+}
+
+//发送短信返回
+message CMD_S_SendSmsRet
+{
+	int32							 nRetCode = 1;							//操作代码
+	string							 szMessageId = 2;						//消息ID
+	string							 szTip = 3;								//消息提示
+}

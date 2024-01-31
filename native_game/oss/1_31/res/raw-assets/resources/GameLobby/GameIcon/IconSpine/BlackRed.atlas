@@ -1,0 +1,97 @@
+
+BlackRed.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BlackRde
+  rotate: true
+  xy: 328, 680
+  size: 240, 37
+  orig: 240, 37
+  offset: 0, 0
+  index: -1
+BlackRde2
+  rotate: false
+  xy: 2, 228
+  size: 240, 40
+  orig: 240, 40
+  offset: 0, 0
+  index: -1
+blue
+  rotate: true
+  xy: 271, 379
+  size: 201, 194
+  orig: 201, 194
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 313
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 276, 170
+  size: 123, 82
+  orig: 123, 82
+  offset: 0, 0
+  index: -1
+g2
+  rotate: true
+  xy: 271, 254
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: true
+  xy: 284, 669
+  size: 251, 42
+  orig: 251, 42
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 270
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 582
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+red
+  rotate: true
+  xy: 78, 11
+  size: 215, 196
+  orig: 215, 196
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 649
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 367, 696
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 2, 2
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

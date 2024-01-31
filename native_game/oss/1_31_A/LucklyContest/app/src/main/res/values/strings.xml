@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">phoenix casual poker</string>
+
+    <string name="appsflyer_dev_key">7esnateBVpDkEoYcYh7SW8</string><!--AF DEV Key-->
+    <string name="facebook_app_id">370282062288878</string><!--FB应用编号 appid-->
+    <string name="fb_login_protocol_scheme">fb370282062288878</string><!--"fb" + FB应用编号拼接-->
+    <string name="facebook_client_token">388c0eeb5cbb83f4fad5b9835d24bbc2</string><!--FB电脑号 客户端口令-->
+</resources>

@@ -1,0 +1,272 @@
+
+TossACoin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J1
+  rotate: false
+  xy: 682, 372
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+J2
+  rotate: true
+  xy: 2, 2
+  size: 86, 63
+  orig: 86, 63
+  offset: 0, 0
+  index: -1
+Toss A Coin
+  rotate: true
+  xy: 43, 90
+  size: 260, 36
+  orig: 260, 36
+  offset: 0, 0
+  index: -1
+Toss A Coin2
+  rotate: true
+  xy: 2, 90
+  size: 260, 39
+  orig: 260, 39
+  offset: 0, 0
+  index: -1
+dag
+  rotate: true
+  xy: 947, 879
+  size: 106, 43
+  orig: 106, 43
+  offset: 0, 0
+  index: -1
+xiaog
+  rotate: true
+  xy: 947, 879
+  size: 106, 43
+  orig: 106, 43
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 445
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: true
+  xy: 81, 99
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: true
+  xy: 81, 99
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 2, 352
+  size: 253, 91
+  orig: 253, 91
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 536, 920
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+pt
+  rotate: false
+  xy: 284, 842
+  size: 250, 143
+  orig: 250, 143
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 714
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+yinbi2/0_00000
+  rotate: false
+  xy: 124, 78
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00001
+  rotate: false
+  xy: 810, 850
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00002
+  rotate: false
+  xy: 284, 629
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00003
+  rotate: false
+  xy: 271, 492
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00004
+  rotate: false
+  xy: 421, 629
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00005
+  rotate: false
+  xy: 408, 492
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00006
+  rotate: false
+  xy: 558, 707
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00007
+  rotate: false
+  xy: 558, 570
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00008
+  rotate: false
+  xy: 695, 707
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00009
+  rotate: false
+  xy: 695, 570
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00010
+  rotate: false
+  xy: 124, 215
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00000
+  rotate: false
+  xy: 832, 713
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00011
+  rotate: false
+  xy: 832, 713
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00001
+  rotate: false
+  xy: 832, 576
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00002
+  rotate: false
+  xy: 545, 433
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00003
+  rotate: false
+  xy: 682, 433
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00004
+  rotate: false
+  xy: 271, 355
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00005
+  rotate: false
+  xy: 408, 355
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00006
+  rotate: false
+  xy: 261, 218
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00007
+  rotate: false
+  xy: 261, 81
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00008
+  rotate: false
+  xy: 398, 218
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00009
+  rotate: false
+  xy: 398, 81
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00010
+  rotate: false
+  xy: 545, 296
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+you
+  rotate: true
+  xy: 284, 766
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 536, 844
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

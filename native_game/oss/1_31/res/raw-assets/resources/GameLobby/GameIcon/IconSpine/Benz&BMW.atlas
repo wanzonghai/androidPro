@@ -1,0 +1,286 @@
+
+Benz&BMW.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Benz&BMW
+  rotate: false
+  xy: 614, 967
+  size: 228, 36
+  orig: 228, 36
+  offset: 0, 0
+  index: -1
+Benz&BMW2
+  rotate: true
+  xy: 284, 394
+  size: 224, 35
+  orig: 224, 35
+  offset: 0, 0
+  index: -1
+LunZi
+  rotate: true
+  xy: 362, 118
+  size: 107, 100
+  orig: 107, 100
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 2, 620
+  size: 317, 188
+  orig: 317, 188
+  offset: 0, 0
+  index: -1
+car2
+  rotate: false
+  xy: 2, 810
+  size: 336, 193
+  orig: 336, 193
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 78
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 340, 895
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 340, 895
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 340, 938
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+luntai/0_00000
+  rotate: false
+  xy: 362, 16
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+luntai/0_00001
+  rotate: false
+  xy: 754, 763
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+luntai/0_00002
+  rotate: false
+  xy: 754, 661
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+luntai/0_00003
+  rotate: false
+  xy: 754, 559
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+luntai/0_00004
+  rotate: false
+  xy: 856, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+luntai/0_00005
+  rotate: false
+  xy: 856, 699
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+qiliu/0_00000
+  rotate: false
+  xy: 627, 774
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00002
+  rotate: false
+  xy: 627, 683
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00004
+  rotate: false
+  xy: 627, 592
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00006
+  rotate: false
+  xy: 627, 501
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00008
+  rotate: false
+  xy: 616, 410
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00010
+  rotate: false
+  xy: 616, 319
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00012
+  rotate: true
+  xy: 525, 261
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00014
+  rotate: false
+  xy: 616, 228
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00016
+  rotate: true
+  xy: 271, 220
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00018
+  rotate: true
+  xy: 271, 93
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00020
+  rotate: true
+  xy: 362, 227
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+qiliu/0_00022
+  rotate: true
+  xy: 525, 388
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 347
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00000
+  rotate: false
+  xy: 844, 903
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00002
+  rotate: false
+  xy: 614, 865
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00004
+  rotate: true
+  xy: 321, 658
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00006
+  rotate: true
+  xy: 321, 506
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00008
+  rotate: true
+  xy: 423, 667
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00010
+  rotate: true
+  xy: 423, 515
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00012
+  rotate: true
+  xy: 321, 354
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00014
+  rotate: true
+  xy: 423, 363
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00016
+  rotate: true
+  xy: 525, 667
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+yanhuo/zi12_00018
+  rotate: true
+  xy: 525, 515
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+you
+  rotate: true
+  xy: 2, 2
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 340, 819
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+MythicalAnimals.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mythical Animals
+  rotate: false
+  xy: 2, 954
+  size: 310, 45
+  orig: 310, 45
+  offset: 0, 0
+  index: -1
+Mythical Animals2
+  rotate: false
+  xy: 2, 908
+  size: 306, 44
+  orig: 306, 44
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 45
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+gui
+  rotate: false
+  xy: 2, 654
+  size: 283, 252
+  orig: 283, 252
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 2
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 2
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 314
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 381
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: false
+  xy: 314, 931
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: false
+  xy: 363, 842
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 287, 682
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 271, 88
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

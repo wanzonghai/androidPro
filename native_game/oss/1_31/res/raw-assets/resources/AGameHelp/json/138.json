@@ -1,0 +1,14 @@
+{
+  "title":
+  [
+    "Game Rules：",
+	  "Card Points：",
+    "Rule of Deal Cards："
+  ],
+  "content":
+  [
+    "1.Four cards will be dealt at the beginning of the game. The first and third cards will be dealt to players, and the second and fourth cards will be dealt to banker, According to the rules of supplement, no more than three cards will be dealt.Whoever has the closest number of points to 9 wins。\n2.If you bet on the banker ,and the banker win, odds is 1:1。\n3.If you bet on the player ,and the player win, odds is 1:1。\n4.Bet on a draw,odds is 1:8。\n5.If you bet on the banker double or player double，odds is 1:11（banker double or player double are limited to the first two cards, not counting the third card）。\n6.If the card is a draw, only the banker and player bets are returned to the players。",
+    "A=1point，2=2point，3=3point，4=4point，5=5point，6=6point，7=7point，8=8point，9=9point，10、J、Q、K=0point。\nWhen the sum of the card points is greater than or equal to 10, only the units digit number is taken as the final total points。",
+    "1.When either player gets an 8 or 9, the card is called a 'natural winner' or a 'king' and no more cards are dealt。\n2.Both get 6 or 7 that is no longer dealt, player points total 6 do not dealt, the banker points total 7 do not dealt。\n3.If for other situations, the player first fill card, if the first two cards point of the player is 0 to 5，need fill card,6 do not fill card,And the banker is the basis of the cards point and after the player of fill cards points to decide whether to dealt。\n"
+  ]
+}

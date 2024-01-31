@@ -1,0 +1,111 @@
+
+TreasureHunt.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TreasureHunt
+  rotate: false
+  xy: 506, 463
+  size: 299, 38
+  orig: 299, 38
+  offset: 0, 0
+  index: -1
+TreasureHunt2
+  rotate: false
+  xy: 2, 347
+  size: 299, 37
+  orig: 299, 37
+  offset: 0, 0
+  index: -1
+bf
+  rotate: true
+  xy: 359, 219
+  size: 68, 105
+  orig: 68, 105
+  offset: 0, 0
+  index: -1
+bs
+  rotate: false
+  xy: 359, 2
+  size: 208, 190
+  orig: 208, 190
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 506, 194
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 386
+  size: 501, 56
+  orig: 501, 56
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 444
+  size: 502, 57
+  orig: 502, 57
+  offset: 0, 0
+  index: -1
+jb
+  rotate: false
+  xy: 883, 232
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: true
+  xy: 775, 220
+  size: 241, 106
+  orig: 241, 106
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 7
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 74
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+yc
+  rotate: false
+  xy: 359, 289
+  size: 145, 95
+  orig: 145, 95
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 883, 276
+  size: 74, 225
+  orig: 74, 225
+  offset: 0, 0
+  index: -1
+zc
+  rotate: false
+  xy: 569, 98
+  size: 137, 94
+  orig: 137, 94
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 284, 120
+  size: 73, 225
+  orig: 73, 225
+  offset: 0, 0
+  index: -1

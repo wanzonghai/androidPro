@@ -1,0 +1,27 @@
+
+H_Llight.png
+size: 309,309
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ZLlight_1
+  rotate: false
+  xy: 157, 157
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ZLlight_2
+  rotate: false
+  xy: 157, 17
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+ZLlight_3
+  rotate: false
+  xy: 2, 111
+  size: 153, 196
+  orig: 153, 196
+  offset: 0, 0
+  index: -1

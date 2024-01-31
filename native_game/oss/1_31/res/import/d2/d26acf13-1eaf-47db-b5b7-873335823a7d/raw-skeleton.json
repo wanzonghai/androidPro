@@ -1,0 +1,85 @@
+{
+"skeleton": { "hash": "skQV+lmuvF3QiKM/tR3nGgw7YXc", "spine": "3.7.94", "width": 149.92, "height": 165.83, "images": "./images/", "audio": "A:/棋牌_未完成/古月/3/images" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body_1", "parent": "root", "x": -37.81, "y": 60.59 },
+	{ "name": "body_0", "parent": "root", "rotation": -89.57, "x": 14.27, "y": 18.09 },
+	{ "name": "body_2", "parent": "root", "x": -15.03, "y": 37.64 }
+],
+"slots": [
+	{ "name": "body_1", "bone": "body_1", "attachment": "body_1" },
+	{ "name": "body_0", "bone": "body_0", "attachment": "body_0" },
+	{ "name": "body_2", "bone": "body_2", "color": "ffdf0aff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"body_0": {
+			"body_0": { "x": 3.33, "y": -19.45, "rotation": -3.29, "width": 130, "height": 115 }
+		},
+		"body_1": {
+			"body_1": { "x": 0.9, "y": -4.94, "width": 115, "height": 114 }
+		},
+		"body_2": {
+			"body_2": { "width": 185, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"body_2": {
+				"color": [
+					{ "time": 0.5667, "color": "ffdf0aff" },
+					{ "time": 0.7667, "color": "ffdf0900" }
+				],
+				"attachment": [
+					{ "time": 0.4333, "name": "body_2" }
+				]
+			}
+		},
+		"bones": {
+			"body_1": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.386, 0.49, 0.75, 1 ]
+					},
+					{ "time": 0.3667, "x": -23.41, "y": 0 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.4667, "x": -8.98, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"body_0": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.386, 0.49, 0.75, 1 ]
+					},
+					{ "time": 0.3667, "x": 27.59, "y": 0 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.4667, "x": 12.12, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 1, "y": 1 }
+				]
+			},
+			"body_2": {
+				"translate": [
+					{ "time": 0.4333, "x": 5.27, "y": 9.1 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 1.718, "y": 1.718 },
+					{ "time": 0.5667, "x": 2.565, "y": 2.565 },
+					{ "time": 0.7667, "x": 2.57, "y": 2.57 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,125 @@
+
+CapatainsTreasure.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CapatainsTreasure
+  rotate: false
+  xy: 582, 388
+  size: 199, 66
+  orig: 199, 66
+  offset: 0, 0
+  index: -1
+CapatainsTreasure2
+  rotate: false
+  xy: 577, 321
+  size: 195, 65
+  orig: 195, 65
+  offset: 0, 0
+  index: -1
+chuan
+  rotate: false
+  xy: 2, 275
+  size: 304, 222
+  orig: 304, 222
+  offset: 0, 0
+  index: -1
+deng
+  rotate: false
+  xy: 783, 387
+  size: 44, 67
+  orig: 44, 67
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 308, 163
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+fanbu
+  rotate: false
+  xy: 577, 100
+  size: 178, 149
+  orig: 178, 149
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 931, 417
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 582, 456
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 582, 456
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hou
+  rotate: true
+  xy: 510, 79
+  size: 82, 32
+  orig: 82, 32
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 308, 432
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+taizi
+  rotate: false
+  xy: 510, 11
+  size: 79, 66
+  orig: 79, 66
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 2
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: false
+  xy: 577, 251
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: false
+  xy: 835, 410
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: true
+  xy: 284, 87
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 284, 11
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

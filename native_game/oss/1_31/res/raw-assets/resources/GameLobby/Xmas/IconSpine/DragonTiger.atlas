@@ -1,0 +1,118 @@
+
+DragonTiger.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dragon Tiger
+  rotate: false
+  xy: 2, 464
+  size: 293, 46
+  orig: 293, 46
+  offset: 0, 0
+  index: -1
+Dragon Tiger2
+  rotate: false
+  xy: 2, 413
+  size: 293, 49
+  orig: 293, 49
+  offset: 0, 0
+  index: -1
+Long
+  rotate: false
+  xy: 2, 148
+  size: 292, 263
+  orig: 292, 263
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 579, 243
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 717, 159
+  size: 123, 82
+  orig: 123, 82
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 592, 91
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 38
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 38
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+jb1
+  rotate: false
+  xy: 957, 473
+  size: 45, 37
+  orig: 45, 37
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: true
+  xy: 848, 254
+  size: 256, 107
+  orig: 256, 107
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 81
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 297, 239
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: true
+  xy: 522, 42
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: false
+  xy: 592, 2
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: true
+  xy: 296, 163
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 296, 87
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

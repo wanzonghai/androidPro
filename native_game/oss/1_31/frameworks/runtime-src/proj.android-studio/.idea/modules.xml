@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proj.android-studio.iml" filepath="$PROJECT_DIR$/.idea/modules/proj.android-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/proj.android-studio.Phoenix.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.iml" filepath="$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/804477935/proj.android-studio.libcocos2dx.unitTest.iml" />
+    </modules>
+  </component>
+</project>

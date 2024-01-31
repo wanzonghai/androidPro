@@ -1,0 +1,16 @@
+<!-- 开始界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true">
+
+    <!-- 开始界面的布局元素 -->
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnstart"/>
+</RelativeLayout>

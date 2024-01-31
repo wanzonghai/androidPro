@@ -1,0 +1,615 @@
+
+pyb_Jackpot.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3套框 蓝色/image 1
+  rotate: false
+  xy: 302, 371
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 10
+  rotate: false
+  xy: 1170, 724
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 2
+  rotate: false
+  xy: 1459, 1796
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 3
+  rotate: false
+  xy: 1157, 1717
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 4
+  rotate: false
+  xy: 1514, 1796
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 5
+  rotate: true
+  xy: 1170, 777
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 6
+  rotate: false
+  xy: 936, 660
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 7
+  rotate: false
+  xy: 991, 660
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 8
+  rotate: false
+  xy: 223, 30
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+3套框 蓝色/image 9
+  rotate: false
+  xy: 278, 30
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+Drou
+  rotate: false
+  xy: 2, 1585
+  size: 447, 461
+  orig: 447, 461
+  offset: 0, 0
+  index: -1
+Jackpot
+  rotate: false
+  xy: 874, 1675
+  size: 281, 93
+  orig: 281, 93
+  offset: 0, 0
+  index: -1
+dh
+  rotate: false
+  xy: 1578, 1856
+  size: 222, 78
+  orig: 222, 78
+  offset: 0, 0
+  index: -1
+dq
+  rotate: true
+  xy: 302, 424
+  size: 231, 60
+  orig: 231, 60
+  offset: 0, 0
+  index: -1
+dq 1
+  rotate: false
+  xy: 1226, 1790
+  size: 231, 57
+  orig: 231, 57
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 451, 1620
+  size: 421, 426
+  orig: 421, 426
+  offset: 0, 0
+  index: -1
+gm
+  rotate: true
+  xy: 2, 657
+  size: 462, 364
+  orig: 462, 364
+  offset: 0, 0
+  index: -1
+gqx
+  rotate: false
+  xy: 874, 1770
+  size: 350, 276
+  orig: 350, 276
+  offset: 0, 0
+  index: -1
+gs
+  rotate: true
+  xy: 2, 1121
+  size: 462, 403
+  orig: 462, 403
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 1226, 1849
+  size: 350, 197
+  orig: 350, 197
+  offset: 0, 0
+  index: -1
+guangyun
+  rotate: false
+  xy: 1078, 740
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+jinbi 1
+  rotate: false
+  xy: 2, 2
+  size: 219, 64
+  orig: 219, 64
+  offset: 0, 0
+  index: -1
+jinbi 2
+  rotate: false
+  xy: 2, 68
+  size: 215, 102
+  orig: 215, 102
+  offset: 0, 0
+  index: -1
+jz
+  rotate: false
+  xy: 2, 172
+  size: 197, 174
+  orig: 197, 174
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 348
+  size: 298, 307
+  orig: 298, 307
+  offset: 0, 0
+  index: -1
+wb
+  rotate: false
+  xy: 451, 1586
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+xzmb
+  rotate: false
+  xy: 219, 83
+  size: 117, 117
+  orig: 117, 117
+  offset: 0, 0
+  index: -1
+yezi
+  rotate: false
+  xy: 1578, 1936
+  size: 417, 110
+  orig: 417, 110
+  offset: 0, 0
+  index: -1
+yp
+  rotate: false
+  xy: 1997, 2012
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+文字/0_00000
+  rotate: true
+  xy: 766, 1040
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00001
+  rotate: false
+  xy: 936, 905
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00002
+  rotate: false
+  xy: 1078, 976
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00003
+  rotate: false
+  xy: 936, 857
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00004
+  rotate: false
+  xy: 1078, 928
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00005
+  rotate: false
+  xy: 936, 809
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00006
+  rotate: false
+  xy: 1078, 880
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00007
+  rotate: false
+  xy: 936, 761
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00008
+  rotate: false
+  xy: 1078, 832
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+文字/0_00009
+  rotate: false
+  xy: 936, 713
+  size: 140, 46
+  orig: 140, 46
+  offset: 0, 0
+  index: -1
+粒子/0_00049
+  rotate: true
+  xy: 1948, 1794
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00050
+  rotate: false
+  xy: 833, 1170
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00051
+  rotate: false
+  xy: 975, 1166
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00052
+  rotate: false
+  xy: 1117, 1166
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00053
+  rotate: true
+  xy: 695, 1040
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00054
+  rotate: true
+  xy: 652, 898
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00055
+  rotate: true
+  xy: 652, 756
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00056
+  rotate: false
+  xy: 510, 677
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00057
+  rotate: true
+  xy: 723, 898
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00058
+  rotate: true
+  xy: 723, 756
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00059
+  rotate: false
+  xy: 652, 685
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00060
+  rotate: false
+  xy: 814, 1099
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00061
+  rotate: false
+  xy: 814, 1028
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00062
+  rotate: false
+  xy: 956, 1095
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00063
+  rotate: false
+  xy: 1098, 1095
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00064
+  rotate: false
+  xy: 956, 1024
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00065
+  rotate: false
+  xy: 1098, 1024
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00066
+  rotate: false
+  xy: 794, 957
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00067
+  rotate: false
+  xy: 794, 886
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00068
+  rotate: false
+  xy: 794, 815
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00069
+  rotate: false
+  xy: 794, 744
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00070
+  rotate: false
+  xy: 794, 673
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+粒子/0_00071
+  rotate: false
+  xy: 936, 953
+  size: 140, 69
+  orig: 140, 69
+  offset: 0, 0
+  index: -1
+边缘光/0_00000
+  rotate: false
+  xy: 201, 202
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00001
+  rotate: true
+  xy: 1802, 1794
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00002
+  rotate: true
+  xy: 874, 1533
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00003
+  rotate: false
+  xy: 1020, 1529
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00004
+  rotate: false
+  xy: 407, 1439
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00005
+  rotate: false
+  xy: 407, 1293
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00006
+  rotate: false
+  xy: 407, 1147
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00007
+  rotate: false
+  xy: 549, 1474
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00008
+  rotate: false
+  xy: 691, 1474
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00009
+  rotate: false
+  xy: 549, 1328
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00010
+  rotate: false
+  xy: 549, 1182
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00011
+  rotate: false
+  xy: 691, 1328
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00012
+  rotate: false
+  xy: 691, 1182
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00013
+  rotate: false
+  xy: 833, 1387
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00014
+  rotate: false
+  xy: 833, 1241
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00015
+  rotate: false
+  xy: 975, 1383
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00016
+  rotate: false
+  xy: 975, 1237
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00017
+  rotate: false
+  xy: 1117, 1383
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00018
+  rotate: false
+  xy: 1117, 1237
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00019
+  rotate: false
+  xy: 368, 975
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00020
+  rotate: false
+  xy: 368, 829
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00021
+  rotate: false
+  xy: 368, 683
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00022
+  rotate: true
+  xy: 549, 1040
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00023
+  rotate: false
+  xy: 510, 894
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+边缘光/0_00024
+  rotate: false
+  xy: 510, 748
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,489 @@
+
+Minesweeper.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 10
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 580, 16
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 973, 964
+  size: 58, 49
+  orig: 58, 49
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 517, 18
+  size: 42, 61
+  orig: 42, 61
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 449, 2
+  size: 66, 58
+  orig: 66, 58
+  offset: 0, 0
+  index: -1
+Baopo/0_00000
+  rotate: false
+  xy: 877, 896
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00001
+  rotate: false
+  xy: 595, 904
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00002
+  rotate: false
+  xy: 595, 822
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00003
+  rotate: false
+  xy: 595, 740
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00004
+  rotate: false
+  xy: 580, 658
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00005
+  rotate: false
+  xy: 677, 793
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00006
+  rotate: false
+  xy: 759, 793
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00007
+  rotate: false
+  xy: 677, 711
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00008
+  rotate: false
+  xy: 759, 711
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00009
+  rotate: false
+  xy: 662, 629
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00010
+  rotate: false
+  xy: 744, 629
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00011
+  rotate: false
+  xy: 580, 576
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00012
+  rotate: false
+  xy: 574, 494
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00013
+  rotate: false
+  xy: 662, 547
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00014
+  rotate: false
+  xy: 744, 547
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00015
+  rotate: false
+  xy: 656, 465
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00016
+  rotate: false
+  xy: 738, 465
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00017
+  rotate: false
+  xy: 574, 412
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00018
+  rotate: false
+  xy: 656, 383
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Baopo/0_00019
+  rotate: false
+  xy: 738, 383
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Minesweeper
+  rotate: false
+  xy: 460, 986
+  size: 239, 36
+  orig: 239, 36
+  offset: 0, 0
+  index: -1
+Minesweeper2
+  rotate: false
+  xy: 2, 889
+  size: 239, 38
+  orig: 239, 38
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_0
+  rotate: false
+  xy: 959, 911
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_1
+  rotate: false
+  xy: 841, 822
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_10
+  rotate: false
+  xy: 894, 684
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_11
+  rotate: false
+  xy: 841, 663
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_12
+  rotate: false
+  xy: 826, 610
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_13
+  rotate: false
+  xy: 826, 557
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_14
+  rotate: false
+  xy: 894, 631
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_15
+  rotate: false
+  xy: 879, 578
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_2
+  rotate: false
+  xy: 841, 769
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_3
+  rotate: false
+  xy: 841, 716
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_4
+  rotate: false
+  xy: 89, 54
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_5
+  rotate: false
+  xy: 142, 59
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_6
+  rotate: false
+  xy: 195, 59
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_7
+  rotate: false
+  xy: 894, 843
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_8
+  rotate: false
+  xy: 894, 790
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Yinxian/bullets_impact_sheet_9
+  rotate: false
+  xy: 894, 737
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+baozha/0_00000
+  rotate: true
+  xy: 124, 112
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00001
+  rotate: false
+  xy: 243, 780
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00002
+  rotate: false
+  xy: 228, 631
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00003
+  rotate: false
+  xy: 701, 875
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00004
+  rotate: false
+  xy: 419, 780
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00005
+  rotate: false
+  xy: 404, 631
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00006
+  rotate: false
+  xy: 222, 482
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00007
+  rotate: false
+  xy: 398, 482
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00008
+  rotate: false
+  xy: 218, 333
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00009
+  rotate: false
+  xy: 394, 333
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00010
+  rotate: false
+  xy: 273, 184
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00011
+  rotate: false
+  xy: 449, 184
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+baozha/0_00012
+  rotate: false
+  xy: 273, 35
+  size: 174, 147
+  orig: 174, 147
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 400
+  size: 214, 214
+  orig: 214, 214
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 929
+  size: 455, 45
+  orig: 455, 45
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 976
+  size: 456, 46
+  orig: 456, 46
+  offset: 0, 0
+  index: -1
+hh
+  rotate: false
+  xy: 2, 45
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 2, 288
+  size: 208, 110
+  orig: 208, 110
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 616
+  size: 218, 52
+  orig: 218, 52
+  offset: 0, 0
+  index: -1
+mm
+  rotate: false
+  xy: 570, 333
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+sz
+  rotate: false
+  xy: 570, 360
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 670
+  size: 224, 217
+  orig: 224, 217
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 2, 107
+  size: 59, 179
+  orig: 59, 179
+  offset: 0, 0
+  index: -1
+zb
+  rotate: false
+  xy: 877, 978
+  size: 94, 44
+  orig: 94, 44
+  offset: 0, 0
+  index: -1
+zd
+  rotate: true
+  xy: 449, 62
+  size: 120, 158
+  orig: 120, 158
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 63, 107
+  size: 59, 179
+  orig: 59, 179
+  offset: 0, 0
+  index: -1

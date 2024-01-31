@@ -1,0 +1,111 @@
+
+AztecMagic.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AztecMagic
+  rotate: false
+  xy: 2, 91
+  size: 263, 45
+  orig: 263, 45
+  offset: 0, 0
+  index: -1
+AztecMagic2
+  rotate: false
+  xy: 2, 45
+  size: 259, 44
+  orig: 259, 44
+  offset: 0, 0
+  index: -1
+cao
+  rotate: true
+  xy: 816, 219
+  size: 257, 110
+  orig: 257, 110
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 284, 209
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 2
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 2
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 138
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+mao
+  rotate: false
+  xy: 553, 240
+  size: 261, 236
+  orig: 261, 236
+  offset: 0, 0
+  index: -1
+x1
+  rotate: false
+  xy: 481, 97
+  size: 61, 110
+  orig: 61, 110
+  offset: 0, 0
+  index: -1
+x2
+  rotate: true
+  xy: 544, 104
+  size: 58, 93
+  orig: 58, 93
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 205
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: false
+  xy: 284, 139
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: false
+  xy: 928, 163
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 928, 252
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 553, 164
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

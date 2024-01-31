@@ -1,0 +1,84 @@
+<!-- 主界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true">
+    <!-- 返回按钮 -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btnretun"/>
+    <!-- 玩家积分 -->
+    <TextView
+        android:id="@+id/textViewPlayerScore"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Player Mark: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFD400"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/icon_bg"
+        android:scaleType="centerInside"/>
+
+    <!-- 当前轮数 -->
+    <TextView
+        android:id="@+id/textViewRound"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Round: 1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFC003"
+        android:layout_below="@id/textViewPlayerScore"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/icon_bg"/>
+
+    <!-- 玩家的牌 -->
+    <ImageView
+        android:id="@+id/imageViewPlayerCard1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/card_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- AI的牌 -->
+    <ImageView
+        android:id="@+id/imageViewAICard1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/card_back"
+        android:layout_below="@id/imageViewPlayerCard1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+
+    <!-- 比牌按钮 -->
+    <Button
+        android:id="@+id/buttonCompare"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sdgsg"/>
+
+    <!-- 添加更多的AI牌，根据需要 -->
+
+    <!-- 添加比较按钮等其他元素，根据需要 -->
+
+</RelativeLayout>

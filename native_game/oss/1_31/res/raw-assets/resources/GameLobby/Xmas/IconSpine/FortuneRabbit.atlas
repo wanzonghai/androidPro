@@ -1,0 +1,265 @@
+
+FortuneRabbit.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FortuneRabbit
+  rotate: true
+  xy: 2, 376
+  size: 216, 32
+  orig: 216, 32
+  offset: 0, 0
+  index: -1
+FortuneRabbit2
+  rotate: true
+  xy: 2, 158
+  size: 216, 32
+  orig: 216, 32
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 36, 42
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: true
+  xy: 212, 53
+  size: 163, 27
+  orig: 163, 27
+  offset: 0, 0
+  index: -1
+huaban
+  rotate: false
+  xy: 2, 848
+  size: 323, 174
+  orig: 323, 174
+  offset: 0, 0
+  index: -1
+jb
+  rotate: false
+  xy: 289, 2
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+jb1
+  rotate: false
+  xy: 2, 73
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 139, 473
+  size: 166, 70
+  orig: 166, 70
+  offset: 0, 0
+  index: -1
+jbh
+  rotate: true
+  xy: 422, 98
+  size: 79, 75
+  orig: 79, 75
+  offset: 0, 0
+  index: -1
+jinguo
+  rotate: true
+  xy: 335, 675
+  size: 182, 121
+  orig: 182, 121
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: true
+  xy: 458, 680
+  size: 177, 42
+  orig: 177, 42
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 241, 45
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 319, 488
+  size: 122, 72
+  orig: 122, 72
+  offset: 0, 0
+  index: -1
+st
+  rotate: true
+  xy: 291, 94
+  size: 145, 129
+  orig: 145, 129
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 327, 859
+  size: 183, 163
+  orig: 183, 163
+  offset: 0, 0
+  index: -1
+x
+  rotate: false
+  xy: 454, 283
+  size: 54, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+xq
+  rotate: true
+  xy: 36, 218
+  size: 182, 176
+  orig: 182, 176
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: false
+  xy: 291, 48
+  size: 127, 44
+  orig: 127, 44
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: true
+  xy: 443, 499
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+xx
+  rotate: true
+  xy: 422, 179
+  size: 81, 70
+  orig: 81, 70
+  offset: 0, 0
+  index: -1
+xxx
+  rotate: true
+  xy: 444, 380
+  size: 57, 51
+  orig: 57, 51
+  offset: 0, 0
+  index: -1
+yb1
+  rotate: true
+  xy: 444, 439
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+yb2
+  rotate: false
+  xy: 334, 333
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+ydai
+  rotate: false
+  xy: 454, 262
+  size: 54, 19
+  orig: 54, 19
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 241, 93
+  size: 48, 146
+  orig: 48, 146
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: false
+  xy: 36, 402
+  size: 101, 190
+  orig: 101, 190
+  offset: 0, 0
+  index: -1
+youer
+  rotate: false
+  xy: 214, 241
+  size: 156, 64
+  orig: 156, 64
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 214, 307
+  size: 118, 164
+  orig: 118, 164
+  offset: 0, 0
+  index: -1
+yousgouzhi
+  rotate: false
+  xy: 454, 332
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 334, 370
+  size: 108, 116
+  orig: 108, 116
+  offset: 0, 0
+  index: -1
+youyi
+  rotate: true
+  xy: 147, 545
+  size: 72, 170
+  orig: 72, 170
+  offset: 0, 0
+  index: -1
+zdai
+  rotate: true
+  xy: 2, 102
+  size: 54, 31
+  orig: 54, 31
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: false
+  xy: 139, 408
+  size: 60, 63
+  orig: 60, 63
+  offset: 0, 0
+  index: -1
+zuoer
+  rotate: true
+  xy: 372, 262
+  size: 106, 80
+  orig: 106, 80
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: true
+  xy: 147, 619
+  size: 227, 186
+  orig: 227, 186
+  offset: 0, 0
+  index: -1
+zuolingdai1
+  rotate: false
+  xy: 2, 594
+  size: 143, 252
+  orig: 143, 252
+  offset: 0, 0
+  index: -1
+zuoyi
+  rotate: true
+  xy: 335, 562
+  size: 111, 139
+  orig: 111, 139
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+BirdAnimals.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bird&Animals
+  rotate: false
+  xy: 2, 734
+  size: 307, 37
+  orig: 307, 37
+  offset: 0, 0
+  index: -1
+Bird&Animals2
+  rotate: false
+  xy: 2, 696
+  size: 303, 36
+  orig: 303, 36
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 87
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 44
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 44
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 356
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+shizi
+  rotate: false
+  xy: 2, 773
+  size: 418, 216
+  orig: 418, 216
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 423
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+yc
+  rotate: false
+  xy: 284, 376
+  size: 142, 92
+  orig: 142, 92
+  offset: 0, 0
+  index: -1
+ying
+  rotate: false
+  xy: 271, 148
+  size: 181, 206
+  orig: 181, 206
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 422, 765
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zc
+  rotate: false
+  xy: 271, 2
+  size: 201, 144
+  orig: 201, 144
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 284, 470
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

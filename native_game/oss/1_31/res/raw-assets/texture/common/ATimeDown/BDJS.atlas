@@ -1,0 +1,20 @@
+
+BDJS.png
+size: 337,337
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BDJS
+  rotate: false
+  xy: 2, 158
+  size: 176, 177
+  orig: 176, 177
+  offset: 0, 0
+  index: -1
+BDJSb
+  rotate: false
+  xy: 2, 2
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1

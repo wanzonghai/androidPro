@@ -1,0 +1,20 @@
+
+JF_saoguang.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_signed
+  rotate: true
+  xy: 2, 2
+  size: 221, 323
+  orig: 221, 323
+  offset: 0, 0
+  index: -1
+tick_signed
+  rotate: false
+  xy: 327, 79
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1

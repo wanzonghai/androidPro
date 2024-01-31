@@ -1,0 +1,104 @@
+
+CrazyMonkey.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Crazy Monkey
+  rotate: false
+  xy: 2, 454
+  size: 317, 45
+  orig: 317, 45
+  offset: 0, 0
+  index: -1
+Crazy Monkey2
+  rotate: false
+  xy: 2, 408
+  size: 313, 44
+  orig: 313, 44
+  offset: 0, 0
+  index: -1
+Monkey
+  rotate: false
+  xy: 2, 112
+  size: 293, 294
+  orig: 293, 294
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 603, 232
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 2
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 2
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 45
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 321, 228
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: false
+  xy: 297, 158
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: false
+  xy: 494, 139
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 872, 275
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+ys
+  rotate: false
+  xy: 297, 22
+  size: 167, 134
+  orig: 167, 134
+  offset: 0, 0
+  index: -1
+zs
+  rotate: false
+  xy: 872, 169
+  size: 147, 104
+  orig: 147, 104
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 948, 275
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

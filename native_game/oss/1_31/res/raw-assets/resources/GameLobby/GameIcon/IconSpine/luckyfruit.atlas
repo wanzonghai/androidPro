@@ -1,0 +1,118 @@
+
+luckyfruit.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LuckyFruit
+  rotate: false
+  xy: 2, 2
+  size: 240, 47
+  orig: 240, 47
+  offset: 0, 0
+  index: -1
+apple
+  rotate: true
+  xy: 373, 108
+  size: 122, 136
+  orig: 122, 136
+  offset: 0, 0
+  index: -1
+ck_00000
+  rotate: false
+  xy: 2, 844
+  size: 320, 55
+  orig: 320, 55
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 51
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hd
+  rotate: false
+  xy: 351, 331
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 960
+  size: 502, 56
+  orig: 502, 56
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 901
+  size: 500, 57
+  orig: 500, 57
+  offset: 0, 0
+  index: -1
+huoy
+  rotate: true
+  xy: 271, 70
+  size: 160, 100
+  orig: 160, 100
+  offset: 0, 0
+  index: -1
+j3
+  rotate: false
+  xy: 296, 597
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 271, 232
+  size: 236, 85
+  orig: 236, 85
+  offset: 0, 0
+  index: -1
+jiaodu
+  rotate: true
+  xy: 324, 641
+  size: 258, 181
+  orig: 258, 181
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: true
+  xy: 284, 319
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 320
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+yd
+  rotate: false
+  xy: 2, 593
+  size: 292, 249
+  orig: 292, 249
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 351, 415
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 427, 415
+  size: 73, 224
+  orig: 73, 224
+  offset: 0, 0
+  index: -1

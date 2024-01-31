@@ -1,0 +1,153 @@
+
+Bullfighting.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 675, 56
+  size: 113, 69
+  orig: 113, 69
+  offset: 0, 0
+  index: -1
+Bullfighting
+  rotate: false
+  xy: 2, 2
+  size: 266, 46
+  orig: 266, 46
+  offset: 0, 0
+  index: -1
+Bullfighting2
+  rotate: false
+  xy: 506, 458
+  size: 266, 47
+  orig: 266, 47
+  offset: 0, 0
+  index: -1
+K
+  rotate: false
+  xy: 790, 38
+  size: 103, 87
+  orig: 103, 87
+  offset: 0, 0
+  index: -1
+Q
+  rotate: true
+  xy: 552, 27
+  size: 203, 121
+  orig: 203, 121
+  offset: 0, 0
+  index: -1
+cm
+  rotate: false
+  xy: 845, 131
+  size: 98, 90
+  orig: 98, 90
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 284, 121
+  size: 266, 267
+  orig: 266, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 449
+  size: 502, 56
+  orig: 502, 56
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 390
+  size: 500, 57
+  orig: 500, 57
+  offset: 0, 0
+  index: -1
+j1
+  rotate: false
+  xy: 703, 422
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+j2
+  rotate: true
+  xy: 945, 152
+  size: 69, 66
+  orig: 69, 66
+  offset: 0, 0
+  index: -1
+j3
+  rotate: false
+  xy: 675, 12
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 774, 420
+  size: 236, 85
+  orig: 236, 85
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 50
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+niut
+  rotate: false
+  xy: 703, 225
+  size: 221, 193
+  orig: 221, 193
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 675, 127
+  size: 168, 96
+  orig: 168, 96
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 117
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: true
+  xy: 926, 223
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: true
+  xy: 895, 35
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 552, 232
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 628, 232
+  size: 73, 224
+  orig: 73, 224
+  offset: 0, 0
+  index: -1

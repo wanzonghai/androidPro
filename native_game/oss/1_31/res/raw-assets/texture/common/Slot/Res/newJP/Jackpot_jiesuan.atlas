@@ -1,0 +1,118 @@
+
+Jackpot_jiesuan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Y1
+  rotate: true
+  xy: 193, 146
+  size: 186, 98
+  orig: 186, 98
+  offset: 0, 0
+  index: -1
+Y2
+  rotate: false
+  xy: 463, 371
+  size: 138, 129
+  orig: 138, 129
+  offset: 0, 0
+  index: -1
+Y3
+  rotate: false
+  xy: 293, 174
+  size: 95, 158
+  orig: 95, 158
+  offset: 0, 0
+  index: -1
+Z1
+  rotate: false
+  xy: 463, 502
+  size: 186, 98
+  orig: 186, 98
+  offset: 0, 0
+  index: -1
+Z2
+  rotate: true
+  xy: 487, 231
+  size: 138, 129
+  orig: 138, 129
+  offset: 0, 0
+  index: -1
+Z3
+  rotate: false
+  xy: 390, 198
+  size: 95, 158
+  orig: 95, 158
+  offset: 0, 0
+  index: -1
+fasan
+  rotate: false
+  xy: 374, 776
+  size: 370, 197
+  orig: 370, 197
+  offset: 0, 0
+  index: -1
+glow_002
+  rotate: false
+  xy: 2, 143
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+glow_006
+  rotate: false
+  xy: 746, 784
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+gqd
+  rotate: false
+  xy: 2, 628
+  size: 370, 345
+  orig: 370, 345
+  offset: 0, 0
+  index: -1
+gqx
+  rotate: false
+  xy: 2, 334
+  size: 370, 292
+  orig: 370, 292
+  offset: 0, 0
+  index: -1
+jinbiH
+  rotate: false
+  xy: 463, 602
+  size: 216, 90
+  orig: 216, 90
+  offset: 0, 0
+  index: -1
+jinbiQ
+  rotate: false
+  xy: 463, 694
+  size: 251, 80
+  orig: 251, 80
+  offset: 0, 0
+  index: -1
+jz
+  rotate: false
+  xy: 2, 2
+  size: 169, 139
+  orig: 169, 139
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: true
+  xy: 374, 358
+  size: 416, 87
+  orig: 416, 87
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 603, 405
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1

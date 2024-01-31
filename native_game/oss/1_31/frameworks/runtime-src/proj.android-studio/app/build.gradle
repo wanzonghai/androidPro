@@ -1,0 +1,178 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.application'
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+android {
+    compileSdkVersion 33
+    buildToolsVersion '33.0.2'
+
+    defaultConfig {
+        applicationId "com.casualpoker.six"
+        minSdkVersion 21
+        targetSdkVersion PROP_TARGET_SDK_VERSION
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+        externalNativeBuild {
+            ndkBuild {
+                if (!project.hasProperty("PROP_NDK_MODE") || PROP_NDK_MODE.compareTo('none') != 0) {
+                    // skip the NDK Build step if PROP_NDK_MODE is none
+                    targets 'cocos2djs'
+                    arguments 'NDK_TOOLCHAIN_VERSION=4.9'
+                    arguments 'APP_PLATFORM=android-'+PROP_TARGET_SDK_VERSION
+                    
+                    def module_paths = [project.file("C:/CocosCreator/resources/cocos2d-x"),
+                                        project.file("C:/CocosCreator/resources/cocos2d-x/cocos"),
+                                        project.file("C:/CocosCreator/resources/cocos2d-x/external")]
+                    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+                        arguments 'NDK_MODULE_PATH=' + module_paths.join(";")
+                    }
+                    else {
+                        arguments 'NDK_MODULE_PATH=' + module_paths.join(':')
+                    }
+
+                    arguments '-j' + Runtime.runtime.availableProcessors()
+                    abiFilters.addAll(PROP_APP_ABI.split(':').collect{it as String})
+                }
+            }
+        }
+    }
+
+    sourceSets.main {
+        java.srcDir "src"
+        res.srcDir "res"
+        jniLibs.srcDir "libs"
+        manifest.srcFile "AndroidManifest.xml"
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            if (!project.hasProperty("PROP_NDK_MODE") || PROP_NDK_MODE.compareTo('none') != 0) {
+                // skip the NDK Build step if PROP_NDK_MODE is none
+                path "jni/Android.mk"
+            }
+        }
+    }
+
+    signingConfigs {
+
+       release {
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                storeFile file(RELEASE_STORE_FILE)
+                storePassword RELEASE_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            }
+            debuggable false
+            externalNativeBuild {
+                ndkBuild {
+                    arguments 'NDK_DEBUG=0'
+                }
+            }
+        }
+
+        debug {
+            externalNativeBuild {
+                ndkBuild {
+                    arguments 'NDK_DEBUG=1'
+                }
+            }
+        }
+    }
+	compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+android.applicationVariants.all { variant ->
+    // delete previous files first
+    delete "${buildDir}/intermediates/merged_assets/${variant.dirName}"
+
+    variant.mergeAssets.doLast {
+        copy {
+           from "${buildDir}/../../../../../res"
+           into "${buildDir}/intermediates/merged_assets/release/mergeReleaseAssets/out/res"
+        }
+
+        copy {
+            from "${buildDir}/../../../../../src"
+            into "${buildDir}/intermediates/merged_assets/release/mergeReleaseAssets/out/src"
+        }
+
+        copy {
+            from "${buildDir}/../../../../../main.js"
+            from "${buildDir}/../../../../../project.json"
+            into "${buildDir}/intermediates/merged_assets/release/mergeReleaseAssets/out"
+        }
+
+        copy {
+            from "C:/CocosCreator/resources/cocos2d-x/cocos/scripting/js-bindings/script"
+            into "${buildDir}/intermediates/merged_assets/release/mergeReleaseAssets/out/script"
+        }
+    }
+// �������Ŀ¼
+    variant.outputs.all { output ->
+        outputFileName = "${variant.applicationId}-${variant.versionName}.apk"
+        variant.assemble.finalizedBy('copyApkAndAab')
+    }
+}
+
+// ����apk��aab �� APK_OUTPUT_DIRECTORY
+task copyApkAndAab {
+    doLast {
+        println "===========copy apk && aab=============="
+        delete "${buildDir}/outputs/apk/release/output.json"
+
+        copy {
+            from "${buildDir}/outputs/bundle/release"
+            into APK_OUTPUT_DIRECTORY
+        }
+        copy {
+            from "${buildDir}/outputs/apk/release"
+            into APK_OUTPUT_DIRECTORY
+        }
+        copy {
+            from "${projectDir}/res/mipmap-hdpi"
+            into APK_OUTPUT_DIRECTORY
+        }
+        delete "${buildDir}/outputs"
+    }
+}
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'gdut.bsx:share2:0.9.3'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':libcocos2dx')
+    implementation(name:'clinkapi-release', ext: 'aar')
+
+    //appsflyer
+    //implementation 'com.appsflyer:af-android-sdk:6.9.0'
+    implementation 'com.appsflyer:af-android-sdk:6.12.1'
+    //facebook
+    //implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+
+}

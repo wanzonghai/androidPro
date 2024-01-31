@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package message;
+
+//通知玩家充值成功
+message CMD_S_NotifyRcharge
+{
+	int32   dwUserID = 1;
+	int64   lAmount = 2;
+	int64   lTotal = 3;
+	int32   cbFisrt = 4;	//是否首充
+}
+
+//通知玩家某些事件
+message CMD_S_NotifyUser
+{
+  int32   dwUserID = 1;
+  string   strData = 2;
+}

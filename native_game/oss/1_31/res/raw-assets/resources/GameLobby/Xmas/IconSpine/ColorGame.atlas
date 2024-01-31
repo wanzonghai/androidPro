@@ -1,0 +1,139 @@
+
+ColorGame.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ColoGame
+  rotate: false
+  xy: 2, 372
+  size: 258, 36
+  orig: 258, 36
+  offset: 0, 0
+  index: -1
+ColoGame2
+  rotate: true
+  xy: 423, 759
+  size: 258, 36
+  orig: 258, 36
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 410
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 2, 19
+  size: 123, 82
+  orig: 123, 82
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 271, 527
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 329
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 329
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+jb1
+  rotate: false
+  xy: 461, 980
+  size: 45, 37
+  orig: 45, 37
+  offset: 0, 0
+  index: -1
+jb2
+  rotate: true
+  xy: 364, 462
+  size: 63, 54
+  orig: 63, 54
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: true
+  xy: 284, 757
+  size: 260, 137
+  orig: 260, 137
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 679
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+tz1
+  rotate: true
+  xy: 224, 145
+  size: 182, 163
+  orig: 182, 163
+  offset: 0, 0
+  index: -1
+tz2
+  rotate: false
+  xy: 224, 2
+  size: 158, 141
+  orig: 158, 141
+  offset: 0, 0
+  index: -1
+tz3
+  rotate: false
+  xy: 271, 428
+  size: 91, 97
+  orig: 91, 97
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 746
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: true
+  xy: 154, 132
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: true
+  xy: 423, 663
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 2, 103
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 78, 103
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

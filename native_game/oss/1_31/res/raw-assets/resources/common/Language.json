@@ -1,0 +1,12 @@
+{
+    "1001": {"CN": "个人区域上限%d","EN": "Area bet reach limit %d"},
+    "1002": {"CN": "余额不足","EN": "Insufficient chips"},
+    "1003": {"CN": "参数错误（线注错误）","EN": "Parameter Error"},
+    "1004": {"CN": "没有下注","EN": "Please place your bet before start"},
+    "1005": {"CN": "个人下注总上限","EN": "Max total bet %d"},
+    "1006": {"CN": "非下注阶段","EN": "Non betting stage"},
+    "1007": {"CN": "筹码额度错误","EN": "Chip error"},
+    "1008": {"CN": "用户不存在","EN": "No Player"},
+    "1009": {"CN": "下注超过最大赔率","EN": "Bet exceeds max compensation"},
+    "1010": {"CN": "网络异常","EN": "Network Anomaly"}
+}

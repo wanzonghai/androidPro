@@ -1,0 +1,76 @@
+
+Djinbi.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_001
+  rotate: false
+  xy: 567, 22
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+coin_002
+  rotate: false
+  xy: 255, 22
+  size: 76, 75
+  orig: 76, 75
+  offset: 0, 0
+  index: -1
+coin_003
+  rotate: false
+  xy: 644, 22
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+coin_004
+  rotate: false
+  xy: 333, 22
+  size: 76, 75
+  orig: 76, 75
+  offset: 0, 0
+  index: -1
+coin_005
+  rotate: false
+  xy: 721, 22
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+coin_006
+  rotate: true
+  xy: 411, 22
+  size: 75, 76
+  orig: 75, 76
+  offset: 0, 0
+  index: -1
+coin_007
+  rotate: false
+  xy: 99, 21
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+coin_008
+  rotate: true
+  xy: 489, 22
+  size: 75, 76
+  orig: 75, 76
+  offset: 0, 0
+  index: -1
+coin_009
+  rotate: false
+  xy: 177, 21
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+lizi_00015_1
+  rotate: false
+  xy: 2, 2
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1

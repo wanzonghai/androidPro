@@ -1,0 +1,160 @@
+
+Congratulation.png
+size: 1839,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bs1
+  rotate: false
+  xy: 1537, 16
+  size: 61, 40
+  orig: 61, 40
+  offset: 0, 0
+  index: -1
+bs2
+  rotate: true
+  xy: 1808, 257
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+bs3
+  rotate: true
+  xy: 1783, 163
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: -1
+bs4
+  rotate: true
+  xy: 982, 18
+  size: 54, 37
+  orig: 54, 37
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 1257, 24
+  size: 211, 211
+  orig: 211, 211
+  offset: 0, 0
+  index: -1
+guangxian
+  rotate: false
+  xy: 2, 8
+  size: 911, 64
+  orig: 911, 64
+  offset: 0, 0
+  index: -1
+gy1
+  rotate: false
+  xy: 1629, 213
+  size: 152, 22
+  orig: 152, 22
+  offset: 0, 0
+  index: -1
+hg
+  rotate: false
+  xy: 1470, 148
+  size: 157, 87
+  orig: 157, 87
+  offset: 0, 0
+  index: -1
+j1
+  rotate: false
+  xy: 1470, 101
+  size: 67, 45
+  orig: 67, 45
+  offset: 0, 0
+  index: -1
+j2
+  rotate: false
+  xy: 1539, 58
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+j3
+  rotate: false
+  xy: 1470, 56
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+j4
+  rotate: true
+  xy: 1606, 26
+  size: 44, 64
+  orig: 44, 64
+  offset: 0, 0
+  index: -1
+j5
+  rotate: false
+  xy: 1672, 21
+  size: 62, 49
+  orig: 62, 49
+  offset: 0, 0
+  index: -1
+j6
+  rotate: false
+  xy: 1470, 2
+  size: 60, 52
+  orig: 60, 52
+  offset: 0, 0
+  index: -1
+jb1
+  rotate: false
+  xy: 915, 29
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+jb2
+  rotate: false
+  xy: 1539, 103
+  size: 66, 43
+  orig: 66, 43
+  offset: 0, 0
+  index: -1
+jb3
+  rotate: true
+  xy: 1782, 28
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+jb4
+  rotate: true
+  xy: 1782, 95
+  size: 66, 43
+  orig: 66, 43
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 74
+  size: 1024, 226
+  orig: 1024, 226
+  offset: 0, 0
+  index: -1
+qd1
+  rotate: false
+  xy: 1629, 72
+  size: 151, 139
+  orig: 151, 139
+  offset: 0, 0
+  index: -1
+qd2
+  rotate: false
+  xy: 1028, 31
+  size: 227, 204
+  orig: 227, 204
+  offset: 0, 0
+  index: -1
+zhuhe
+  rotate: false
+  xy: 1028, 237
+  size: 778, 63
+  orig: 778, 63
+  offset: 0, 0
+  index: -1

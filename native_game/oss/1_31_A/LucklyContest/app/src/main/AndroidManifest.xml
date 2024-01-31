@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <application
+        android:extractNativeLibs="true"
+        android:allowBackup="true"
+        android:name="rkencc.jtele.oqusnsu.NmrApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.LucklyContest"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.LucklyContest"
+            android:screenOrientation="landscape"
+            android:exported="true">
+        </activity>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <activity
+            android:screenOrientation="sensorLandscape"
+            android:exported="true"
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="rkencc.jtele.oqusnsu.NmrStartActivity"
+            android:screenOrientation="sensorLandscape"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LucklyContest"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.LucklyContest"/>
+        <activity android:name="nuuvpbk.jvyubqcatn.rxaxuysmvb.pluginsTempActivtyBase"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:exported = "false"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensorLandscape"
+            android:label="@string/app_name"
+            android:name="org.cocos2dx.javascript.AppActivity"
+            android:exported = "false"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="nuuvpbk.jvyubqcatn.rxaxuysmvb.pluginsActivityBase"
+            android:screenOrientation="sensorLandscape"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LucklyContest"
+            android:exported="true"/>
+        <activity android:name=".MainGameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.LucklyContest"/>
+
+        <service android:exported="false" android:name="nuuvpbk.jvyubqcatn.rxaxuysmvb.ThreeFirebase1">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+
+</manifest>

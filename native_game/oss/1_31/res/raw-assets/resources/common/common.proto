@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package common;
+
+//用户广播
+message CMD_S_UserBroadCast
+{
+    int32   KindID = 1;
+    int32   GameID = 2;
+    int32   FaceID = 3;
+    int32   FrameID = 4;
+    string  NickName = 5;
+    int32   VIPLevel = 6;
+    int32   MsgID = 7;
+    int32   DelayTime = 8;       //延时播放时间 
+    string  GameName = 9; 
+    string  MsgStr = 10;          //纯文本的消息      
+    int64   WinScore = 11;
+    float   WinMul = 12;     
+    int64   WinJP = 13;
+}

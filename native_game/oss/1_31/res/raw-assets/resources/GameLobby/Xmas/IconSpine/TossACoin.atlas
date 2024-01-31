@@ -1,0 +1,286 @@
+
+TossACoin.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J1
+  rotate: false
+  xy: 1726, 392
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+J2
+  rotate: false
+  xy: 1375, 119
+  size: 86, 63
+  orig: 86, 63
+  offset: 0, 0
+  index: -1
+Toss A Coin
+  rotate: false
+  xy: 1344, 458
+  size: 260, 36
+  orig: 260, 36
+  offset: 0, 0
+  index: -1
+Toss A Coin2
+  rotate: false
+  xy: 1082, 455
+  size: 260, 39
+  orig: 260, 39
+  offset: 0, 0
+  index: -1
+dag
+  rotate: true
+  xy: 1996, 388
+  size: 106, 43
+  orig: 106, 43
+  offset: 0, 0
+  index: -1
+xiaog
+  rotate: true
+  xy: 1996, 388
+  size: 106, 43
+  orig: 106, 43
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 284, 227
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 1606, 453
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 1606, 453
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 553, 403
+  size: 253, 91
+  orig: 253, 91
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 808, 429
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+pt
+  rotate: false
+  xy: 2, 78
+  size: 250, 143
+  orig: 250, 143
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 223
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+xue1
+  rotate: false
+  xy: 553, 257
+  size: 195, 68
+  orig: 195, 68
+  offset: 0, 0
+  index: -1
+xue2
+  rotate: false
+  xy: 1493, 369
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+yinbi2/0_00000
+  rotate: false
+  xy: 1859, 359
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00001
+  rotate: false
+  xy: 254, 86
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00002
+  rotate: false
+  xy: 391, 90
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00003
+  rotate: false
+  xy: 553, 120
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00004
+  rotate: false
+  xy: 690, 120
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00005
+  rotate: false
+  xy: 1082, 318
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00006
+  rotate: false
+  xy: 1219, 318
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00007
+  rotate: false
+  xy: 1356, 321
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00008
+  rotate: false
+  xy: 1589, 316
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00009
+  rotate: false
+  xy: 808, 292
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yinbi2/0_00010
+  rotate: false
+  xy: 945, 292
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00000
+  rotate: false
+  xy: 827, 155
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00011
+  rotate: false
+  xy: 827, 155
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00001
+  rotate: false
+  xy: 964, 155
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00002
+  rotate: false
+  xy: 1101, 181
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00003
+  rotate: false
+  xy: 1238, 181
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00004
+  rotate: false
+  xy: 1375, 184
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00005
+  rotate: false
+  xy: 1512, 179
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00006
+  rotate: false
+  xy: 1649, 179
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00007
+  rotate: false
+  xy: 827, 18
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00008
+  rotate: false
+  xy: 964, 18
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00009
+  rotate: false
+  xy: 1101, 44
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+yingbi/0_00010
+  rotate: false
+  xy: 1238, 44
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+you
+  rotate: true
+  xy: 2, 2
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 553, 327
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

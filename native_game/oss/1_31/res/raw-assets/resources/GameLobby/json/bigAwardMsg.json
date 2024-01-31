@@ -1,0 +1,79 @@
+[
+    {
+        "msgId": 1001,
+        "Tpye": 0,
+        "headType": 0,
+        "winLv": 2,
+        "showPos": 3,
+        "stopTime": 5000,
+        "content_en": "Jackpot in the <color=#6effab> [@Game]</color>\nGet<size=46><color=#FFF440><b> ₱@JP </b></color></size>",
+        "comments": [
+            "headType ==> 0 Jackpot, 1 玩家头像, 2其他",
+            "winLv ==> 1 普通大奖, 2 大大奖",
+            "showPos ==> 1 跑马灯位置, 2 游戏右侧栏, 3 跑马灯与右侧栏"
+        ]
+    },
+    {
+        "msgId": 1002,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 2,
+        "showPos": 3,
+        "stopTime": 5000,
+        "content_en": "Lucky! in the <color=#6effab> [@Game]</color>\nGet<size=46><color=#FFF440><b> ₱@JP </b></color></size>"
+    },
+    {
+        "msgId": 1003,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 2,
+        "showPos": 3,
+        "stopTime": 5000,
+        "content_en": "Great! in the <color=#6effab> [@Game] </color>\nGet<size=46><color=#FFF440><b> ₱@Score </b></color></size>"
+    },
+    {
+        "msgId": 1004,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 1,
+        "showPos": 2,
+        "stopTime": 5000,
+        "content_en": "Great! in the <color=#6effab> [@Game] </color>\nGet<size=46><color=#FFF440><b> ₱@Score </b></color></size>"
+    },
+    {
+        "msgId": 1005,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 1,
+        "showPos": 1,
+        "stopTime": 0,
+        "content_en": "Great! in the <color=#6effab> [@Game] </color>\nget<size=46><color=#FFF440><b> ₱@Score </b></color></size>"
+    },
+    {
+        "msgId": 1006,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 2,
+        "showPos": 3,
+        "stopTime": 5000,
+        "content_en": "Wow! in the <color=#6effab> [@Game] </color>\nWin<size=46><color=#FFF440><b> @Mul </b></color></size>"
+    },
+    {
+        "msgId": 1007,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 1,
+        "showPos": 2,
+        "stopTime": 5000,
+        "content_en": "Wow! in the <color=#6effab> [@Game] </color>\nWin<size=46><color=#FFF440><b> @Mul </b></color></size>"
+    },
+    {
+        "msgId": 1008,
+        "Tpye": 0,
+        "headType": 1,
+        "winLv": 1,
+        "showPos": 1,
+        "stopTime": 0,
+        "content_en": "Wow! in the <color=#6effab> [@Game] </color>\nwin<size=46><color=#FFF440><b> @Mul </b></color></size>"
+    }
+]

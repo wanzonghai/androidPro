@@ -1,0 +1,27 @@
+
+down.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caideng
+  rotate: true
+  xy: 519, 51
+  size: 252, 299
+  orig: 252, 299
+  offset: 0, 0
+  index: -1
+zcaideng
+  rotate: false
+  xy: 2, 136
+  size: 515, 167
+  orig: 515, 167
+  offset: 0, 0
+  index: -1
+zzs
+  rotate: false
+  xy: 2, 2
+  size: 324, 132
+  orig: 324, 132
+  offset: 0, 0
+  index: -1

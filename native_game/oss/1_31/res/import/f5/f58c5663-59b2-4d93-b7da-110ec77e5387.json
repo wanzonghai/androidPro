@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"enterAni","_duration":0.35,"speed":0.5,"curveData":{"props":{"scaleX":[{"frame":0.06666666666666667,"value":0},{"frame":0.15,"value":1.15},{"frame":0.25,"value":0.97},{"frame":0.35,"value":1}],"scaleY":[{"frame":0.06666666666666667,"value":0},{"frame":0.15,"value":1.15},{"frame":0.25,"value":0.97},{"frame":0.35,"value":1}]}}}

@@ -1,0 +1,167 @@
+
+JackPot.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 782, 459
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+saog/0_00000
+  rotate: false
+  xy: 2, 312
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00001
+  rotate: false
+  xy: 521, 435
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00002
+  rotate: false
+  xy: 2, 250
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00003
+  rotate: false
+  xy: 2, 188
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00004
+  rotate: false
+  xy: 2, 126
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00005
+  rotate: false
+  xy: 2, 64
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00006
+  rotate: true
+  xy: 263, 113
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00007
+  rotate: false
+  xy: 2, 2
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00008
+  rotate: true
+  xy: 325, 113
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00009
+  rotate: true
+  xy: 387, 113
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00010
+  rotate: true
+  xy: 449, 113
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00011
+  rotate: false
+  xy: 521, 373
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+saog/0_00012
+  rotate: false
+  xy: 511, 311
+  size: 259, 60
+  orig: 259, 60
+  offset: 0, 0
+  index: -1
+tiao
+  rotate: false
+  xy: 2, 374
+  size: 517, 121
+  orig: 517, 121
+  offset: 0, 0
+  index: -1

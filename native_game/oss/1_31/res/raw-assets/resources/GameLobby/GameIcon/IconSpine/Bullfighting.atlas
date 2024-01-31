@@ -1,0 +1,139 @@
+
+Bullfighting.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 273, 183
+  size: 113, 69
+  orig: 113, 69
+  offset: 0, 0
+  index: -1
+Bullfighting
+  rotate: true
+  xy: 284, 629
+  size: 266, 46
+  orig: 266, 46
+  offset: 0, 0
+  index: -1
+Bullfighting2
+  rotate: false
+  xy: 2, 239
+  size: 266, 47
+  orig: 266, 47
+  offset: 0, 0
+  index: -1
+K
+  rotate: false
+  xy: 273, 94
+  size: 103, 87
+  orig: 103, 87
+  offset: 0, 0
+  index: -1
+Q
+  rotate: true
+  xy: 270, 352
+  size: 203, 121
+  orig: 203, 121
+  offset: 0, 0
+  index: -1
+cm
+  rotate: false
+  xy: 273, 2
+  size: 98, 90
+  orig: 98, 90
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 2, 288
+  size: 266, 267
+  orig: 266, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 956
+  size: 502, 56
+  orig: 502, 56
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 897
+  size: 500, 57
+  orig: 500, 57
+  offset: 0, 0
+  index: -1
+j1
+  rotate: false
+  xy: 378, 103
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+j2
+  rotate: true
+  xy: 388, 183
+  size: 69, 66
+  orig: 69, 66
+  offset: 0, 0
+  index: -1
+j3
+  rotate: false
+  xy: 378, 139
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: true
+  xy: 332, 659
+  size: 236, 85
+  orig: 236, 85
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 557
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+niut
+  rotate: true
+  xy: 78, 16
+  size: 221, 193
+  orig: 221, 193
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 270, 254
+  size: 168, 96
+  orig: 168, 96
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 624
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 2, 13
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 419, 671
+  size: 73, 224
+  orig: 73, 224
+  offset: 0, 0
+  index: -1

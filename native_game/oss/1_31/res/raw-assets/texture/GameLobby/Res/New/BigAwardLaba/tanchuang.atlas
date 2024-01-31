@@ -1,0 +1,55 @@
+
+tanchuang.png
+size: 1673,343
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+d1
+  rotate: false
+  xy: 1214, 2
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+gy1
+  rotate: false
+  xy: 1214, 109
+  size: 457, 66
+  orig: 457, 66
+  offset: 0, 0
+  index: -1
+gy2
+  rotate: false
+  xy: 1214, 41
+  size: 457, 66
+  orig: 457, 66
+  offset: 0, 0
+  index: -1
+hk
+  rotate: false
+  xy: 2, 4
+  size: 604, 150
+  orig: 604, 150
+  offset: 0, 0
+  index: -1
+k
+  rotate: false
+  xy: 2, 156
+  size: 636, 185
+  orig: 636, 185
+  offset: 0, 0
+  index: -1
+xk
+  rotate: false
+  xy: 640, 177
+  size: 631, 164
+  orig: 631, 164
+  offset: 0, 0
+  index: -1
+zk
+  rotate: false
+  xy: 608, 4
+  size: 604, 150
+  orig: 604, 150
+  offset: 0, 0
+  index: -1

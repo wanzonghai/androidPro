@@ -1,0 +1,118 @@
+
+JamminJars.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J1
+  rotate: false
+  xy: 939, 368
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+J2
+  rotate: false
+  xy: 939, 425
+  size: 83, 72
+  orig: 83, 72
+  offset: 0, 0
+  index: -1
+JamminJars
+  rotate: false
+  xy: 2, 188
+  size: 277, 36
+  orig: 277, 36
+  offset: 0, 0
+  index: -1
+JamminJars2
+  rotate: false
+  xy: 284, 458
+  size: 277, 39
+  orig: 277, 39
+  offset: 0, 0
+  index: -1
+cm
+  rotate: true
+  xy: 731, 235
+  size: 95, 93
+  orig: 95, 93
+  offset: 0, 0
+  index: -1
+cz
+  rotate: false
+  xy: 731, 163
+  size: 72, 70
+  orig: 72, 70
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 284, 189
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+gz
+  rotate: true
+  xy: 553, 177
+  size: 153, 176
+  orig: 153, 176
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 78
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 78
+  size: 251, 41
+  orig: 251, 41
+  offset: 0, 0
+  index: -1
+jbd
+  rotate: false
+  xy: 563, 408
+  size: 246, 89
+  orig: 246, 89
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 121
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+pg
+  rotate: true
+  xy: 811, 379
+  size: 118, 126
+  orig: 118, 126
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 226
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+you
+  rotate: true
+  xy: 2, 2
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 553, 332
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1

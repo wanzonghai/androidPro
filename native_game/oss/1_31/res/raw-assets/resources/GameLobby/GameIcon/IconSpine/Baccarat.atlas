@@ -1,0 +1,111 @@
+
+Baccarat.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AM
+  rotate: true
+  xy: 553, 594
+  size: 153, 223
+  orig: 153, 223
+  offset: 0, 0
+  index: -1
+AM2
+  rotate: false
+  xy: 2, 287
+  size: 216, 247
+  orig: 216, 247
+  offset: 0, 0
+  index: -1
+AX
+  rotate: false
+  xy: 2, 41
+  size: 202, 244
+  orig: 202, 244
+  offset: 0, 0
+  index: -1
+AX2
+  rotate: true
+  xy: 574, 825
+  size: 166, 236
+  orig: 166, 236
+  offset: 0, 0
+  index: -1
+Baccarat
+  rotate: false
+  xy: 2, 2
+  size: 194, 37
+  orig: 194, 37
+  offset: 0, 0
+  index: -1
+Baccarat2
+  rotate: true
+  xy: 206, 93
+  size: 192, 40
+  orig: 192, 40
+  offset: 0, 0
+  index: -1
+CM
+  rotate: false
+  xy: 812, 823
+  size: 194, 168
+  orig: 194, 168
+  offset: 0, 0
+  index: -1
+dipan
+  rotate: false
+  xy: 284, 607
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+hg1
+  rotate: false
+  xy: 2, 876
+  size: 569, 56
+  orig: 569, 56
+  offset: 0, 0
+  index: -1
+hg2
+  rotate: false
+  xy: 2, 934
+  size: 570, 57
+  orig: 570, 57
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 536
+  size: 272, 65
+  orig: 272, 65
+  offset: 0, 0
+  index: -1
+light 1
+  rotate: false
+  xy: 779, 745
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+xq
+  rotate: false
+  xy: 2, 603
+  size: 280, 271
+  orig: 280, 271
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 220, 310
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 553, 749
+  size: 74, 224
+  orig: 74, 224
+  offset: 0, 0
+  index: -1
