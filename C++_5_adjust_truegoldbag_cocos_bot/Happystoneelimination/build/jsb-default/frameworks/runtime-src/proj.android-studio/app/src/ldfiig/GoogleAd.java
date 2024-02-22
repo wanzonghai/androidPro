@@ -21,7 +21,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 
-public class dhgfgvusyfeg {
+public class GoogleAd {
     private static final String odfjsidfsdg = "ca-app-pub-5500965896629547/3669362282"; //ca-app-pub-3940256099942544/1033173712
 
     private static final String TAG = "InsertMgr";
@@ -33,11 +33,11 @@ public class dhgfgvusyfeg {
 
     private boolean sfhgsuidfsfseg;
 
-    private static dhgfgvusyfeg mInstace = null;
+    private static GoogleAd mInstace = null;
 
-    public static dhgfgvusyfeg getInstance() {
+    public static GoogleAd getInstance() {
         if (null == mInstace) {
-            mInstace = new dhgfgvusyfeg();
+            mInstace = new GoogleAd();
         }
         return mInstace;
     }
@@ -47,7 +47,7 @@ public class dhgfgvusyfeg {
             @Override
             public void run() {
 
-                dhgfgvusyfeg.getInstance().showInterstitial();
+                GoogleAd.getInstance().showInterstitial();
             }
         });
 
@@ -82,7 +82,7 @@ public class dhgfgvusyfeg {
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                         // The mInterstitialAd reference will be null until
                         // an ad is loaded.
-                        dhgfgvusyfeg.this.dhfgsuydfsdgfsg = interstitialAd;
+                        GoogleAd.this.dhfgsuydfsdgfsg = interstitialAd;
                         sfhgsuidfsfseg = false;
                         Log.i(TAG, "onAdLoaded");
 
@@ -93,7 +93,7 @@ public class dhgfgvusyfeg {
                                         // Called when fullscreen content is dismissed.
                                         // Make sure to set your reference to null so you don't
                                         // show it a second time.
-                                        dhgfgvusyfeg.this.dhfgsuydfsdgfsg = null;
+                                        GoogleAd.this.dhfgsuydfsdgfsg = null;
                                         Log.i(TAG, "The ad was dismissed.");
                                         sduyhfgsiugsg();
                                     }
@@ -103,7 +103,7 @@ public class dhgfgvusyfeg {
                                         // Called when fullscreen content failed to show.
                                         // Make sure to set your reference to null so you don't
                                         // show it a second time.
-                                        dhgfgvusyfeg.this.dhfgsuydfsdgfsg = null;
+                                        GoogleAd.this.dhfgsuydfsdgfsg = null;
                                         Log.i(TAG, "The ad failed to show.");
                                     }
 

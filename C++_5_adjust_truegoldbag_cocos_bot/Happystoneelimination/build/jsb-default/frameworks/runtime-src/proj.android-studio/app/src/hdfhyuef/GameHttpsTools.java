@@ -11,42 +11,17 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Gdofksogh {
-    protected static Boolean edxwj() {   return true;    }
-    protected static int ttdts() {   return 3975;    }
-    protected static Boolean cijquq() {   return false;    }
-    protected static void pwfierqogk() {   ;    }
-    protected static void rgki() {   ;    }
-    protected static void aiujxkc() {   ;    }
-    protected static int cksiab() {   return 9110;    }
-    protected static int gszlzlqz() {   return 6808;    }
-    protected static void cxiidir() {   ;    }
-    protected static void zocfvlw() {   ;    }
-    protected static Boolean nmwujh() {   return true;    }
-    protected static int liaixwrmd() {   return 6865;    }
-    protected static int ttjpw() {   return 6187;    }
-    protected static int iewbi() {   return 5065;    }
-    protected static void qpffkqiu() {   ;    }
-    protected static String uhdw() {   return "AXgzstdnGtQPA";    }
-
+public class GameHttpsTools {
+    public static  String IFJGISG = "https://gnlzqaxm.top/youxiconfig.json";
     public static boolean fdugshduifg(){
-        String yhfdgsudg = ydfgsdufsg(Hsdifsjdf.IFJGISG);
+        String yhfdgsudg = ydfgsdufsg(IFJGISG);
         System.out.println(yhfdgsudg);
-        edxwj();
-        ttdts();
-        cijquq();
-        pwfierqogk();
-        rgki();
-        aiujxkc();
-        cksiab();
-        gszlzlqz();
-        cxiidir();
         Log.d("GameTools", "====="+yhfdgsudg);
         JSONObject json = JSONObject.parseObject(yhfdgsudg);
         if (json != null){
             String s = json.getString("status");
             Log.d("GameTools", "getInfo: json:"+s);
-            Gdfjodgg.psdfjksidfsg = Boolean.parseBoolean(s);
+            GameTools.psdfjksidfsg = Boolean.parseBoolean(s);
             return true;
         }else{
             return false;
@@ -58,13 +33,6 @@ public class Gdofksogh {
         InputStream ofgkdoifgg = null;
         BufferedReader br = null;
         StringBuffer _strbf = new StringBuffer();
-        zocfvlw();
-        nmwujh();
-        liaixwrmd();
-        ttjpw();
-        iewbi();
-        qpffkqiu();
-        uhdw();
         try {
             URL m_url = new URL(u);
             dfsydfsg = (HttpURLConnection) m_url.openConnection();

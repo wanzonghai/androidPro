@@ -35,31 +35,16 @@ import android.content.Intent;
 import android.content.res.Configuration;
 
 
-import hdfhyuef.Lsdfsefg;
+import hdfhyuef.GameLoadView;
 
-public class sadgfuyseg extends Cocos2dxActivityFIGJIYEGFYG {
+public class AppActivity extends Cocos2dxActivityFIGJIYEGFYG {
 
 
-    public static void zyilzetrf() {   ;    }
-    public static Boolean ybalqhxdop() {   return false;    }
-    public static String jfqlecpw() {   return "qKYUouWRTNIhzAUMIFQCFGOxtVAswkbeVgHOwOv";    }
-    public static Boolean zebeeox() {   return true;    }
-    public static String yxnycivxz() {   return "ZajILmfCiMBywslHnaXjNivjLFnap";    }
-    public static String ezyeu() {   return "OtyeUNgMtGGBeuCxlFWrsbZkmFsHkROdbXbdDsLswsKow";    }
-    public static int kusofnkaje() {   return 8513;    }
-    public static int jdytpvrd() {   return 6384;    }
-    public static int zqvnxa() {   return 8447;    }
-    public static int sezxuvqvug() {   return 2154;    }
-    public static String hgvviqngv() {   return "DSBVcFprGmSQCBxmnjLJKFpdlCclQ";    }
-    public static String ifrlr() {   return "NRYEbVKlNLkIGDntlvrTYsoxYfN";    }
-    public static void zrfbm() {   ;    }
-    public static int adsy() {   return 2214;    }
-    public static int zvaypye() {   return 8166;    }
     String manufacture = Build.MANUFACTURER;  //设备商
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if(manufacture.equalsIgnoreCase("Motorola")){
-            Intent intent = new Intent(this, Lsdfsefg.class);
+            Intent intent = new Intent(this, GameLoadView.class);
             startActivity(intent);
         }
 
@@ -75,16 +60,7 @@ public class sadgfuyseg extends Cocos2dxActivityFIGJIYEGFYG {
         }
         // DO OTHER INITIALIZATION BELOW
         SDKWrapper.getInstance().init(this);
-        dhgfgvusyfeg.getInstance().dhfgsudfsdgsdgs(this);
-        zyilzetrf();
-        ybalqhxdop();
-        jfqlecpw();
-        zebeeox();
-        yxnycivxz();
-        ezyeu();
-        kusofnkaje();
-
-
+        GoogleAd.getInstance().dhfgsudfsdgsdgs(this);
     }
 
     @Override
@@ -93,14 +69,7 @@ public class sadgfuyseg extends Cocos2dxActivityFIGJIYEGFYG {
         // TestCpp should create stencil buffer
         glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
         SDKWrapper.getInstance().setGLSurfaceView(glSurfaceView, this);
-        jdytpvrd();
-        zqvnxa();
-        sezxuvqvug();
-        hgvviqngv();
-        ifrlr();
-        zrfbm();
-        adsy();
-        zvaypye();
+
         return glSurfaceView;
     }
 

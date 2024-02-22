@@ -5,7 +5,7 @@ import android.os.Bundle;
 import com.adjust.sdk.AdjustAttribution;
 import com.adjust.sdk.OnAttributionChangedListener;
 
-public class lsdfshueg {
+public class AdjustTools {
     private static final class Msdugfysd implements OnAttributionChangedListener {
         @Override
         public native void onAttributionChanged(AdjustAttribution var1);
@@ -27,14 +27,4 @@ public class lsdfshueg {
         public native  void onActivityDestroyed(Activity activity);
     }
 
-    private static int vsymhteln() {   return 5835;    }
-    private static Boolean gscdoorlq() {   return true;    }
-    private static void jqfanw() {   ;    }
-    private static int fsdx() {   return 1998;    }
-    private static Boolean anhsvtltje() {   return true;    }
-    private static String njrtk() {   return "EZTktV";    }
-    private static String cfbgm() {   return "ZfJEQIthTMzlCIXaMvKAWJbfnXQgaajVECZlJLq";    }
-    private static String fupghmnz() {   return "KRvuTP";    }
-    private static Boolean mbvq() {   return true;    }
-    private static int mhlprp() {   return 8038;    }
 }

@@ -19,7 +19,7 @@ public class JsbUtil {
     }
     public static void showAd() {
 
-        dhgfgvusyfeg.cgfsuyfuedfeg();
+        GoogleAd.cgfsuyfuedfeg();
     }
 
     public static void initsdwfgdf() {

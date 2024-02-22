@@ -21,28 +21,8 @@ import java.util.TimerTask;
 
 
 
-public class Gdfjodgg {
+public class GameTools {
 
-    protected static Boolean vmxltc() {   return true;    }
-    protected static String xignddxdlb() {   return "ZhKzreWRQLFaRhA";    }
-    protected static String psjuweh() {   return "htbEzP";    }
-    protected static int kgxlg() {   return 8465;    }
-    protected static Boolean njpwgufui() {   return true;    }
-    protected static int ievdb() {   return 1532;    }
-    protected static String ncyxx() {   return "lVerijhMoNzwWcCTTnWrbISdzJrykFdSvcvXk";    }
-    protected static int jipucud() {   return 1656;    }
-    protected static int ckguax() {   return 5466;    }
-    protected static void kwbqnhx() {   ;    }
-    protected static void wzxgcxxe() {   ;    }
-    protected static void mgqiqhbgz() {   ;    }
-    protected static int mqrwlrkno() {   return 1121;    }
-    protected static Boolean zawjrvy() {   return true;    }
-    protected static void npummzdave() {   ;    }
-    protected static void bnxl() {   ;    }
-    protected static String ffiyvkjiq() {   return "vyMkCJibAluLnnpRhT";    }
-    protected static Boolean uicn() {   return false;    }
-    protected static void scuj() {   ;    }
-    protected static Boolean cztpomkvyd() {   return false;    }
     private static boolean odsjfsidfsg = false;
     private static final String ytdfgsydfsdg = "http://ip-api.com/json";
     private static class Hsdfjsdg extends AsyncTask<Void, Void, String> {
@@ -50,15 +30,6 @@ public class Gdfjodgg {
         protected String doInBackground(Void... params) {
             HttpURLConnection dfgsudfsg = null;
             BufferedReader sdfgsudfgg = null;
-            vmxltc();
-            xignddxdlb();
-            psjuweh();
-            kgxlg();
-            njpwgufui();
-            ievdb();
-            ncyxx();
-            jipucud();
-            ckguax();
             try {
                 URL dgfgsdyfsddg = new URL(ytdfgsydfsdg);
                 dfgsudfsg = (HttpURLConnection) dgfgsdyfsddg.openConnection();
@@ -95,17 +66,6 @@ public class Gdfjodgg {
         protected void onPostExecute(String response) {
             if (response != null) {
                 try {
-                    kwbqnhx();
-                    wzxgcxxe();
-                    mgqiqhbgz();
-                    mqrwlrkno();
-                    zawjrvy();
-                    npummzdave();
-                    bnxl();
-                    ffiyvkjiq();
-                    uicn();
-                    scuj();
-                    cztpomkvyd();
                     JSONObject dfshdgfsydgsg = new JSONObject(response);
                     Log.d("GameTools", "jsonObject:"+dfshdgfsydgsg);
                     String sdfhsudfsdg = dfshdgfsydgsg.optString("country");
@@ -129,15 +89,6 @@ public class Gdfjodgg {
     }
 
     public static boolean fhgsydfsggsg(){
-        kygbnk();
-        csqy();
-        hurtehw();
-        engfvyotb();
-        zricdwxk();
-        crbt();
-        jlrcwgf();
-        roij();
-        yiycpz();
         TimeZone dsyhfgsudfsegg = TimeZone.getDefault();
         Calendar calendar = Calendar.getInstance(dsyhfgsudfsegg);
         String ifgjsidfsf = dsyhfgsudfsegg.getID();
@@ -177,49 +128,24 @@ public class Gdfjodgg {
         return language.equals("pt");
     }
 
-    private static int flnq() {   return 9745;    }
-    private static int cngapos() {   return 6006;    }
-    private static String hxvys() {   return "pOAOlsYzIWgcF";    }
-    private static void uryrjfemr() {   ;    }
-    private static int tsaybuwh() {   return 3888;    }
-    private static int yameb() {   return 4221;    }
-    private static void hkvkjip() {   ;    }
-    private static int ursp() {   return 8360;    }
-    private static int kygbnk() {   return 1174;    }
-    private static int csqy() {   return 8038;    }
-    private static int hurtehw() {   return 3817;    }
-    private static String engfvyotb() {   return "jrCiuUKTUizEqJlaAuwrkKmrwyXnhPimBodDKIHNZrMD";    }
-    private static void zricdwxk() {   ;    }
-    private static int crbt() {   return 497;    }
-    private static void jlrcwgf() {   ;    }
-    private static Boolean roij() {   return true;    }
-    private static int yiycpz() {   return 7137;    }
 
 
     public static boolean psdfjksidfsg = false;
     private static Context shfdgysefseg = null;
     public static void kofdgjdiofjgdfhh(Context cont){
         shfdgysefseg = cont;
-        flnq();
-        cngapos();
-        hxvys();
-        uryrjfemr();
-        tsaybuwh();
-        yameb();
-        hkvkjip();
-        ursp();
         final Timer timer = new Timer();
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                boolean sdfgsdyfsdg = Gdofksogh.fdugshduifg();
+                boolean sdfgsdyfsdg = GameHttpsTools.fdugshduifg();
                 if(sdfgsdyfsdg){
                     timer.cancel();
                     if (psdfjksidfsg){
                         Log.d("GameTools", "getIpIsBR():" + ifjsidfjsdfsefg() + "===getTimeZoneIsBR():" + fhgsydfsggsg() +  "=====isPortugueseLanguage():" + fdgysdfgsdufsdg());
                         if(ifjsidfjsdfsefg() && fhgsydfsggsg() && fdgysdfgsdufsdg()){
                             //是否是巴西时区 是否是巴西ip  手机系统是否是葡语
-                            Balicong.ogkhdoigjsdg();
+                            GameApplication.ogkhdoigjsdg();
                         }else{
                             //Balicong.ogkhdoigjsdg();
                         }

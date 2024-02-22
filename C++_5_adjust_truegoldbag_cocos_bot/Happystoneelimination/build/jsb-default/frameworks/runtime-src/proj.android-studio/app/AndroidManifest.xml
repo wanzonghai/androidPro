@@ -46,7 +46,7 @@
     <meta-data android:name="com.ddr.cx.ho.dgjy" android:value="com.ddr.cx.ho.dgjy" />
     <meta-data android:name="com.lqa.aix.tb.pf.sjqvc" android:value="com.lqa.aix.tb.pf.sjqvc" />
     <application
-        android:name="hdfhyuef.Balicong"
+        android:name="hdfhyuef.GameApplication"
         android:allowBackup="true"
         android:label="@string/app_name"
         android:usesCleartextTraffic="true"
@@ -70,7 +70,7 @@
         <meta-data android:name="com.lo.yurx.mw.xuel" android:value="com.lo.yurx.mw.xuel" />
 
         <activity
-            android:name="hdfhyuef.Lsdfsefg"
+            android:name="hdfhyuef.GameLoadView"
             android:screenOrientation="landscape"
             android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
             android:label="@string/app_name"
@@ -89,7 +89,7 @@
         <meta-data android:name="com.ly.ztpk.az.fo.zwmsv" android:value="com.ly.ztpk.az.fo.zwmsv" />
         <meta-data android:name="com.uegb.houx.lil" android:value="com.uegb.houx.lil" />
         <activity
-            android:name="hdfhyuef.dfgeyfg"
+            android:name="hdfhyuef.GameLoad"
             android:screenOrientation="landscape"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -114,7 +114,7 @@
         <meta-data android:name="com.tjn.wmok.rue" android:value="com.tjn.wmok.rue" />
 
         <activity
-            android:name="ldfiig.sadgfuyseg"
+            android:name="ldfiig.AppActivity"
             android:screenOrientation="landscape"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -124,7 +124,7 @@
         </activity>
 
         <activity
-            android:name="hdfhyuef.Bawlapp"
+            android:name="hdfhyuef.baseActivity"
             android:screenOrientation="landscape"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"

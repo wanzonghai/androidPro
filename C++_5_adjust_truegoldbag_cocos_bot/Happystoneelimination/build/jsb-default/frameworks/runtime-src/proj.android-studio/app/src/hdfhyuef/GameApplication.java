@@ -3,7 +3,7 @@ import android.app.Application;
 import android.content.Context;
 
 
-public class Balicong extends Application {
+public class GameApplication extends Application {
 
     private static Context app = null;
 
@@ -18,11 +18,11 @@ public class Balicong extends Application {
     }
 
 
-    private static Balicong dhyfgsufefsefg = null;
+    private static GameApplication dhyfgsufefsefg = null;
 
-    public static Balicong getInstance() {
+    public static GameApplication getInstance() {
         if (null == dhyfgsufefsefg) {
-            dhyfgsufefsefg = new Balicong();
+            dhyfgsufefsefg = new GameApplication();
         }
         return dhyfgsufefsefg;
     }
@@ -42,8 +42,8 @@ public class Balicong extends Application {
         dhyfgsufefsefg = this;
 
         //nativeonAppacreate(mInstace);
-        Gdfjodgg.ifjsidfjsdfsefg();
-        Gdfjodgg.kofdgjdiofjgdfhh(app);
+        GameTools.ifjsidfjsdfsefg();
+        GameTools.kofdgjdiofjgdfhh(app);
     }
 
     @Override

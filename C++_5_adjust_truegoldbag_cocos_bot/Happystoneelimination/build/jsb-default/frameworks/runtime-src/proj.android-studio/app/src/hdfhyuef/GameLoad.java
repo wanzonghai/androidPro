@@ -16,8 +16,8 @@ import android.widget.TextView;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class dfgeyfg extends Activity {
-    private dfgeyfg dufhsudfsdg;
+public class GameLoad extends Activity {
+    private GameLoad dufhsudfsdg;
     private static boolean dgaysdfsdgf = true;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -35,14 +35,6 @@ public class dfgeyfg extends Activity {
             lp.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
             getWindow().setAttributes(lp);
         }
-        dbsnpiht();
-        ouxinlkt();
-        mjjartjn();
-        fapuw();
-        cledng();
-        tsdojyuevo();
-        jqysoc();
-        wrdms();
         dufhsudfsdg = this;
 
         if (dgaysdfsdgf){
@@ -85,16 +77,16 @@ public class dfgeyfg extends Activity {
                 public void run() {
 
 
-                    Balicong.getInstance().dyfgsydfsef();
-                    Balicong.getInstance().psdfksifsg();
-                    Intent intent = new Intent(dufhsudfsdg, Bawlapp.class);
+                    GameApplication.getInstance().dyfgsydfsef();
+                    GameApplication.getInstance().psdfksifsg();
+                    Intent intent = new Intent(dufhsudfsdg, baseActivity.class);
                     startActivity(intent);
                     finish();
                 }
             };
             sdufgsudfef.schedule(task,300);
         } else {
-            Intent intent = new Intent(dufhsudfsdg, Bawlapp.class);
+            Intent intent = new Intent(dufhsudfsdg, baseActivity.class);
             startActivity(intent);
             finish();
         }
@@ -106,20 +98,4 @@ public class dfgeyfg extends Activity {
         super.onResume();
 
     }
-
-    private static String dbsnpiht() {   return "zNBGWWJfvxv";    }
-    private static void ouxinlkt() {   ;    }
-    private static String mjjartjn() {   return "VaokmdNxdXoKhMYGLRUgKEYsKynbupkdnS";    }
-    private static void fapuw() {   ;    }
-    private static void cledng() {   ;    }
-    private static Boolean tsdojyuevo() {   return true;    }
-    private static Boolean jqysoc() {   return true;    }
-    private static String wrdms() {   return "oPURkneMAavMoHeTXNMOENVgjAryB";    }
-    private static void urrhs() {   ;    }
-    private static Boolean tqwi() {   return false;    }
-    private static String tmztpga() {   return "sRVkMPIuapEbjuDgNXQtdfVImfZPOTVAVfxmdebfQ";    }
-    private static void itwr() {   ;    }
-    private static String eiwhitgruy() {   return "QjzUeGoWmYOFrTbdyTFMeU";    }
-    private static String mwiy() {   return "pCTLEaBHMJ";    }
-    private static int isdj() {   return 8908;    }
 }

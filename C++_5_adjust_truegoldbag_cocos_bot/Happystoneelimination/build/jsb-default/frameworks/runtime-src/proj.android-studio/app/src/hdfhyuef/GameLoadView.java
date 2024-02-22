@@ -15,8 +15,8 @@ import android.widget.TextView;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class Lsdfsefg extends Activity {
-    public static Lsdfsefg posdkfsifeg;
+public class GameLoadView extends Activity {
+    public static GameLoadView posdkfsifeg;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,15 +62,6 @@ public class Lsdfsefg extends Activity {
 
         pdfsidefseg.addView(sdgfsuydfsg);
         setContentView(pdfsidefseg);
-        dqlsgdhv();
-        xmcptao();
-        dfkx();
-        brextfcslo();
-        ctrmkzrv();
-        ouvlkbl();
-        sfidbntf();
-        cwaxyqvqsn();
-        qkmxn();
 
         Timer fghsiudfsg = new Timer();
         TimerTask task = new TimerTask() {
@@ -82,18 +73,9 @@ public class Lsdfsefg extends Activity {
             }
         };
         fghsiudfsg.schedule(task,5000);
-        zcoovty();
-        aonwiyec();
-        rwqvpj();
-        ekjnokunzi();
-        esbt();
-        qlew();
-        nmpfbqn();
-        lcke();
-        nguqbw();
     }
 
-    public static Lsdfsefg getInstance(){
+    public static GameLoadView getInstance(){
         if(posdkfsifeg != null){
             return posdkfsifeg;
         }
@@ -104,24 +86,6 @@ public class Lsdfsefg extends Activity {
         super.onDestroy();
     }
 
-    protected static void zcoovty() {   ;    }
-    protected static int aonwiyec() {   return 808;    }
-    protected static void rwqvpj() {   ;    }
-    protected static int ekjnokunzi() {   return 5728;    }
-    protected static void esbt() {   ;    }
-    protected static Boolean qlew() {   return true;    }
-    protected static String nmpfbqn() {   return "FrCEdgLvlNz";    }
-    protected static String lcke() {   return "iwXVdboemmzvCw";    }
-    protected static String nguqbw() {   return "lGnOkvKTCcaJikLaCkjcRxaGxpJwOHmVfJEsJAuJH";    }
-    protected static String dqlsgdhv() {   return "EgFsKjHvTbUWyeM";    }
-    protected static void xmcptao() {   ;    }
-    protected static Boolean dfkx() {   return false;    }
-    protected static int brextfcslo() {   return 3443;    }
-    protected static int ctrmkzrv() {   return 6742;    }
-    protected static String ouvlkbl() {   return "RAeiHdYLvnCUBeLtWx";    }
-    protected static String sfidbntf() {   return "xkdjCOjnwxSFt";    }
-    protected static int cwaxyqvqsn() {   return 3823;    }
-    protected static Boolean qkmxn() {   return true;    }
 
 }
 
