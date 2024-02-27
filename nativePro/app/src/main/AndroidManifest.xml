@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.foqwerqwer.safjowerw.test1">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:name="h5.common.GameAppLication"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:extractNativeLibs="true"
+        android:supportsRtl="true"
+        android:theme="@style/Splash"
+        tools:targetApi="31"
+        tools:replace="android:fullBackupContent">
+        <service android:exported="false" android:name="common.firebaseSgsService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.adjust.sdk.AdjustReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+<!--        H5-->
+        <activity
+            android:name="vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.InterWebActivity" android:screenOrientation="sensorLandscape" android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|uiMode" android:label="@string/app_name" android:theme="@style/Splash" android:launchMode="singleTask" android:exported="true">
+        </activity>
+        <activity
+            android:name="h5.common.NmrStartActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|uiMode"
+            android:label="@string/app_name"
+            android:theme="@style/Splash"
+            android:launchMode="singleTask"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 添加 Facebook 应用 ID -->
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <!-- 添加 Facebook 应用签名哈希值 -->
+        <meta-data android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <!--        <provider-->
+        <!--            android:name="com.facebook.FacebookContentProvider"-->
+        <!--            android:authorities="com.facebook.app.FacebookContentProvider[你的应用 ID]"-->
+        <!--            android:exported="true" />-->
+<!--         真金插件化dex-->
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensorLandscape"
+            android:label="@string/app_name"
+            android:name=".wgksAppActivity"
+            android:exported = "false"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name="GenuineGold.olyehijhfb.eworcyut.wkgfahvnqg.NmrStartActivity"
+            android:screenOrientation="sensorLandscape"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name"
+            android:theme="@style/Splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
