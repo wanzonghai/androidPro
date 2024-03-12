@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "F:\\bx_game_TrucoKing_mjb_base\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\bx_game_TrucoKing_mjb_base\\AB-game-cmake-v2\\game\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "gmengine-Debug-x86_64": {
+      "artifactName": "gmengine",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\bx_game_TrucoKing_mjb_base\\AB-game-cmake-v2\\game\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target gmengine",
+      "abi": "x86_64",
+      "output": "F:\\bx_game_TrucoKing_mjb_base\\AB-game-cmake-v2\\game\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libgmengine.so"
+    }
+  }
+}

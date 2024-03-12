@@ -1,0 +1,3 @@
+F:/bx_game_TrucoKing_mjb_base/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/gmengine.dir
+F:/bx_game_TrucoKing_mjb_base/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+F:/bx_game_TrucoKing_mjb_base/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

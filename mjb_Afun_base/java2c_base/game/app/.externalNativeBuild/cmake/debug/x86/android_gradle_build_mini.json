@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "gmengine-Debug-x86": {
+      "artifactName": "gmengine",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target gmengine",
+      "abi": "x86",
+      "output": "E:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libgmengine.so"
+    }
+  }
+}

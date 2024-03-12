@@ -1,0 +1,81 @@
+
+{
+	"buildFiles" : [ "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gmengine-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "gmengine",
+			"buildCommand" : "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target gmengine",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/aes/aes_core.c",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/aes/aes_cbc.c",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/aes/aes_ecb.c",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/aes/cbc128.c",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/JNIUtils.c",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot  -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\android\\support\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot  -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\android\\support\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/GameEngine.cpp",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/android/sdk/ndk/17.2.4988734/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk/17.2.4988734/sysroot  -Dgmengine_EXPORTS -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\. -IE:\\jh_mjb\\AB-game-cmake-v2\\game\\app\\src\\main\\cpp\\.\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\android\\support\\include -isystem E:\\android\\sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/android/sdk/ndk/17.2.4988734/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/jh_mjb/AB-game-cmake-v2/game/app/src/main/cpp/AdjustSdk.cpp",
+					"workingDirectory" : "E:/jh_mjb/AB-game-cmake-v2/game/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "E:/jh_mjb/AB-game-cmake-v2/game/app/build/intermediates/cmake/debug/obj/x86/libgmengine.so",
+			"toolchain" : "3456002289"
+		}
+	},
+	"toolchains" : 
+	{
+		"3456002289" : 
+		{
+			"cCompilerExecutable" : "E:/android/sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/android/sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
