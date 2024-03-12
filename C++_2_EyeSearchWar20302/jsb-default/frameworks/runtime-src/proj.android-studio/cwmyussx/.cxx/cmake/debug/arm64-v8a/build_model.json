@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
-  "cxxBuildFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
+  "originalCxxBuildFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
+  "cxxBuildFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
   "abiPlatformVersion": 21,
   "cmake": {
-    "cmakeWrappingBaseFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cxx\\debug\\arm64-v8a",
-    "cmakeArtifactsBaseFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
+    "cmakeWrappingBaseFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cxx\\debug\\arm64-v8a",
+    "cmakeArtifactsBaseFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,13 +19,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
-      "cmakeToolchain": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "buildRoot": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
+      "cmakeToolchain": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
+          "value": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -33,7 +33,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
+          "value": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,7 +41,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
+          "value": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -53,7 +53,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
+          "value": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -61,11 +61,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+          "value": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+          "value": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -81,15 +81,15 @@
         }
       ]
     },
-    "cmakeServerLogFile": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt"
+    "cmakeServerLogFile": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt"
   },
   "variant": {
     "buildSystemArgumentList": [],
     "cFlagsList": [],
     "cppFlagsList": [],
     "variantName": "debug",
-    "objFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj",
-    "soFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj",
+    "soFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\lib",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
@@ -101,16 +101,16 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx",
+      "cxxFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates",
+      "intermediatesFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates",
       "gradleModulePathName": ":cwmyussx",
-      "moduleRootFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx",
-      "moduleBuildFile": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build.gradle",
-      "makeFile": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleRootFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx",
+      "moduleBuildFile": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build.gradle",
+      "makeFile": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
-      "ndkVersion": "21.1.6352462",
+      "ndkFolder": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -126,7 +126,7 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkMetaPlatforms": {
         "min": 16,
-        "max": 29,
+        "max": 30,
         "aliases": {
           "20": 19,
           "25": 24,
@@ -142,7 +142,8 @@
           "O": 26,
           "O-MR1": 27,
           "P": 28,
-          "Q": 29
+          "Q": 29,
+          "R": 30
         }
       },
       "ndkMetaAbiList": [
@@ -171,8 +172,8 @@
           "default": true
         }
       ],
-      "originalCmakeToolchainFile": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cmakeToolchainFile": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "originalCmakeToolchainFile": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
       "cmake": {
         "isValidCmakeAvailable": true,
         "cmakeExe": "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
@@ -182,19 +183,19 @@
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio",
-        "cxxFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
-        "compilerSettingsCacheFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
+        "rootBuildGradleFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio",
+        "cxxFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
+        "compilerSettingsCacheFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\.cxx",
         "sdkFolder": "D:\\AppData\\Local\\Android\\Sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
@@ -204,10 +205,10 @@
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab"
+    "prefabDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
+  "prefabFolder": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
 }

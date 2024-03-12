@@ -2,21 +2,70 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
-    "file": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
-    "file": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "message": "rebuilding JSON E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json due to:",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\u0027",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\u0027",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003dD:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-BE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003dD:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003dD:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-BE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
+    "file": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   }

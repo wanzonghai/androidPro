@@ -1,2 +1,2 @@
-E:\bx_game\AAAC++3FishBubble20292\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
-E:\bx_game\AAAC++3FishBubble20292\build\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk
+E:\AndroidPro\AndroidPro\C++_3_FishBubble20292\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Android.mk
+E:\AndroidPro\AndroidPro\C++_3_FishBubble20292\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\jni\Application.mk

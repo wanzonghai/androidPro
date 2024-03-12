@@ -1,4 +1,4 @@
-# Install script for directory: E:/bx_game/AAAC++2EyeSearchWar20302/jsb-default/frameworks/runtime-src/proj.android-studio/cwmyussx/src/main/cpp
+# Install script for directory: E:/AndroidPro/AndroidPro/C++_2_EyeSearchWar20302/jsb-default/frameworks/runtime-src/proj.android-studio/cwmyussx/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/bx_game/AAAC++2EyeSearchWar20302/jsb-default/frameworks/runtime-src/proj.android-studio/cwmyussx/.cxx/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/AndroidPro/AndroidPro/C++_2_EyeSearchWar20302/jsb-default/frameworks/runtime-src/proj.android-studio/cwmyussx/.cxx/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

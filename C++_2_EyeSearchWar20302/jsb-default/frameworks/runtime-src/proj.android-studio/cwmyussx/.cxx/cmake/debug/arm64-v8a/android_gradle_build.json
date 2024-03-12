@@ -1,12 +1,12 @@
 {
   "buildFiles": [
-    "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt"
+    "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
       "--build",
-      "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
+      "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
       "--target",
       "clean"
     ]
@@ -16,63 +16,63 @@
       "buildCommandComponents": [
         "D:\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe",
         "--build",
-        "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
+        "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a",
         "--target",
         "gmengine"
       ],
       "buildType": "debug",
-      "toolchain": "1411491617",
+      "toolchain": "3374194257",
       "abi": "arm64-v8a",
       "artifactName": "gmengine",
       "files": [
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\aes_core.c",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\aes_core.c",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\aes_cbc.c",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\aes_cbc.c",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\aes_ecb.c",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\aes_ecb.c",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\cbc128.c",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\aes\\cbc128.c",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\JNIUtils.c",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\JNIUtils.c",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\native-lib.cpp",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\native-lib.cpp",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\GameEngine.cpp",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\GameEngine.cpp",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         },
         {
-          "src": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\AdjustSdk.cpp",
-          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-          "workingDirectory": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
+          "src": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\AdjustSdk.cpp",
+          "flags": "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgmengine_EXPORTS -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\. -IE:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\src\\main\\cpp\\.\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+          "workingDirectory": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\.cxx\\cmake\\debug\\arm64-v8a"
         }
       ],
-      "output": "E:\\bx_game\\AAAC++2EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgmengine.so"
+      "output": "E:\\AndroidPro\\AndroidPro\\C++_2_EyeSearchWar20302\\jsb-default\\frameworks\\runtime-src\\proj.android-studio\\cwmyussx\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgmengine.so"
     }
   },
   "toolchains": {
-    "1411491617": {
-      "cCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
-      "cppCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    "3374194257": {
+      "cCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
     }
   },
   "cFileExtensions": [

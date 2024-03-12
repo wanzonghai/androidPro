@@ -1,4 +1,4 @@
-# Install script for directory: E:/bx_game/AAAC++3FishBubble20292/build/jsb-default/frameworks/runtime-src/proj.android-studio/mylibrary/src/main/cpp
+# Install script for directory: E:/AndroidPro/AndroidPro/C++_3_FishBubble20292/jsb-default/frameworks/runtime-src/proj.android-studio/mylibrary/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/bx_game/AAAC++3FishBubble20292/build/jsb-default/frameworks/runtime-src/proj.android-studio/mylibrary/.cxx/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/AndroidPro/AndroidPro/C++_3_FishBubble20292/jsb-default/frameworks/runtime-src/proj.android-studio/mylibrary/.cxx/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

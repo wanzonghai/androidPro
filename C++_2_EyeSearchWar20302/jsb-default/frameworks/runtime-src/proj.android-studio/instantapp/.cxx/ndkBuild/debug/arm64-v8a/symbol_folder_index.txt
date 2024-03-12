@@ -1,1 +1,1 @@
-E:\bx_game\AAAC++2EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\build\intermediates\ndkBuild\debug\obj\local\arm64-v8a
+E:\AndroidPro\AndroidPro\C++_2_EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\instantapp\build\intermediates\ndkBuild\debug\obj\local\arm64-v8a
