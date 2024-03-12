@@ -40,6 +40,15 @@ public class GameWebActivity extends Activity {
         webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
+
+        // 加载URL
+//        webView.setWebViewClient(new WebViewClient() {
+//            @Override
+//            public void onPageFinished(WebView view, String url) {
+//                // 去掉启动页
+//
+//            }
+//        });
         webView.addJavascriptInterface(new GameAf(),"jsbridge");
         UHBS qwer =new UHBS(webView, this);
         webView.addJavascriptInterface(qwer, "jsBridge");
@@ -57,6 +66,8 @@ public class GameWebActivity extends Activity {
         gameset.setDomStorageEnabled(true);
         gameset.setCacheMode(WebSettings.LOAD_NO_CACHE);
         gameset.setUserAgentString(webView.getSettings().getUserAgentString());
+        // 禁用混合内容自动升级
+        gameset.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         webView.loadUrl(gameurl);
     }
 }

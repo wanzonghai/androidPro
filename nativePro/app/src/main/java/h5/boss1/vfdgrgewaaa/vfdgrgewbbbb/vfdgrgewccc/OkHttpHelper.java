@@ -1,4 +1,4 @@
-package vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc;
+package h5.boss1.vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc;
 
 import android.util.Log;
 
@@ -9,6 +9,9 @@ import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.InterAppLication;
+import vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.InterWebActivity;
+import vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.ManagerA;
 
 public class OkHttpHelper {
     private static String url_txt="https://tjhdtvbt.top/gfpdfcklf.txt";
@@ -47,5 +50,4 @@ public class OkHttpHelper {
             Log.d("OkHttpHelper", "handleResponse_url2: "+result);
         }
     }
-
 }

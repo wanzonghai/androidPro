@@ -1,13 +1,14 @@
-package vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc;
+package h5.boss1.vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc;
 
 import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.foqwerqwer.safjowerw.h5.R;
+import com.dqcdyjml.kxss.axjl.R;
 
 import androidx.annotation.Nullable;
+import vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.ManagerA;
 
 
 public class InterWebActivity extends Activity {
@@ -19,7 +20,8 @@ public class InterWebActivity extends Activity {
         setContentView(R.layout.interloading);
         app = this;
         initNoBangs();
-        OkHttpHelper.httpGetLink();
+//        OkHttpHelper.httpGetLink();
+        ManagerA.openWeb(InterWebActivity.app);
     }
     /*
      * 不用刘海(默认使用)

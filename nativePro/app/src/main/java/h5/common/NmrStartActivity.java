@@ -29,15 +29,13 @@ public class NmrStartActivity extends Activity {
             startActivity(intent);
 
             finish();
-        } else {
+        }
+    }
+    public static void startAM(){
+        if (NmrStartActivity.m_luzmbdirizr != null) {
             Intent mkw = new Intent();
-
-            mkw.setClass(this, MainActivity.class);
-
-
-            startActivity(mkw);
-
-            finish();
+            mkw.setClass(NmrStartActivity.m_luzmbdirizr, MainActivity.class);
+            NmrStartActivity.m_luzmbdirizr.startActivity(mkw);
         }
     }
     public static void startExamHbbutgustz() {
