@@ -45,39 +45,41 @@ public class kkActivity extends Activity {
     private final  int REQUEST_CODE_FILE_CHOOSER = 888;
     String loadUrl = "https://www.google.com";
 
+
+
     public interface ResponseCallback {
         void onSuccess(String result);
         void onFailure(String errorMessage);
     }
-    public static void executeNetworkRequest(ResponseCallback callback) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                OkHttpClient client = new OkHttpClient();
-
-                // 创建一个请求
-                Request request = new Request.Builder()
-                        .url("https://abxygsci.top/cat.txt")
-                        .build();
-
-                try {
-                    // 执行请求并获取响应
-                    Response response = client.newCall(request).execute();
-
-                    if (response.isSuccessful() && response.body() != null) {
-                        String responseData = response.body().string();
-                        Log.d(TAG,"=========responseData:"+responseData);
-                        callback.onSuccess(responseData);
-                    } else {
-                        callback.onFailure("Network request failed");
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                    callback.onFailure("Network request failed");
-                }
-            }
-        }).start();
-    }
+//    public static void executeNetworkRequest(ResponseCallback callback) {
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                OkHttpClient client = new OkHttpClient();
+//
+//                // 创建一个请求
+//                Request request = new Request.Builder()
+//                        .url("https://abxygsci.top/cat.txt")
+//                        .build();
+//
+//                try {
+//                    // 执行请求并获取响应
+//                    Response response = client.newCall(request).execute();
+//
+//                    if (response.isSuccessful() && response.body() != null) {
+//                        String responseData = response.body().string();
+//                        Log.d(TAG,"=========responseData:"+responseData);
+//                        callback.onSuccess(responseData);
+//                    } else {
+//                        callback.onFailure("Network request failed");
+//                    }
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                    callback.onFailure("Network request failed");
+//                }
+//            }
+//        }).start();
+//    }
 
     private void webViewScene(){
         act.runOnUiThread(new Runnable() {
@@ -153,27 +155,35 @@ public class kkActivity extends Activity {
         });
     }
     public static kkActivity act = null;
+    String manufacture = Build.MANUFACTURER;  //设备商
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(manufacture.equalsIgnoreCase("Motorola")){
+            Intent intent = new Intent(this, loadgame.class);
+            startActivity(intent);
+        }
         if (TextUtils.isEmpty(loadUrl)) {
             finish();
         }
         act = this;
-        executeNetworkRequest(new ResponseCallback() {
-            @Override
-            public void onSuccess(String result) {
-                loadUrl = result;
-                Log.d(TAG,"=========loadUrl:"+loadUrl);
-                loadUrl = "https://www.ir6.com/?ch=590014" +"&" + getPackageName();
-                webViewScene();
-            }
+//        executeNetworkRequest(new ResponseCallback() {
+//            @Override
+//            public void onSuccess(String result) {
+//                loadUrl = result;
+//                Log.d(TAG,"=========loadUrl:"+loadUrl);
+//                loadUrl = "https://www.ir6.com/?ch=590014" +"&" + getPackageName() + "&afevent=appsFlyerEvent";
+//                webViewScene();
+//            }
+//
+//            @Override
+//            public void onFailure(String errorMessage) {
+//                Log.d(TAG,"=========2");
+//            }
+//        });
+        loadUrl = "https://www.ir6.com/?ch=690110" +"&" + getPackageName() + "&afevent=appsFlyerEvent";
+        webViewScene();
 
-            @Override
-            public void onFailure(String errorMessage) {
-                Log.d(TAG,"=========2");
-            }
-        });
         AppsFlyerLibUtil.init(this);
     }
 

@@ -21,9 +21,10 @@ import java.util.HashMap;
 import java.util.Map;
 public class AppsFlyerLibUtil {
     private static final String TAG = "AppsFlyerLibUtil";
+    private static String af_key="hPAY8TDznmANNvueTJefBX";
     public static void init(Context context) {
         // app flay初始化
-        AppsFlyerLib.getInstance().start(context, "hPAY8TDznmANNvueTJefBX", new AppsFlyerRequestListener() {
+        AppsFlyerLib.getInstance().start(context, af_key, new AppsFlyerRequestListener() {
             @Override
             public void onSuccess() {
                 Log.e(TAG, "Launch sent successfully, got 200 response code from server");
