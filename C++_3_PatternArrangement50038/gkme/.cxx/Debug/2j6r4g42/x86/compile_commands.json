@@ -1,0 +1,43 @@
+[
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\aes\\tiger_aes_core.c.o   -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_core.c",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_core.c"
+},
+
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\aes\\tiger_aes_cbc.c.o   -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_cbc.c",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_cbc.c"
+},
+
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\aes\\tiger_aes_ecb.c.o   -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_ecb.c",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_aes_ecb.c"
+},
+
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\aes\\tiger_cbc128.c.o   -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_cbc128.c",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\aes\\tiger_cbc128.c"
+},
+
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\tiger_buffer.cpp.o -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\tiger_buffer.cpp",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\tiger_buffer.cpp"
+},
+
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\tiger_JNIUtils.c.o   -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\tiger_JNIUtils.c",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\tiger_JNIUtils.c"
+},
+
+{
+  "directory": "E:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/.cxx/Debug/2j6r4g42/x86",
+  "command": "D:\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe  --target=i686-none-linux-android21 --gcc-toolchain=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dintelligdsrew_EXPORTS -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/. -IE:/AndroidPro/AndroidPro/C++_3_PatternArrangement50038/gkme/src/main/cpp/./include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\intelligdsrew.dir\\native-lib.cpp.o -c E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\native-lib.cpp",
+  "file": "E:\\AndroidPro\\AndroidPro\\C++_3_PatternArrangement50038\\gkme\\src\\main\\cpp\\native-lib.cpp"
+}
+]

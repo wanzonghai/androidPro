@@ -1,0 +1,5 @@
+Android NDK: WARNING: Ignoring unknown import directory: E:\AndroidPro\AndroidPro\C++_5_adjust_truegoldbag_cocos_bot\Happystoneelimination\build\jsb-default\frameworks\cocos2d-x\external    
+Android NDK: E:\AndroidPro\AndroidPro\C++_5_adjust_truegoldbag_cocos_bot\Happystoneelimination\build\jsb-default\frameworks\cocos2d-x/cocos/Android.mk: Cannot find module with tag 'android' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         

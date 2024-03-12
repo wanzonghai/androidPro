@@ -1,0 +1,2 @@
+E:\AndroidPro\AndroidPro\C++_2_EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\app\jni\Android.mk
+E:\AndroidPro\AndroidPro\C++_2_EyeSearchWar20302\jsb-default\frameworks\runtime-src\proj.android-studio\app\jni\Application.mk

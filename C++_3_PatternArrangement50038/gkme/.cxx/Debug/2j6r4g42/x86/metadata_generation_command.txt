@@ -1,0 +1,23 @@
+                    Executable : D:\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\AndroidPro\AndroidPro\C++_3_PatternArrangement50038\gkme\src\main\cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=D:\AppData\Local\Android\Sdk\ndk\21.3.6528147
+-DCMAKE_ANDROID_NDK=D:\AppData\Local\Android\Sdk\ndk\21.3.6528147
+-DCMAKE_TOOLCHAIN_FILE=D:\AppData\Local\Android\Sdk\ndk\21.3.6528147\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\AndroidPro\AndroidPro\C++_3_PatternArrangement50038\gkme\build\intermediates\cxx\Debug\2j6r4g42\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\AndroidPro\AndroidPro\C++_3_PatternArrangement50038\gkme\build\intermediates\cxx\Debug\2j6r4g42\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BE:\AndroidPro\AndroidPro\C++_3_PatternArrangement50038\gkme\.cxx\Debug\2j6r4g42\x86
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

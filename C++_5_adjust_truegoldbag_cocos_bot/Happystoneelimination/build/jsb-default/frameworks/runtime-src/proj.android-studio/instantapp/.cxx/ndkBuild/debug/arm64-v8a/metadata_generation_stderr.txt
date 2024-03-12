@@ -1,0 +1,1 @@
+E:\AndroidPro\AndroidPro\C++_5_adjust_truegoldbag_cocos_bot\Happystoneelimination\build\jsb-default\frameworks\cocos2d-x/cocos/Android.mk:270: *** Android NDK: Aborting.    .  Stop.
