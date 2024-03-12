@@ -2,11 +2,16 @@ package common;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.Intent;
+import android.net.Uri;
+import android.text.TextUtils;
 import android.util.Log;
 import android.webkit.JavascriptInterface;
 
 import com.adjust.sdk.Adjust;
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.appsflyer.AFInAppEventParameterName;
 import com.appsflyer.AppsFlyerConversionListener;
 import com.appsflyer.AppsFlyerLib;
 
@@ -84,7 +89,73 @@ public class GameAf {
             AppsFlyerLib.getInstance().logEvent(_app, eventType, m_data);
         }
     }
+    @JavascriptInterface
+    public static void event(Activity context, String name, String data) {
+        Map<String, Object> eventValue = new HashMap<String, Object>();
+        if ("openWindow".equals(name)) {
+            Log.d("openWindow", "======data: "+data);
+            if (data.equals("undefined")){
+                return;
+            }
+            String _url = "";
+            Map maps = (Map) JSON.parse(data);
+            for (Object map : maps.entrySet()) {
+                String key = ((Map.Entry) map).getKey().toString();
+                if ("url".equals(key)) {
+                    Log.d("openWindow", "======url: "+((Map.Entry) map).getValue().toString());
+                    _url = ((Map.Entry) map).getValue().toString();
+                } else if ("currency".equals(key)) {
+                    eventValue.put(AFInAppEventParameterName.CURRENCY, ((Map.Entry) map).getValue());
+                }
+            }
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(_url));
+            context.startActivity(intent);
+        } else if ("firstrecharge".equals(name) || "recharge".equals(name)) {
+            try {
+                Map maps = (Map) JSON.parse(data);
+                for (Object map : maps.entrySet()) {
+                    String key = ((Map.Entry) map).getKey().toString();
+                    if ("amount".equals(key)) {
+                        eventValue.put(AFInAppEventParameterName.REVENUE, ((Map.Entry) map).getValue());
+                    } else if ("currency".equals(key)) {
+                        eventValue.put(AFInAppEventParameterName.CURRENCY, ((Map.Entry) map).getValue());
+                    }
+                }
+            } catch (Exception e) {
 
+            }
+        }else if ("openURL".equals(name)){
+            Log.d("openURL", "event: ===================openURL");
+            Log.d("openURL", "event: ===================data"+data);
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(data));
+            context.startActivity(intent);
+        } else if ("withdrawOrderSuccess".equals(name)) {
+            try {
+                Map maps = (Map) JSON.parse(data);
+                for (Object map : maps.entrySet()) {
+                    String key = ((Map.Entry) map).getKey().toString();
+                    if ("amount".equals(key)) {
+                        float revenue = 0;
+                        String value = ((Map.Entry) map).getValue().toString();
+                        if (!TextUtils.isEmpty(value)) {
+                            revenue = Float.valueOf(value);
+                            revenue = -revenue;
+                        }
+                        eventValue.put(AFInAppEventParameterName.REVENUE, revenue);
+
+                    } else if ("currency".equals(key)) {
+                        eventValue.put(AFInAppEventParameterName.CURRENCY, ((Map.Entry) map).getValue());
+                    }
+                }
+            } catch (Exception e) {
+
+            }
+        } else {
+            eventValue.put(name, data);
+        }
+        AppsFlyerLib.getInstance().logEvent(context, name, eventValue);
+        Toast.makeText(context, name, Toast.LENGTH_SHORT).show();
+    }
     @JavascriptInterface
     public String getAppsFlyerUID() {
         return getAFId();

@@ -17,6 +17,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import h5.boss1.com.dqcdyjml.kxss.axjl.NmrStartActivity;
+
 public class WebAppInterface1 {
     public static Application _app = null;
     public static String m_status = "";
