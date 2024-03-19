@@ -6,6 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.foqwerqwer.safjowerw.test1.R;
+
 import vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.InterWebActivity;
 
 

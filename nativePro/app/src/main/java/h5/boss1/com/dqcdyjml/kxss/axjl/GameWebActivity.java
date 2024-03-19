@@ -6,7 +6,10 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import common.WebAppInterface1;
+import com.foqwerqwer.safjowerw.test1.R;
+
+import h5.boss1.common.WebAppInterface1;
+
 
 public class GameWebActivity extends Activity {
     private WebView webView;

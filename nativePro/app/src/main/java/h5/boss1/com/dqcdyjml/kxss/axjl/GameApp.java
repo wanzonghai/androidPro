@@ -5,7 +5,8 @@ import android.content.SharedPreferences;
 
 import com.facebook.appevents.AppEventsLogger;
 
-import common.WebAppInterface1;
+
+import h5.boss1.common.WebAppInterface1;
 import vfdgrgewaaa.vfdgrgewbbbb.vfdgrgewccc.InterAppLication;
 
 public class GameApp extends InterAppLication {

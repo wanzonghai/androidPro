@@ -6,7 +6,8 @@ import android.content.SharedPreferences;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import common.WebAppInterface1;
+
+import h5.boss1.common.WebAppInterface1;
 
 
 public class NmrCommonData {

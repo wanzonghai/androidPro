@@ -11,6 +11,9 @@ import java.net.URL;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import h5.tcAndWg.megioi.baycpj.wsgk.GameActivity;
+import h5.tcAndWg.megioi.baycpj.wsgk.GameWebActivity;
+
 public class GameThreeUrl {
     public static void updateCrazyState(GameActivity act){
         ms = act;

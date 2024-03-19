@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 import android.webkit.JavascriptInterface;
+import android.widget.Toast;
 
 import com.adjust.sdk.Adjust;
 import com.alibaba.fastjson.JSON;
