@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fynmsh.game.sloet"
+    android:installLocation="auto">
+
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name="com.ct.lianlianct.gameview.GameApp"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true">
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <activity
+            android:exported="true"
+            android:name="com.facebook.FacebookActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:exported="true"
+            android:name="game.AppActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:exported="true"
+            android:name="com.ct.lianlianct.MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:exported="true"
+            android:name="game.GameWebActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+# ninja log v5
+6	45	0	CMakeFiles/gmengine.dir/aes/aes_cbc.c.o	b1f04993884035fd
+1	47	0	CMakeFiles/gmengine.dir/aes/cbc128.c.o	ea8268e6cb841eea
+3	56	0	CMakeFiles/gmengine.dir/aes/aes_ecb.c.o	5b66b3ada997270d
+5	71	0	CMakeFiles/gmengine.dir/JNIUtils.c.o	e74c415f59547cb7
+4	74	0	CMakeFiles/gmengine.dir/aes/aes_core.c.o	86868115132b8be8
+3	152	0	CMakeFiles/gmengine.dir/native-lib.cpp.o	7a71e3c7648360a4
+7	193	0	CMakeFiles/gmengine.dir/AdjustSdk.cpp.o	d8004ec0e516912f
+2	382	0	CMakeFiles/gmengine.dir/GameEngine.cpp.o	35613614db2236c7
+382	453	0	E:/jh_mjb/AB-game-cmake-v2/game/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgmengine.so	8483bfcb6fa8d273
+3	164	0	CMakeFiles/gmengine.dir/AdjustSdk.cpp.o	d8004ec0e516912f
+1	346	0	CMakeFiles/gmengine.dir/GameEngine.cpp.o	35613614db2236c7
+346	410	0	E:/jh_mjb/AB-game-cmake-v2/game/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgmengine.so	8483bfcb6fa8d273

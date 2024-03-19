@@ -1,0 +1,21 @@
+三方sdk初始化  adjustSdk adjustInit（对应官方文档）
+https://help.adjust.com/zh/article/get-started-android-sdk
+
+进入b面逻辑：
+1、自然量进入b面  （tools.java   checkGameConfig方法）
+	1、首先获取配置文件（开关状态：开（下一步判断）关：自然量不可进入b面）（HttpTools.java getInfo方法）
+	2、判断时区、ip、手机系统语言是否符合上架地区。（例如：上架地区巴西：是否是巴西时区 是否是巴西ip  手机系统是否是葡语）
+			（tools.java   getIpIsBR() && getTimeZoneIsBR() && isPortugueseLanguage() 三个方法）
+
+2、非自然量进入b面  （tools.java   checkTime方法）
+	sdk归因返回为非自然量才能进入b面
+
+
+
+a面代码资源
+   不固定（可原生、cocos、unity、layabox等引擎开发）
+b面资源
+	assets/对应文件
+	加载方式：dex插件
+	加载代码：baseAppLication.java   load_plugin_class
+   

@@ -1,0 +1,8 @@
+[1/8] Building CXX object CMakeFiles/gmengine.dir/GameEngine.cpp.o
+[2/8] Building C object CMakeFiles/gmengine.dir/aes/aes_core.c.o
+[3/8] Building C object CMakeFiles/gmengine.dir/aes/aes_ecb.c.o
+[4/8] Building C object CMakeFiles/gmengine.dir/aes/aes_cbc.c.o
+[5/8] Building C object CMakeFiles/gmengine.dir/JNIUtils.c.o
+[6/8] Building CXX object CMakeFiles/gmengine.dir/native-lib.cpp.o
+[7/8] Building C object CMakeFiles/gmengine.dir/aes/cbc128.c.o
+[8/8] Linking CXX shared library F:\bx_game_TrucoKing_mjb_base\AB-game-cmake-v2\game\app\build\intermediates\cmake\debug\obj\x86_64\libgmengine.so

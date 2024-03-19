@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Slot Funny</string>
+    <string name="begin_game">Start Game</string>
+    <string name="pause_game">Pause Game</string>
+    <string name="continue_game">Continue Game</string>
+    <string name="remain_time">Time Left:</string>
+    <string name="facebook_app_id">723523892546496</string>
+</resources>

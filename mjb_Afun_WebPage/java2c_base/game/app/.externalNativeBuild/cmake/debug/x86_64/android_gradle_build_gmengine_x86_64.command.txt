@@ -1,0 +1,8 @@
+Executable : E:\android\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+--build
+F:\bx_game_TrucoKing_mjb_base\AB-game-cmake-v2\game\app\.externalNativeBuild\cmake\debug\x86_64
+--target
+gmengine
+jvmArgs : 
+
